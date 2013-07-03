@@ -1,0 +1,160 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+      <!--Sidebar content-->
+      	 <%= render 'newhires/instructorinfo_basic' %>
+    </div>
+    <div class="span9">
+    	<%= form_for(@newhirecredits) do |f| %>
+			<%= hidden_field_tag 'newhire_id', params[:newhire_id] %>
+        	<%= hidden_field_tag 'course_id', params[:course_id] %>
+		    	<fieldset class="round">
+							<legend>
+								Add Relevant Coursework 3: 
+							</legend>
+							
+									<table class="table table-hover">
+					<tr>	
+						<td><strong>Course ID (ex: CDA 6031)</strong></td>
+						<td><strong>Course Name (ex: Data Mining)</strong></td>
+						<td><strong>Course Semester</strong></td>
+						<td><strong>Course Year (ex: 1995)</strong></td>
+						
+					</tr>
+					<tr>
+						<td>
+							<div class="control-group">
+								<%= f.text_field :course_name, :class => "input-small" %>
+								<div class="help-block"></div>
+							</div>
+						</td>
+						<td>
+							<div class="control-group">
+								<%= f.text_field :course_description,  :class => "input-large"  %>
+							 	<div class="help-block"></div>
+							 </div>
+						</td>
+						<td>
+							 <div class="control-group">
+							   <%= f.select :semester, options_for_select([["Fall", "Fall"], ["Spring", "Spring"], ["Summer", "Summer"]]), {:prompt => "--select semester--"} %>
+
+							   <div class="help-block"></div>
+							 </div>
+						</td>
+						<td>
+							 <div class="control-group">
+								<%= f.text_field :course_year,  :class => "input-mini"  %>
+								<div class="help-block"></div>
+							</div>
+						</td>
+						
+						
+					</tr>
+					<tr>
+						<td>
+							<div class="control-group">
+								<strong>Course Credits (ex: 3)</strong><br>
+								
+								<%= f.text_field :course_credits, :class => "input-mini" %>
+								<div class="help-block"></div>
+							</div>
+						</td>
+						<td>
+							<div class="control-group">
+								<strong>Semester/Quarter</strong><br>
+								<%= f.radio_button :semester_credits, "1" %> Semester<br/>
+								<%= f.radio_button :semester_credits, "0" %> Quarter<br/>
+								<div class="help-block"></div>
+							</div>
+						</td>
+						<td colspan="2">
+							<div class="control-group">
+								<strong>Institution:</strong><br>
+								<%= f.collection_select :newhireinstitution_id,		   
+													   @newhireinstitutions,
+													   :id,
+													   :name,
+													    :prompt => "--select institution--"
+														%> 
+							</div>
+						</td>
+					</tr>
+					<tr>
+				    	<td colspan="5"> 	
+				    		<br>
+				 			Click <%= f.submit 'Update', :id => "Update" , :disabled => current_user.ro, :class => "btn btn-small btn-primary" %> to save this course.<br/><br/>
+
+				 				<!--
+									Click <%= f.submit 'Done', :id => "Done", :disabled => current_user.ro,  :class => "btn" %> to complete this credential.
+								-->
+					 			</td>
+				 			
+				 		</td>
+			 		</tr>			
+				</table>
+			
+							</fieldset>
+					<% end %>
+
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){  
+	    jQuery('.edit_newhirecredit').validate(
+	       {
+	        rules: {
+	          "newhirecredit[course_name]": {
+	            required: true
+	          },
+	          "newhirecredit[course_description]": {
+	            required: true
+	          },
+	          "newhirecredit[semester]": {
+	            required: true
+	          },
+	          "newhirecredit[course_year]": {
+	            required: true,
+	             digits: true,
+	             maxlength: 4,
+	             minlength: 4
+	          },
+	          "newhirecredit[course_credits]": {
+	            required: true,
+	            digits: true,
+	            maxlength: 2
+	          },
+	          "newhirecredit[semester_credits]": {
+	            required: true
+	          },
+	          "newhirecredit[newhireinstitution_id]": {
+	            required: true
+	          }
+	        },
+	         messages: {
+	          "newhirecredit[course_name]": "Please enter a course id",
+	          "newhirecredit[course_description]": "Please enter a course name",
+	          "newhirecredit[semester]": "Please select a semester",
+	          "newhirecredit[course_year]": "Please enter a course year",
+	          "newhirecredit[course_credits]": "Please select a course year",
+	          "newhirecredit[semester_credits]": "Please choose semester or quarter hours",
+	          "newhirecredit[newhireinstitution_id]": "Please select an institution"
+
+	        },  
+	          highlight: function (element, errorClass, validClass) {
+	               $(element).closest('.control-group').removeClass('success').addClass('error');
+	          },
+	          unhighlight: function (element, errorClass, validClass) {
+	              $(element).closest('.control-group').removeClass('error').addClass('success');
+	          },
+	          success: function (label) {
+	              $(label).closest('form').find('.valid').removeClass("invalid");
+	          },
+	          errorPlacement: function (error, element) {
+	              element.closest('.control-group').find('.help-block').html(error.text());
+	          }
+	       });	
+ 
+});
+</script>

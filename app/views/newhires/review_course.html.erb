@@ -1,0 +1,346 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+      <!--Sidebar content-->
+      <a href="javascript:window.location = '/newhires/<%= params[:newhire_id]%>/showcourses';" title="Go Back" rel="tooltip"><i class="icon-arrow-left"></i></a> Go Back
+          <div class="well sidebar-nav" style="background-color:#fcf8e3;">
+            <ul class="nav nav-list">
+              <li class="nav-header" >Instructor Info:</li>
+              <!--<li class="active"><a href="#">Link</a></li>-->
+              <li><strong>Firstname:</strong> <%= @newhire.first_name %> </li>
+              <li><strong>Lastname:</strong> <%= @newhire.last_name %></li>
+              <li><strong>School:</strong> <%= @newhire_dept.school.description %></li>
+              <li><strong>Department:</strong> <%= @newhire_dept.name %></li>
+              <li><strong>Course:</strong> <%= @newhire.course_name(@newhire_course_to_review.id) %></li>
+            </ul>
+          </div><!--/.well -->
+
+     <% if false %>
+           <div class="well sidebar-nav" style="background-color:#fcf8e3;">
+            <ul class="nav nav-list">
+              <li class="nav-header" >Reviewed by:</li>                           
+            </ul>
+          </div><!--/.well -->
+
+           <div class="well sidebar-nav" style="background-color:#fcf8e3;">
+            <ul class="nav nav-list">
+              <li class="nav-header" >Signoff By:</li>
+                <% @newhire_signoffs.each do |s| %>
+                  <li><%=  s.signed_off_by(s.user_id) %> <%= s.created_at.strftime('%m/%d/%Y %l:%M %P') %></li>
+                 <% end %>             
+            </ul>
+          </div><!--/.well -->
+      <% end %>
+    </div>
+
+    <div class="span9">
+      <!--Body content-->
+      <form id="docs">
+            <br>
+            <form>
+              <fieldset>
+                  <h4> 
+                    <%# if @newhirecredentials.count == 0 %>
+                    <%if  @newhire_course_to_review.assigned_to == current_user.id %>
+                        <% if !@review_team.include?(current_user.name) %>
+                          <%= link_to image_tag('/assets/Add_16x16.png'),  new_newhirecredential_path(:newhire_id => params[:newhire_id], :course_id => params[:id]),:title => 'Add credentials', :rel => 'tooltip'  %>
+                         <% end %>
+                    <% end %>
+                    Instructor Credentialed to Teach Based On:
+                  </h4>
+                      
+                        <table  class="table table-condensed table-hover">
+                          <% if @newhirecredentials.count > 0 %>
+                            <th>Reason</th>
+                            <th>Major</th>
+                            <th>Explanation</th>
+                            <th>Actions</th>
+                            <% @newhirecredentials.each do |c| %>
+                                <tr>
+                                <td><%= c.qualificationreason.name %></td> 
+                                <td><%= c.major %></td> 
+                                <td><%=  c.qualification_explanation.html_safe %></td> 
+                                <td width="10%">
+
+                                 <% if !@review_team.include?(current_user.name) %>
+                                    <%= link_to image_tag('/assets/Delete_16x16.png'), newhirecredential_path(c , :newhire_id => params[:newhire_id], :course_id => params[:id]), :method => :delete ,:title => 'Delete', :rel => 'tooltip'  %>
+
+                                    <%= link_to image_tag('/assets/Edit_16x16.png'), edit_newhirecredential_path(c , :newhire_id => params[:newhire_id], :course_id => params[:id]), :title => 'Edit comment', :rel => 'tooltip'  %>
+                                <% else %>
+                                     N/A
+                                <% end %>
+
+                            </td>     
+                              </tr>
+                            <% end %>
+                           
+                          <% else %>
+                            
+                                  <div class="alert alert-error">
+                                    <div align="center">
+                                      Please enter the instructors credentials to teach
+                                    </div>
+                                  </div>
+                               
+
+                          <% end %> 
+                         </table>
+                </fieldset>
+            </form>
+            <br>
+            <form>
+                <fieldset class="round">
+                    <h4>
+                       <%if  @newhire_course_to_review.assigned_to == current_user.id %> 
+                         <% if !@review_team.include?(current_user.name) %>
+                            <%= link_to image_tag('/assets/Add_16x16.png'), newhirecredits_path(:newhire_id => params[:newhire_id], :course_id => params[:id]) ,:title => 'Add Relevant Coursework', :rel => 'tooltip'   %>
+                         <% end %>
+                       <% end %>
+
+                      Relevant Coursework:                      
+                    </h4>                         
+                             
+                      <table  class="table table-condensed table-hover">
+                        <% if @newhire_credits_added.count > 0 %>
+                          <th>Course ID</th>
+                          <th>Course Name</th>
+                          <th>Year Taken</th>
+                          <th>Institution</th>
+                          <th>Credits</th>
+                          <th>Credit Type</th>
+                          <th width="10%">Actions</th>
+                            <% @newhire_credits_added.each do |cr| %>
+                                <tr>
+                                <td><%=  cr.course_name %></td>  
+                                <td><%=  cr.course_description %></td>  
+                                <td><%=  cr.course_year %></td> 
+                                <td><%=  cr.newhireinstitution.name %></td>
+                                <td><%=  cr.course_credits %></td>
+                                 <td>                                  
+                                   <% if cr.semester_credits == 1 %>
+                                      semester
+                                  <% else %>
+                                      quarter
+                                  <% end %>
+                                </td>
+                                <td>
+                                   <% if !@review_team.include?(current_user.name) %>
+                                        <%= link_to image_tag('/assets/Edit_16x16.png'), edit_newhirecredit_path(cr , :newhire_id => params[:newhire_id], :course_id => params[:id]), :title => 'Edit course', :rel => 'tooltip'  %>
+
+                                        <%= link_to image_tag('/assets/Delete_16x16.png'), newhirecredit_path(cr , :newhire_id => params[:newhire_id], :course_id => params[:id]), :method => :delete, :class => "destroy", :confirm => "Are you sure you want to delete this coursework?",:title => 'Delete course', :rel => 'tooltip'
+                                          %>
+                                    <% else %>
+                                        N/A
+                                    <% end %>
+                                </td>
+                              </tr>
+                            <% end %> 
+                          
+                            <tr <% if @total_credits >= 18 %>class="success"<% else %>class="error"<% end %>>
+                              <td colspan="7">
+                                <div align="right" >
+                                  <strong>Total Semester Hours: <%= @total_credits.to_s  %></strong>
+                                </div>
+                              </td>
+                            </tr>
+                           
+                        <% else %>
+                          
+                              <div class="alert alert-error">
+                                <div align="center">
+                                  Add Relevant Coursework if applicable
+                                </div>
+                              </div>
+                           
+
+                        <% end %>
+                         </table>
+                  </fieldset>
+            </form>
+            <br>
+             <h4 > 
+
+               <%if  @newhire_course_to_review.assigned_to == current_user.id %>
+                    <% if !@review_team.include?(current_user.name) %>
+                      <%= link_to image_tag('/assets/Add_16x16.png'), 
+                                  {:controller => 'newhiredocuments', 
+                                    :action => 'index', 
+                                    :course_id => params[:id],
+                                    :newhire_id => params[:newhire_id]
+                                  },
+                                  :title => 'Add documents', :rel => 'tooltip'
+                                
+                                    %>
+                    <% end %>
+                <% end %>
+                
+                            Documents submitted to Provost:
+                </h4>
+             
+                  <table class="table table-condensed table-hover">
+                    <% if @newhiredocuments.count > 0 %>
+                      
+                      <%# if current_user.group.name == "admin" %>
+                        <th>Verified</th>
+                      <%# end %>
+                     
+                      <!--
+                      <th>Name</th>
+
+                      
+                      <th>Location</th> 
+                       -->
+                      <th>Type</th>
+                      <th>Action</th>
+                      
+                      
+
+                      <% Newhiredoctype.all.each do |dt| %> 
+                             <% if @newhiredocuments.map(&:newhiredoctype_id).include?(dt.id) %>
+                                <tr>
+                                  <% @newhiredocuments.each do |d| %>
+                                     <% if dt.id == d.newhiredoctype_id %>
+                                        <td>
+                                            <% if d.verified == "1" %>
+                                              <%= check_box_tag "#{d.id}", '1', true , { :disabled =>  (current_user.permission_id == 16 ?  false : true), :class => 'verify' } %>
+                                            <% else %>
+                                               <%= check_box_tag "#{d.id}", '1', false , { :disabled =>  (current_user.permission_id == 16 ?  false : true), :class => 'verify' } %>
+                                            <% end %>                                          
+                                        </td>
+                                      
+                                       <!--
+                                        <td>
+                                          -
+                                        </td>
+                                       -->
+                                      
+                                        <td>                                          
+                                          <%= d.newhiredoctype.name %>
+                                        </td>
+                                     
+                                        <td>   
+                                          <% if dt.id <= 2 %>
+                                                Submit hard copy 
+                                          <% else %>
+                                             <%= link_to image_tag('/assets/Stock Index Down_16x16.png'), 
+                                                {:controller => 'newhiredocuments', 
+                                                  :action => 'file_download', 
+                                                  :doc_id => d.id,
+                                                  :newhire_id => params[:id], 
+                                                  :doc_type =>  d.newhiredoctype_id,
+                                                  :source => 'detailscreen'},
+                                                  :title => 'Download document', :rel => 'tooltip'%> Download
+
+
+                                          <% end %>
+                                        </td>
+
+                                    <% end %>
+                                  <% end %>
+                                </tr>
+                             <% else %>
+                              <tr  class="alert">
+                                <td>
+                                    <%= check_box_tag "", '1', false , { :disabled => true, :class => 'verify' } %>
+                                </td>
+                                
+                                <!--
+                                <td>
+                                  &nbsp;
+                                </td>
+                                -->
+
+                                <td>
+                                   <%= dt.name %>
+                                </td>
+                              
+                                <td>
+                                  
+                                    <% if dt.id <= 2 %>
+                                      Submit hard copy 
+                                    <% else %>
+                                      Please upload doc
+                                    <% end %> 
+                                    
+                                     
+                                  
+                                </td>          
+                              </tr>                    
+                             <% end %>             
+                         
+                        </tr>
+                      <% end %>
+
+                    <% else %>
+                      
+                          <div class="alert alert-error">
+                            <div align="center">
+                              Please add required documents
+                           </div>
+                          </div>
+                       
+                    <% end %>
+                  </table>
+            <br>
+            <% if @newhire_comments_added.count > 0 %>
+               <fieldset class="round">
+                 <h4>Coursework Comments:</h4>
+                    <table  class="table table-condensed table-hover">                     
+                        <th>Comment</th>
+                        <th>Created By:</th>
+                        <th>Created On:</th>
+                        <th >Actions:</th>
+                        <% @newhire_comments_added.each do |cm| %>
+                          <tr>
+                            <td><%= cm.comment.html_safe %></td>    
+                            <td><%= cm.signed_off_by(cm.user_id)%></td>
+                            <td><%= cm.created_at.strftime('%m/%d/%Y %l:%M %P') %></td>     
+                            <td width="10%">
+                              <% if !@review_team.include?(current_user.name) %>
+                                  <%= link_to image_tag('/assets/Edit_16x16.png'), edit_newhirecomment_path(cm , :newhire_id => params[:newhire_id], :course_id => params[:id]), :title => 'Edit comment', :rel => 'tooltip'  %>
+                              <% else %>
+                                 N/A
+                              <% end %>                
+                            </td>     
+                          </tr>       
+                        <% end %>
+                    </table>
+                  </fieldset>
+                  <br>
+            <% end %>
+
+           <br>
+
+           <%# if session[:review] && session[:group_name] == "admin" %>
+            <% if current_user.group.name == "admin" %>  
+             <%= render 'review_comments' %>
+             <br>
+            <% end %>
+           <%# end %>
+
+           <% if !@review_team.include?(current_user.name) %>
+            <%= render 'signoff_info' %>
+           <% end %>
+    </div> 
+  </div>
+</div>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+     jQuery('.verify').change(function(){
+       //alert(this.id);
+         
+         var verified = this.checked ? '1' : '0';
+         //alert(verified);
+         //return false;
+        jQuery.post(
+          '/newhiredocuments/save_verified_doc', 
+           {id:this.id, verified:verified}, 
+           function(response) {
+            location.reload();
+          });
+
+       });
+});
+</script>

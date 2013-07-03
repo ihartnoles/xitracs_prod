@@ -1,0 +1,11 @@
+<div class="well sidebar-nav" style="background-color:#fcf8e3;">
+            <ul class="nav nav-list">
+              <li class="nav-header">Instructor Info:</li>
+              <!--<li class="active"><a href="#">Link</a></li>-->
+              <li><strong>Firstname:</strong> <%= @newhire.first_name %> </li>
+              <li><strong>Lastname:</strong> <%= @newhire.last_name %></li>
+              <li><strong>School:</strong> <%= @newhire_dept.school.description %></li>
+              <li><strong>Department:</strong> <%= @newhire_dept.name %></li>
+              <li><strong>Course:</strong> <%= @newhire.course_name(@newhire_course_to_review.id) %></li>
+            </ul>
+ </div>

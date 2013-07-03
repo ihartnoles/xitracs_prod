@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/xitracs/!svn/ver/206/trunk/xitracs_roster/app/views/quick
+END
+criteria.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xitracs/!svn/ver/206/trunk/xitracs_roster/app/views/quick/criteria.html.erb
+END
+dean_signoff.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xitracs/!svn/ver/200/trunk/xitracs_roster/app/views/quick/dean_signoff.html.erb
+END
+mark_signed_off.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xitracs/!svn/ver/200/trunk/xitracs_roster/app/views/quick/mark_signed_off.js.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/xitracs/!svn/ver/205/trunk/xitracs_roster/app/views/quick/index.html.erb
+END

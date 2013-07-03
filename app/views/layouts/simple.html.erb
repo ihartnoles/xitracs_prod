@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= render 'layouts/stylesheets' %> 
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tag %>
+    
+    
+     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+
+      <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+      
+  </head>
+  <body>
+    <div class="container">
+      <section class="round">
+        
+        <div align="center">
+          <% if flash[:alert] %>
+            <p class="alert alert-error"><%= flash[:alert] %></p>
+          <% end %>
+          <% if flash[:notice] %>
+            <p class="alert alert-info"><%= flash[:notice] %></p>
+          <% end %>
+        </div>
+
+        <%= yield %>
+      </section>
+       
+    </div>
+  </body>
+</html>

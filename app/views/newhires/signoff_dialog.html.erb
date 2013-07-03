@@ -1,0 +1,73 @@
+<fieldset class="round">
+          <legend class="heading">Signoff:</legend>  
+            <table class="profile no-zebra no-hover">
+              <%= form_for @newhiresignoff,  :url => '/newhires/process_signoff' do |f| %>
+              <%= hidden_field_tag 'newhire_id', params[:newhire_id] %>
+              <%= hidden_field_tag 'course_id', params[:course_id] %>
+
+              <% if params.has_key?(:newhirereason_id) %>
+                <%= hidden_field_tag  :newhirereason_id, params[:newhirereason_id] %>
+              <% end %>
+
+              <tr>
+                <td>
+                  <%= f.radio_button :signed_off , "1"%> Signoff 
+                 
+                 <% if false %> 
+                  <% current_user.group.name %>
+
+                   <% if current_user.permission_id == 2 %>          
+                   Dean's office
+                  <% end %>
+                  <% if current_user.permission_id == 2 %>          
+                   Dean's office
+                  <% end %>
+                  <% if current_user.group.name == "dean" %>          
+                   Provost's office
+                  <% end %>
+                  <% if current_user.group.name == "admin" %>          
+                   Provost's office
+                  <% end %>
+
+                  <br>
+                <% end %>
+
+                  <%= f.radio_button :signed_off , "0" %> Return
+                 <% if false %>
+                    <% if current_user.group.name == "chair" %>          
+                     Department
+                    <% end %>
+                    <% if current_user.group.name == "dean" %>          
+                     Department Chair
+                    <% end %>
+                    <% if current_user.group.name == "admin" %>          
+                     Dean's office
+                    <% end %>
+                  <% end %>
+                  for corrections
+                </td>               
+              </tr>
+              <tr>
+                <td colspan="2">&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Message:</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <%#= f.text_area :comment, :rows=>5, :cols=>20  %>
+                  <%= f.text_area :comment, :class => 'ckeditor' %>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <%= f.submit  "Submit", :id => "Submit", :disabled => current_user.ro, :class => "btn" %>
+                </td>
+              </tr>
+              <% end %>
+
+            </table>          
+        </fieldset>
+     

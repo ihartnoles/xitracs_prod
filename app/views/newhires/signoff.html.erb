@@ -1,0 +1,147 @@
+<fieldset class="round">
+          <legend>Signoff:</legend>  
+            <table class="profile no-zebra no-hover">
+             <%= form_for @newhiresignoff, :url => '/newhires/save_signoff' do |f| %>
+                <%= hidden_field_tag 'newhire_id', params[:newhire_id] %>
+                <%= hidden_field_tag 'course_id', params[:course_id] %>
+
+                
+                <tr>
+                  <td>
+                 
+                 <!--TO DO: This should only appear for mwalsh8 -->
+                 <% if current_user.name == "mwalsh8" || current_user.name == "ihartstein" %>  
+                  <%= check_box_tag(:final_approval)  %> Final Approval <br><br>
+                 <% end %>
+
+                 <div id="radios">
+                  <div class="control-group">
+                   <%= f.radio_button :signed_off , "1"%> 
+                    
+                       <% if current_user.permission_id == 1 %>          
+                          Signoff and send to Chair
+                        <% end %>
+
+                       <% if current_user.permission_id == 2 %>          
+                          Signoff and send to Dean
+                        <% end %>
+                        <% if current_user.permission_id == 4 %>          
+                          Signoff and send to Office of Provost
+                        <% end %>
+                        <% if current_user.group.name == "admin" %>          
+                          <% if current_user.name == 'kwrigh59' %>
+                            Signoff and send to Review Team
+                          <% else %>
+                            Signoff and notify
+                          <% end %>
+                        <% end %>
+                     
+                      <br>
+
+                      <%= f.radio_button :signed_off , "0" %> 
+                    
+                      <% if current_user.permission_id == 2 %>          
+                          Return to Department for corrections
+                      <% end %>
+                      <% if current_user.permission_id == 4 %>          
+                          Return to Department Chair for corrections
+                      <% end %>
+                      <% if current_user.group.name == "admin" %>       
+
+                         <% if current_user.name = 'mwalsh8' %>
+                            Return for corrections
+                          <% else %>
+                            Return to Dean for corrections
+                          <% end %>
+                      <% end %>  
+                       <div class="help-block"></div>  
+                   </div>
+
+
+                  </div>           
+                  
+                </td>
+                </tr>         
+                <tr>
+                  <td>
+                    <div id="notify">
+                      Send to:<br>
+                      <%#= select('send_to', 'notify',
+                          options_for_select(@send_to_notify.collect{ |u| [u.displayname, u.id]}), {:include_blank => 'None'})%>
+                      <%= select('send_to', 'notify',
+                          options_for_select(@send_to_notify.collect{ |u| [u.displayname, u.id]}))%>
+                         
+                    </div>
+
+                    <div id="corrections" style="display:none">
+                      Send to:<br>
+                      <%#= select('send_to', 'correct',
+                          options_for_select(@send_to_correct.collect{ |u| [u.displayname, u.id]}), {:include_blank => 'None'})%>
+                      <%= select('send_to', 'correct',
+                          options_for_select(@send_to_correct.collect{ |u| [u.displayname, u.id]}))%>
+                      
+                    </div>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong> Comments: </strong></td>
+                </tr>
+                <tr>
+                  <td><%= f.text_area :comment, :class => 'ckeditor' %><br/></td>
+                </tr>
+                <tr>
+                  <td><%= f.submit  "Submit", :id => "Submit" , :class => 'btn btn-small btn-primary' %></td>
+                </tr>
+
+
+              </table>
+                
+                
+              <% end %>    
+            </fieldset>
+
+
+
+<%= javascript_tag do %>
+jQuery(document).ready(function(){
+      
+       $("#notify").hide();
+       $("#corrections").hide();
+
+       <% if current_user.permission_id == 1 %>
+         $("#newhiresignoff_signed_off_0").hide();
+       <% end %>
+
+        jQuery('#final_approval').change(function(){
+             
+              var isChecked = $('#final_approval:checked').val()?true:false;
+
+              if (isChecked) {
+                $("#radios").hide();   
+                $("#corrections").hide();
+                $("#notify").hide();
+              } else {
+                $("#radios").show();               
+              }
+                
+        });
+
+         jQuery('#newhiresignoff_signed_off_1').change(function(){
+              $("#corrections").hide();
+              $("#notify").show();
+        });
+
+         jQuery('#newhiresignoff_signed_off_0').change(function(){
+               $("#notify").hide();
+               $("#corrections").show();
+        });
+        
+         $('input[type=submit]').click(function() {
+            $(this).val('Processing...');
+            $(this).prop('disabled', true);
+            $('#new_newhiresignoff').submit();
+         })
+
+});
+<% end %>

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/xitracs/!svn/ver/89/trunk/xitracs_roster/app/views/wizard_mailer
+END
+login_failed_email.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/xitracs/!svn/ver/89/trunk/xitracs_roster/app/views/wizard_mailer/login_failed_email.html.erb
+END
+new_user_email.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/xitracs/!svn/ver/82/trunk/xitracs_roster/app/views/wizard_mailer/new_user_email.html.erb
+END

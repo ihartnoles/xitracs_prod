@@ -1,0 +1,40 @@
+
+<div id="wrapper">
+  <div id="middle">
+    <div id="container">
+
+      <div class="content">
+          <fieldset class="round">
+            <legend>New Hire Name:</legend>
+             <%= form_for(@newhire) do |f| %>
+              <%#= hidden_field_tag :newhire_id, params[:newhire_id] %>
+              <%= hidden_field_tag :department_id, params[:dept_id] %>
+              <%= f.label :first_name %> <%= f.text_field :first_name %>
+              <%= f.label :middle_name %> <%= f.text_field :middle_name %>
+              <%= f.label :last_name %> <%= f.text_field :last_name %>
+              <% if current_user.group.name == "dean" || current_user.permission_id >= 4 %>
+
+                    <div class="control-group">
+                      <label><font color="red">*</font> Department:</label>
+                      <%= f.collection_select(:department_id,       
+                                               @departments,
+                                               :id,
+                                               :name,
+                                               :prompt => "--select department--"
+                                              )%> 
+                      <div class="help-block"></div>
+
+                    </div>
+
+                  <% end %>
+              <br>
+              <%= f.submit  "Update" , :class => 'btn btn-small btn-primary'%>
+
+             <% end %>
+          </fieldset>
+      </div>
+    </div><!-- #container -->
+  </div><!-- #middle -->
+</div><!-- #wrapper -->
+  
+

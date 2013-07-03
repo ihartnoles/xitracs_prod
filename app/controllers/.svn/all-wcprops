@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/xitracs/!svn/ver/274/trunk/xitracs_roster/app/controllers
+END
+semesters_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/controllers/semesters_controller.rb
+END
+report_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xitracs/!svn/ver/274/trunk/xitracs_roster/app/controllers/report_controller.rb
+END
+quick_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xitracs/!svn/ver/210/trunk/xitracs_roster/app/controllers/quick_controller.rb
+END
+reviewreasons_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/controllers/reviewreasons_controller.rb
+END
+donesemesters_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/controllers/donesemesters_controller.rb
+END
+wizard_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xitracs/!svn/ver/274/trunk/xitracs_roster/app/controllers/wizard_controller.rb
+END
+application_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/xitracs/!svn/ver/77/trunk/xitracs_roster/app/controllers/application_controller.rb
+END
+sessions_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xitracs/!svn/ver/245/trunk/xitracs_roster/app/controllers/sessions_controller.rb
+END
+static_pages_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/xitracs/!svn/ver/129/trunk/xitracs_roster/app/controllers/static_pages_controller.rb
+END
+keyvalues_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/app/controllers/keyvalues_controller.rb
+END

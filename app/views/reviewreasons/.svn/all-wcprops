@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/views/reviewreasons
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/views/reviewreasons/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/views/reviewreasons/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/views/reviewreasons/show.html.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/views/reviewreasons/_form.html.erb
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/views/reviewreasons/edit.html.erb
+END

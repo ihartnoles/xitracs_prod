@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/xitracs/!svn/ver/307/trunk/xitracs_roster/db/migrate
+END
+20120210043016_create_titles.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043016_create_titles.rb
+END
+20120309204305_longer_text_fields.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/xitracs/!svn/ver/98/trunk/xitracs_roster/db/migrate/20120309204305_longer_text_fields.rb
+END
+20130204155624_change_certificate_to_certificates.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/xitracs/!svn/ver/307/trunk/xitracs_roster/db/migrate/20130204155624_change_certificate_to_certificates.rb
+END
+20120210043030_create_ranks.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043030_create_ranks.rb
+END
+20120214145743_create_credits.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/xitracs/!svn/ver/55/trunk/xitracs_roster/db/migrate/20120214145743_create_credits.rb
+END
+20120210043404_create_schools.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043404_create_schools.rb
+END
+20120307232738_add_user_active.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/xitracs/!svn/ver/79/trunk/xitracs_roster/db/migrate/20120307232738_add_user_active.rb
+END
+20120211222849_add_groups.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/db/migrate/20120211222849_add_groups.rb
+END
+20120326013333_add_fall2011and_spring2012_semesters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/xitracs/!svn/ver/120/trunk/xitracs_roster/db/migrate/20120326013333_add_fall2011and_spring2012_semesters.rb
+END
+20121009042812_add_credential_to_reason.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/xitracs/!svn/ver/265/trunk/xitracs_roster/db/migrate/20121009042812_add_credential_to_reason.rb
+END
+20120213185324_add_qualification_reasons.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/xitracs/!svn/ver/70/trunk/xitracs_roster/db/migrate/20120213185324_add_qualification_reasons.rb
+END
+20120307232940_add_school_active.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xitracs/!svn/ver/79/trunk/xitracs_roster/db/migrate/20120307232940_add_school_active.rb
+END
+20121003210839_add_fall2012and_med2012_med2013_semesters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/xitracs/!svn/ver/262/trunk/xitracs_roster/db/migrate/20121003210839_add_fall2012and_med2012_med2013_semesters.rb
+END
+20120416220448_add_dean_signoff.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xitracs/!svn/ver/134/trunk/xitracs_roster/db/migrate/20120416220448_add_dean_signoff.rb
+END
+20120423193247_remove_reviewreasons_from_reasons.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/xitracs/!svn/ver/140/trunk/xitracs_roster/db/migrate/20120423193247_remove_reviewreasons_from_reasons.rb
+END
+20120416221056_change_semester_status.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/xitracs/!svn/ver/134/trunk/xitracs_roster/db/migrate/20120416221056_change_semester_status.rb
+END
+20120214150228_reasons_index.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/db/migrate/20120214150228_reasons_index.rb
+END
+20120327004440_create_donesemesters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/xitracs/!svn/ver/120/trunk/xitracs_roster/db/migrate/20120327004440_create_donesemesters.rb
+END
+20120210043036_create_employmentstatuses.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043036_create_employmentstatuses.rb
+END
+20120326012917_create_semesters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xitracs/!svn/ver/120/trunk/xitracs_roster/db/migrate/20120326012917_create_semesters.rb
+END
+20120326013127_add_review_reasons.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/xitracs/!svn/ver/120/trunk/xitracs_roster/db/migrate/20120326013127_add_review_reasons.rb
+END
+20120408183332_add_speedup_indexes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/xitracs/!svn/ver/127/trunk/xitracs_roster/db/migrate/20120408183332_add_speedup_indexes.rb
+END
+20120210043624_create_facultycredentials.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043624_create_facultycredentials.rb
+END
+20120408181941_create_id_indexes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/xitracs/!svn/ver/126/trunk/xitracs_roster/db/migrate/20120408181941_create_id_indexes.rb
+END
+20120422011639_add_teaching_to_donesemester.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/xitracs/!svn/ver/138/trunk/xitracs_roster/db/migrate/20120422011639_add_teaching_to_donesemester.rb
+END
+20120210043001_create_keyvalues.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043001_create_keyvalues.rb
+END
+20120210043558_create_sectionenrollments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043558_create_sectionenrollments.rb
+END
+20120326012931_create_reviewreasons.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/xitracs/!svn/ver/120/trunk/xitracs_roster/db/migrate/20120326012931_create_reviewreasons.rb
+END
+20120211222823_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/xitracs/!svn/ver/61/trunk/xitracs_roster/db/migrate/20120211222823_create_users.rb
+END
+20120531183122_rename_exception.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xitracs/!svn/ver/211/trunk/xitracs_roster/db/migrate/20120531183122_rename_exception.rb
+END
+20120326013013_add_review_fields.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/xitracs/!svn/ver/120/trunk/xitracs_roster/db/migrate/20120326013013_add_review_fields.rb
+END
+20120210043550_create_faculties.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043550_create_faculties.rb
+END
+20120221023507_add_done_status.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/db/migrate/20120221023507_add_done_status.rb
+END
+20120210043419_create_qualifications.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043419_create_qualifications.rb
+END
+20121004013402_add_summer2012_spring2013_semesters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/xitracs/!svn/ver/263/trunk/xitracs_roster/db/migrate/20121004013402_add_summer2012_spring2013_semesters.rb
+END
+20120329154148_add_reasons_reviewreasons_join_table.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/xitracs/!svn/ver/120/trunk/xitracs_roster/db/migrate/20120329154148_add_reasons_reviewreasons_join_table.rb
+END
+20120210043412_create_departments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043412_create_departments.rb
+END
+20120211222816_create_groups.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/db/migrate/20120211222816_create_groups.rb
+END
+20120210043635_create_sectioncredentials.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043635_create_sectioncredentials.rb
+END
+20120214143828_create_reasons.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/xitracs/!svn/ver/55/trunk/xitracs_roster/db/migrate/20120214143828_create_reasons.rb
+END
+20120210043515_create_sections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043515_create_sections.rb
+END
+20120210043733_index01.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043733_index01.rb
+END
+20120210043431_create_qualificationawards.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043431_create_qualificationawards.rb
+END
+20120210043041_create_tenurestatuses.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043041_create_tenurestatuses.rb
+END
+20120309210341_add_reason_owner.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xitracs/!svn/ver/120/trunk/xitracs_roster/db/migrate/20120309210341_add_reason_owner.rb
+END
+20120330001116_drop_completed_from_faculties.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/xitracs/!svn/ver/120/trunk/xitracs_roster/db/migrate/20120330001116_drop_completed_from_faculties.rb
+END
+20120210043449_create_courses.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/db/migrate/20120210043449_create_courses.rb
+END
+20120213185305_create_qualificationreasons.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/db/migrate/20120213185305_create_qualificationreasons.rb
+END

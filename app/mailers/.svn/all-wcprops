@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/xitracs/!svn/ver/95/trunk/xitracs_roster/app/mailers
+END
+.gitkeep
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/app/mailers/.gitkeep
+END
+wizard_mailer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/xitracs/!svn/ver/309/trunk/xitracs_roster/app/mailers/wizard_mailer.rb
+END

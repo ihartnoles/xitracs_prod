@@ -1,0 +1,93 @@
+<% provide :title, "Course List" %>
+
+<%= render 'wizard/faculty_details'%>
+
+<br/>
+<%= paginate @courses %>
+<table class="no-zebra box round">
+	<tr>
+		<th>Name</th>
+    	<th>Title</th>
+    	<th># Sections</th>
+    	<th>Unique Section Title(s)</th>
+    	<th>Department</th>
+    	<th>Level</th>
+ 	 	<th>Credits</th>
+ 	 	<th>Syllabus</th>
+ 	 	<th>Credential Completed</th> 	 	
+ 	 	<% if session[:group_name] == "admin" || session[:group_name] == "dean" || session[:read_only] %>
+	 	 	<th>Review Team Reviewed</th>
+			<th>Review Results</th>
+ 	 		<th>Dean Signoff</th>
+	 		<th>Reviewed By</th>
+ 		<% end %>
+	</tr>
+	<% @courses.each do |course| %>
+	  <% t_section_ids = Section.where(:course_id => course.id, :semester_id => session[:semester_id]).map  {|row| row.id} %>
+	  <% t_section_ids_subset = Sectionenrollment.where(:section_id => t_section_ids, :faculty_id => @faculty.id).map  {|row| row.section_id} %>
+	  <% t_section_enrollments_completed = Sectionenrollment.where(:section_id => t_section_ids, :faculty_id => @faculty.id).map  {|row| row.completed} %>
+	  <% t_section_titles = Section.where(:id => t_section_ids_subset).map  {|row| row.title} %>
+	  <% if session[:read_only] || session[:review] %>
+	  <!-- <tr onclick="window.location.href='<%= url_for :action => 'approve_course_for', :course_id => course.id, :faculty_id => session[:faculty_id]%>'">   --> 
+	   		<% actionval = 'approve_course_for'%>
+	    <tr>
+	  <% else %>
+	   <!-- <tr onclick="window.location.href='<%= url_for :action => 'justify_course_for', :course_id => course.id, :faculty_id => session[:faculty_id]%>'">  -->
+	   		<% actionval = 'justify_course_for'%>
+	    <tr> 
+	  <% end %>
+	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'">
+	    		<%= course.name %>
+	    </td>
+	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><%= course.title %></td>
+	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><%= t_section_titles.count %></td>
+	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><%= (t_section_titles.uniq.map { |i| i.to_s }.join(";</br>")).html_safe %></td>
+	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><%= course.department.name %></td>
+	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><%= course.level_description %></td>
+	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><%= course.credit %></td>
+	    <td><%= link_to 'upload',
+							 						{:controller => 'coursedocuments', :action => 'display_doc_form', :course_id => course.id,:znumber =>@faculty.znumber},
+				        							:onClick=>"window.open(this.href,'Details','height=500, width=600'); return false;" ,
+				        							:title => 'Upload Syllabus', :rel => 'tooltip', :class => 'coursedoc'%>
+			
+
+
+			<%#= ds = Donesemester.where(:faculty_id => faculty.id, :semester_id => session[:semester_id]).first %>
+
+			<% @docs = Coursedocument.find(:first,:conditions => {:course_id =>course.id,:semester_id => session[:semester_id],:faculty_id => params[:faculty_id]}) %>
+
+			<%if !@docs.nil? %>
+				
+						<%#= link_to 'download',
+										 						{:controller => 'coursedocuments', :action => 'file_download', :doc_id => @docs.id},
+							        							:title => 'Download Syllabus', :rel => 'tooltip'%>
+
+					<%= link_to 'download',
+							{:controller => 'coursedocuments', :action => 'download_dialog', :course_id => course.id,:znumber =>@faculty.znumber },
+							 :onClick=>"window.open(this.href,'Details','height=500, width=600'); return false;" ,
+							 :title => 'Download Syllabus', :rel => 'tooltip'%>
+				
+			<% end %>
+		</td>
+	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><img src="<%= t_section_enrollments_completed.index(false).nil? ? '/assets/check.png' : '/assets/x.png' %>" width='20'/></td>
+  	 	 <% if session[:group_name] == "admin" || session[:group_name] == "dean" || session[:read_only] %>
+		  	 <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><img src="<%= Reason.is_review_done?(@faculty, course) ? '/assets/check.png' : '/assets/x.png' %>" width='20'/></td>
+			 <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><img src="<%= Reason.faculty_review_state_course_icon(@faculty, course) %>" width='20'/></td>
+		  	 <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><img src="<%= Reason.is_deansignedoff?(@faculty, course) ? '/assets/check.png' : '/assets/x.png' %>" width='20'/></td>
+		    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"> <%= Reason.reviewer(@faculty, course) %> </td>
+	    <% end %>    	
+	  </tr>
+	<% end %>
+</table>
+
+<%= link_to "Return to My Faculty", '/wizard/faculty', :class => 'xbutton'%>
+
+
+<%= javascript_tag do %>
+jQuery(document).ready(function(){
+	$('.coursedoc').click(function() {
+        event.preventDefault();	    
+     })
+
+});
+<% end %>

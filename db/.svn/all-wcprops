@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/xitracs/!svn/ver/307/trunk/xitracs_roster/db
+END
+additional.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/xitracs/!svn/ver/309/trunk/xitracs_roster/db/additional.rb
+END
+schema.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/xitracs/!svn/ver/307/trunk/xitracs_roster/db/schema.rb
+END
+seeds.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/xitracs/!svn/ver/79/trunk/xitracs_roster/db/seeds.rb
+END

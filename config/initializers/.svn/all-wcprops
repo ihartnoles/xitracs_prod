@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/xitracs/!svn/ver/140/trunk/xitracs_roster/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/config/initializers/inflections.rb
+END
+session_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/config/initializers/session_store.rb
+END
+kaminari_config.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/config/initializers/kaminari_config.rb
+END
+string_bool.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xitracs/!svn/ver/140/trunk/xitracs_roster/config/initializers/string_bool.rb
+END
+secret_token.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/config/initializers/secret_token.rb
+END
+backtrace_silencers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/config/initializers/backtrace_silencers.rb
+END
+quiet_assets.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xitracs/!svn/ver/52/trunk/xitracs_roster/config/initializers/quiet_assets.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/config/initializers/mime_types.rb
+END
+wrap_parameters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/config/initializers/wrap_parameters.rb
+END

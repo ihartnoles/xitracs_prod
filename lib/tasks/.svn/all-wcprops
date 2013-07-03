@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/xitracs/!svn/ver/288/trunk/xitracs_roster/lib/tasks
+END
+update_facultycredentials.rake
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/xitracs/!svn/ver/262/trunk/xitracs_roster/lib/tasks/update_facultycredentials.rake
+END
+update_faculty.rake
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/xitracs/!svn/ver/279/trunk/xitracs_roster/lib/tasks/update_faculty.rake
+END
+update_sectionenrollments.rake
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/xitracs/!svn/ver/288/trunk/xitracs_roster/lib/tasks/update_sectionenrollments.rake
+END
+update_sections.rake
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/xitracs/!svn/ver/288/trunk/xitracs_roster/lib/tasks/update_sections.rake
+END
+import.rake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/xitracs/!svn/ver/66/trunk/xitracs_roster/lib/tasks/import.rake
+END
+update_semesters.rake
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/xitracs/!svn/ver/275/trunk/xitracs_roster/lib/tasks/update_semesters.rake
+END
+update_statuses.rake
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/xitracs/!svn/ver/288/trunk/xitracs_roster/lib/tasks/update_statuses.rake
+END
+update_completed.rake
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/xitracs/!svn/ver/120/trunk/xitracs_roster/lib/tasks/update_completed.rake
+END
+newdata.rake
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/xitracs/!svn/ver/108/trunk/xitracs_roster/lib/tasks/newdata.rake
+END
+sanity_check.rake
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/xitracs/!svn/ver/242/trunk/xitracs_roster/lib/tasks/sanity_check.rake
+END
+.gitkeep
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/lib/tasks/.gitkeep
+END
+update_courses.rake
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/xitracs/!svn/ver/279/trunk/xitracs_roster/lib/tasks/update_courses.rake
+END

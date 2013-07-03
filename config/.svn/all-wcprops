@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/xitracs/!svn/ver/270/trunk/xitracs_roster/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/xitracs/!svn/ver/269/trunk/xitracs_roster/config/routes.rb
+END
+application.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/config/application.rb
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/xitracs/!svn/ver/52/trunk/xitracs_roster/config/environment.rb
+END

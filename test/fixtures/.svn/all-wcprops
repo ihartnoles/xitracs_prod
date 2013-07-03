@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/test/fixtures
+END
+ranks.yml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/ranks.yml
+END
+groups.yml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/test/fixtures/groups.yml
+END
+faculties.yml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/faculties.yml
+END
+sectioncredentials.yml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/sectioncredentials.yml
+END
+qualificationreasons.yml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/test/fixtures/qualificationreasons.yml
+END
+courses.yml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/courses.yml
+END
+facultycredentials.yml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/facultycredentials.yml
+END
+employmentstatuses.yml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/employmentstatuses.yml
+END
+departments.yml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/departments.yml
+END
+sections.yml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/sections.yml
+END
+sectionenrollments.yml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/sectionenrollments.yml
+END
+qualificationawards.yml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/qualificationawards.yml
+END
+tenurestatuses.yml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/tenurestatuses.yml
+END
+titles.yml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/titles.yml
+END
+.gitkeep
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/.gitkeep
+END
+keyvalues.yml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/keyvalues.yml
+END
+schools.yml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/schools.yml
+END
+qualifications.yml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/fixtures/qualifications.yml
+END

@@ -1,0 +1,141 @@
+<div id="wrapper">
+	<div id="middle">
+		<div id="container">
+
+			<div class="content">
+					<fieldset class="round">
+						<h4>New Hire Name:</h4>
+							
+									<%= form_for @newhire, :url => "/newhires/savename" do |f| %>
+									
+									
+
+									<div class="control-group">
+										<label><font color="red">*</font> First:</label>
+										 <%= text_field_tag 'first_name' %>
+										 <div class="help-block"></div>
+									</div>
+
+
+
+									<div class="control-group">
+										<label>Middle:</label>
+										 <%= text_field_tag 'middle_name' %>
+										 <div class="help-block"></div>
+									</div>
+
+
+									<div class="control-group">
+										<label><font color="red">*</font> Last:</label>
+										 <%= text_field_tag 'last_name' %>
+										 <div class="help-block"></div>
+									</div>
+
+									<% if current_user.permission_id >= 4 %>
+										
+										<div class="control-group">
+											<label><font color="red">*</font> College:</label>
+											<%= collection_select(:college,
+																   :college_id,		   
+																   @colleges,
+																   :id,
+																   :description,
+																   :prompt => "--select college--"
+																  )%> 
+											<div class="help-block"></div>
+
+										</div>
+
+										
+										<div id="dept" style="display:none">
+											<div class="control-group">
+												<label><font color="red">*</font> Department:</label>
+												<%= render :partial => 'departments'  %>
+												
+												<div class="help-block"></div>
+
+											</div>
+										</div>
+
+									<% end %>
+
+								
+									<br>
+									<%= f.submit "Save & Continue" , :class => 'btn btn-small btn-primary' %>
+								<% end %>
+						
+								
+							
+					</fieldset>
+			</div>
+		</div><!-- #container -->
+	</div><!-- #middle -->
+</div><!-- #wrapper -->
+	
+<%= javascript_tag do %>
+jQuery(document).ready(function(){
+	
+	jQuery(function($) {
+	  // when the #college field changes
+	  $("#college_college_id").change(function() {
+	    //alert('booyah');
+	    // make a POST call and replace the content
+	    var school = $('#college_college_id :selected').val();
+	    if(school == "") school="0";
+	    //alert('shizzle 1');
+	    jQuery.get('/newhires/update_dept_select/' + school, function(data){
+	        //alert('shizzle TOO');
+	        $("#dept").show(); 
+	        $("#department_department_id").html(data);
+	    })
+	    return false;
+	  });
+
+	})
+
+	jQuery('.new_newhire').validate(
+		 {
+		  rules: {
+		    first_name: {
+		      required: true
+		    },
+		    last_name: {
+		      required: true		      
+		    }
+
+		    <% if current_user.group.name == "dean" || current_user.permission_id >= 4 %>
+		    ,"department[department_id]": {
+		      required: true		      
+		    }
+
+		     ,"college[college_id]": {
+		      required: true		      
+		    }
+		    <% end %>
+
+		  },
+		   messages: {
+		   	first_name: "Please enter a first name",
+        	last_name: "Please enter a last name"
+        	 <% if current_user.group.name == "dean" || current_user.permission_id >= 4 %>
+        	  ,"department[department_id]": "Please select a department"
+        	  ,"college[college_id]": "Please select a school"
+        	 <% end %>
+		  }, 	
+		    highlight: function (element, errorClass, validClass) {
+       			 $(element).closest('.control-group').removeClass('success').addClass('error');
+		    },
+		    unhighlight: function (element, errorClass, validClass) {
+		        $(element).closest('.control-group').removeClass('error').addClass('success');
+		    },
+		    success: function (label) {
+		        $(label).closest('form').find('.valid').removeClass("invalid");
+		    },
+		    errorPlacement: function (error, element) {
+		        element.closest('.control-group').find('.help-block').html(error.text());
+		    }
+		 });
+
+
+});
+<% end %>

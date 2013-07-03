@@ -1,0 +1,71 @@
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+     <a href="javascript:history.back();" title="Go Back" rel="tooltip"><i class="icon-arrow-left"></i></a> Go Back
+      <!--Sidebar content-->
+      <%= render 'newhires/instructorinfo_basic' %>        
+    </div>
+    <div class="span9">
+      <!--Body content-->
+     		
+					<fieldset class="round">
+						<h4>Documents:</h4>
+							<table  class="table table-hover">
+								<tr>
+								<td colspan="2"><strong>The following documents are required by the Provost's office:</strong></td>
+								</tr>
+								
+									<% Newhiredoctype.all.each do |dt| %>
+					    				<tr>
+					 						<td><%=  dt.name.humanize %></td>
+					 						<td>
+					 							<% if dt.id > 2%>
+						 							<%= link_to image_tag('/assets/Stock Index Up_24x24.png'),
+							 						{:controller => 'newhiredocuments', :action => 'uploadform', :doc_type => dt.id, :newhire_id => params[:newhire_id], :course_id => params[:course_id]}, 
+				        							:onClick=>"window.open(this.href,'Details','height=500, width=600'); return false;" ,
+				        							:title => 'Upload', :rel => 'tooltip'%> [Upload]
+				        						<% else %>
+				        						Submit hard copy
+				        						<% end %>
+			        						</td>
+					 					</tr>
+									<% end %>		
+
+							</table>
+					</fieldset>
+			
+
+
+				 <% if @newhire_docs_added.count > 0 %>				
+					 <fieldset class="round">
+						<h4>Documents uploaded:</h4>
+							<table  class="table table-hover">
+								<th>Name</th>
+								<th>Type</th>
+								<% @newhire_docs_added.each do |d| %>
+					    			<% if d.newhiredoctype_id >= 3 %>
+						    			<tr>
+							    			<td><%=  d.name %></td>  
+						 					<td>
+						 						<%= d.newhiredoctype.name %>				 						
+						 					</td> 
+						 				</tr>
+					 				<% end %>
+
+
+					 			<% end %>	
+							</table>
+					</fieldset>								
+				<% end %>
+
+			
+		Click
+			<input type="button" class="btn btn-small btn-primary" name="Continue" value="Contine"  onclick="window.location.href='newhires/review_course?id=<%= params[:course_id]%>&newhire_id=<%= params[:newhire_id] %>'">
+			to finish the upload process.
+		
+    </div>
+  </div>
+</div>
+
+

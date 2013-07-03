@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/test/unit
+END
+title_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/title_test.rb
+END
+keyvalue_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/keyvalue_test.rb
+END
+school_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/school_test.rb
+END
+qualification_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/qualification_test.rb
+END
+rank_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/rank_test.rb
+END
+group_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/test/unit/group_test.rb
+END
+employmentstatus_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/employmentstatus_test.rb
+END
+sectioncredential_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/sectioncredential_test.rb
+END
+qualificationreason_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/test/unit/qualificationreason_test.rb
+END
+course_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/course_test.rb
+END
+facultycredential_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/facultycredential_test.rb
+END
+department_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/department_test.rb
+END
+section_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/section_test.rb
+END
+sectionenrollment_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/sectionenrollment_test.rb
+END
+.gitkeep
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/.gitkeep
+END
+tenurestatus_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/tenurestatus_test.rb
+END
+qualificationaward_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/qualificationaward_test.rb
+END
+faculty_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/faculty_test.rb
+END

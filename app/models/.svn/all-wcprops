@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/xitracs/!svn/ver/274/trunk/xitracs_roster/app/models
+END
+keyvalue.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/xitracs/!svn/ver/45/trunk/xitracs_roster/app/models/keyvalue.rb
+END
+reason.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/xitracs/!svn/ver/216/trunk/xitracs_roster/app/models/reason.rb
+END
+school.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/xitracs/!svn/ver/80/trunk/xitracs_roster/app/models/school.rb
+END
+semester.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/xitracs/!svn/ver/134/trunk/xitracs_roster/app/models/semester.rb
+END
+qualification.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/xitracs/!svn/ver/45/trunk/xitracs_roster/app/models/qualification.rb
+END
+rank.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/xitracs/!svn/ver/45/trunk/xitracs_roster/app/models/rank.rb
+END
+group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/app/models/group.rb
+END
+employmentstatus.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/xitracs/!svn/ver/45/trunk/xitracs_roster/app/models/employmentstatus.rb
+END
+donesemester.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/xitracs/!svn/ver/274/trunk/xitracs_roster/app/models/donesemester.rb
+END
+sectioncredential.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/xitracs/!svn/ver/157/trunk/xitracs_roster/app/models/sectioncredential.rb
+END
+qualificationreason.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/app/models/qualificationreason.rb
+END
+course.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/xitracs/!svn/ver/160/trunk/xitracs_roster/app/models/course.rb
+END
+facultycredential.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/xitracs/!svn/ver/264/trunk/xitracs_roster/app/models/facultycredential.rb
+END
+department.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/xitracs/!svn/ver/140/trunk/xitracs_roster/app/models/department.rb
+END
+.gitkeep
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/app/models/.gitkeep
+END
+section.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/models/section.rb
+END
+sectionenrollment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/xitracs/!svn/ver/45/trunk/xitracs_roster/app/models/sectionenrollment.rb
+END
+tenurestatus.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/xitracs/!svn/ver/45/trunk/xitracs_roster/app/models/tenurestatus.rb
+END
+qualificationaward.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/xitracs/!svn/ver/45/trunk/xitracs_roster/app/models/qualificationaward.rb
+END
+faculty.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/xitracs/!svn/ver/210/trunk/xitracs_roster/app/models/faculty.rb
+END
+reviewreason.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/models/reviewreason.rb
+END
+credit.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/xitracs/!svn/ver/156/trunk/xitracs_roster/app/models/credit.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/xitracs/!svn/ver/102/trunk/xitracs_roster/app/models/user.rb
+END
+title.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/xitracs/!svn/ver/45/trunk/xitracs_roster/app/models/title.rb
+END

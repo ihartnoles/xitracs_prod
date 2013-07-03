@@ -1,0 +1,39 @@
+<fieldset class="round">
+
+<p>
+	<legend>Syllabus Download</legend>
+	 
+
+	<% t_section_ids = Section.where(:course_id => @course.id, :semester_id => session[:semester_id]).map  {|row| row.id} %>
+  	
+  		<% t_section_ids_subset = Sectionenrollment.where(:section_id => t_section_ids, :faculty_id => @faculty.id).map  {|row| row.section_id} %>
+  	
+  		<% t_section_titles = Section.where(:id => t_section_ids_subset).map  {|row| row.title} %>
+  		<% t_section_names = Section.where(:id => t_section_ids_subset).map  {|row| row.name} %>
+
+  		Section Number:<% @sections = Sectionenrollment.find_by_sql(["SELECT
+											  sections.name,
+											  sections.title,
+											  sections.description,
+											  sections.course_id,
+											  sections.semester_id,
+											  sectionenrollments.section_id,  
+											  sectionenrollments.faculty_id
+											FROM sectionenrollments
+											  INNER JOIN sections
+											    ON sectionenrollments.section_id = sections.id
+											WHERE sectionenrollments.section_id IN (:section_ids) AND faculty_id = :fid", {:section_ids => t_section_ids_subset  , :fid => @faculty.id } ]) %>
+
+  		
+
+	 
+	<%= form_for :file_upload, :url => coursedocuments_file_download_path ,  method: "get", :html => {:multipart => true} do |f| %>
+
+	  <%= select_tag 'section_id', options_from_collection_for_select(@sections, 'section_id', 'name')%><br>
+	  <%= hidden_field_tag 'course_id', params[:course_id] %>
+	  <%= hidden_field_tag 'znumber', params[:znumber] %>
+	  <%= f.submit "Download Now" %>
+	<% end %>
+
+</p>	
+</fieldset>

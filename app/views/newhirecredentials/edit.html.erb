@@ -1,0 +1,84 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+   
+      <div class="span3">
+        <!--Sidebar content-->
+           <div class="well sidebar-nav">
+              <ul class="nav nav-list">
+                <li class="nav-header">Instructor Info:</li>
+                <!--<li class="active"><a href="#">Link</a></li>-->
+                <li><strong>Firstname:</strong> <%= @newhire.first_name %> </li>
+                <li><strong>Lastname:</strong> <%= @newhire.last_name %></li>
+                
+
+              </ul>
+            </div><!--/.well -->
+      </div>
+      <div class="span9">
+        <%= form_for(@newhirecredential) do |c| %>
+        <%= hidden_field_tag :newhire_id, params[:newhire_id] %>
+        <%= hidden_field_tag :course_id, params[:course_id] %>
+        <fieldset class="round">
+                <legend>Instructor Credentials:</legend>
+                <br><strong>The instructor is credentialed to teach:</strong><br>
+               
+                            <% @qualificationreasons.each do |qr| %>
+                                <br><%= radio_button_tag  'newhirecredential[qualificationreason_id]',  qr.id, @newhirecredential.qualificationreason_id == qr.id %>
+                                  <%=  qr.name.humanize %>
+                            <% end %> 
+                      <br />
+                      <br />
+                       <p>
+                      <div class="control-group">
+                      <strong>Major:</strong><br>
+                         <%= c.text_field :major %>      
+                         <div class="help-block"></div>      
+                      </div>
+                      </p>
+                      <p>
+                      <strong>Explanation of instructor's qualifications:</strong><br>
+                           <%= c.text_area :qualification_explanation, :class => 'ckeditor' %>          
+                      </p>
+                      <p>
+                       Click <%= c.submit "Save & Continue", :class => 'btn btn-small btn-primary' %> to finish this section and continue precredentialing.
+
+                      </p>
+                 
+          </fieldset>
+          <% end %>
+      </div>
+
+
+  </div>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+  
+    jQuery('.edit_newhirecredential').validate(
+       {
+        rules: {
+          "newhirecredential[major]": {
+            required: true
+          }
+        },
+         messages: {
+         "newhirecredential[major]": "Please enter a major",
+          
+        },  
+          highlight: function (element, errorClass, validClass) {
+               $(element).closest('.control-group').removeClass('success').addClass('error');
+          },
+          unhighlight: function (element, errorClass, validClass) {
+              $(element).closest('.control-group').removeClass('error').addClass('success');
+          },
+          success: function (label) {
+              $(label).closest('form').find('.valid').removeClass("invalid");
+          },
+          errorPlacement: function (error, element) {
+              element.closest('.control-group').find('.help-block').html(error.text());
+          }
+       });
+ 
+});
+</script>

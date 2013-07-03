@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/xitracs/!svn/ver/246/trunk/xitracs_roster/app/views/layouts
+END
+application.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xitracs/!svn/ver/200/trunk/xitracs_roster/app/views/layouts/application.html.erb
+END
+_header.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xitracs/!svn/ver/246/trunk/xitracs_roster/app/views/layouts/_header.html.erb
+END
+simple.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xitracs/!svn/ver/200/trunk/xitracs_roster/app/views/layouts/simple.html.erb
+END
+_stylesheets.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xitracs/!svn/ver/68/trunk/xitracs_roster/app/views/layouts/_stylesheets.html.erb
+END
+_show_flash.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/app/views/layouts/_show_flash.html.erb
+END
+_footer.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xitracs/!svn/ver/163/trunk/xitracs_roster/app/views/layouts/_footer.html.erb
+END

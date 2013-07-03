@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/xitracs/!svn/ver/278/trunk/xitracs_roster/app/views/wizard
+END
+process_justification_comments.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/xitracs/!svn/ver/271/trunk/xitracs_roster/app/views/wizard/process_justification_comments.html.erb
+END
+process_justification_done.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/xitracs/!svn/ver/271/trunk/xitracs_roster/app/views/wizard/process_justification_done.html.erb
+END
+_review_results.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/xitracs/!svn/ver/271/trunk/xitracs_roster/app/views/wizard/_review_results.html.erb
+END
+justify_course_for.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/xitracs/!svn/ver/269/trunk/xitracs_roster/app/views/wizard/justify_course_for.html.erb
+END
+_reason_basic.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/xitracs/!svn/ver/271/trunk/xitracs_roster/app/views/wizard/_reason_basic.html.erb
+END
+process_justification_exception.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/xitracs/!svn/ver/271/trunk/xitracs_roster/app/views/wizard/process_justification_exception.html.erb
+END
+_school_status.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/xitracs/!svn/ver/134/trunk/xitracs_roster/app/views/wizard/_school_status.html.erb
+END
+show_courses_for.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/xitracs/!svn/ver/278/trunk/xitracs_roster/app/views/wizard/show_courses_for.html.erb
+END
+_reason_details.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/xitracs/!svn/ver/212/trunk/xitracs_roster/app/views/wizard/_reason_details.html.erb
+END
+process_justification_coursework.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/xitracs/!svn/ver/271/trunk/xitracs_roster/app/views/wizard/process_justification_coursework.html.erb
+END
+_color_codes_status.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xitracs/!svn/ver/128/trunk/xitracs_roster/app/views/wizard/_color_codes_status.html.erb
+END
+_existing_comments.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/xitracs/!svn/ver/190/trunk/xitracs_roster/app/views/wizard/_existing_comments.html.erb
+END
+course.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/app/views/wizard/course.html.erb
+END
+approve_course_done.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/views/wizard/approve_course_done.html.erb
+END
+approve_course_for.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/xitracs/!svn/ver/248/trunk/xitracs_roster/app/views/wizard/approve_course_for.html.erb
+END
+department.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xitracs/!svn/ver/129/trunk/xitracs_roster/app/views/wizard/department.html.erb
+END
+faculty.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xitracs/!svn/ver/278/trunk/xitracs_roster/app/views/wizard/faculty.html.erb
+END
+_faculty_and_course.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xitracs/!svn/ver/189/trunk/xitracs_roster/app/views/wizard/_faculty_and_course.html.erb
+END
+_faculty_details.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/xitracs/!svn/ver/134/trunk/xitracs_roster/app/views/wizard/_faculty_details.html.erb
+END
+_color_codes_review.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xitracs/!svn/ver/128/trunk/xitracs_roster/app/views/wizard/_color_codes_review.html.erb
+END
+process_justification_deansignoff.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/xitracs/!svn/ver/271/trunk/xitracs_roster/app/views/wizard/process_justification_deansignoff.html.erb
+END
+show_course_summary.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/xitracs/!svn/ver/200/trunk/xitracs_roster/app/views/wizard/show_course_summary.html.erb
+END

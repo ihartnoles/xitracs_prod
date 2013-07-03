@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/test/unit/helpers
+END
+qualificationawards_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/qualificationawards_helper_test.rb
+END
+tenurestatuses_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/tenurestatuses_helper_test.rb
+END
+titles_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/titles_helper_test.rb
+END
+keyvalues_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/keyvalues_helper_test.rb
+END
+schools_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/schools_helper_test.rb
+END
+qualifications_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/qualifications_helper_test.rb
+END
+ranks_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/ranks_helper_test.rb
+END
+groups_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/test/unit/helpers/groups_helper_test.rb
+END
+faculties_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/faculties_helper_test.rb
+END
+sectioncredentials_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/sectioncredentials_helper_test.rb
+END
+qualificationreasons_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/xitracs/!svn/ver/46/trunk/xitracs_roster/test/unit/helpers/qualificationreasons_helper_test.rb
+END
+courses_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/courses_helper_test.rb
+END
+facultycredentials_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/facultycredentials_helper_test.rb
+END
+employmentstatuses_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/employmentstatuses_helper_test.rb
+END
+departments_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/departments_helper_test.rb
+END
+sections_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/sections_helper_test.rb
+END
+sectionenrollments_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/xitracs/!svn/ver/41/trunk/xitracs_roster/test/unit/helpers/sectionenrollments_helper_test.rb
+END

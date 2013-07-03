@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/views/donesemesters
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/views/donesemesters/show.html.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/views/donesemesters/_form.html.erb
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/views/donesemesters/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/views/donesemesters/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xitracs/!svn/ver/119/trunk/xitracs_roster/app/views/donesemesters/new.html.erb
+END
