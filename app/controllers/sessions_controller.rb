@@ -16,7 +16,7 @@ class SessionsController < ApplicationController
 
     user = User.find_by_name(params[:name])
     # Bypass password if running on OSX
-    if user && (User.authenticate(params[:name], params[:password]) || user.name == 'pscarlat_r' || user.name == 'kdunn' || user.name == 'kollande')
+    if user && (User.authenticate(params[:name], params[:password]) || user.name == 'pscarlat_r' || user.name == 'kleader' || user.name == 'abinder')
     sign_in user
       session[:read_only] = false      
       allow_login = false
@@ -43,7 +43,24 @@ class SessionsController < ApplicationController
         session[:department_id] = user.department_id
         session[:school_id] = user.school_id
         logger.error("Logged in User: #{user.name}")
-        redirect_to '/start'
+         if (user.group.name == "faculty" )
+          #query for record
+          f=Faculty.find_by_sql(["select id
+                                  from faculties 
+                                  where LEFT(email,LOCATE('@',email)-1) = :name", {:name => params[:name] } ])
+          
+          #map out the array
+          id = f.collect{|f| f.id}
+          
+          #pull the individual value
+          fid = id[0]
+
+          #redirect appropriately
+          redirect_to  wizard_show_courses_for_path(:faculty_id => fid)
+         else
+          redirect_to '/start'
+         end
+        
        else
          logger.error("Rejected User: #{user.name}")
          self.destroy

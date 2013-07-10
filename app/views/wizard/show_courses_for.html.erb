@@ -3,6 +3,9 @@
 <%= render 'wizard/faculty_details'%>
 
 <br/>
+
+
+<% if @courses.count > 0 %>
 <%= paginate @courses %>
 <table class="no-zebra box round">
 	<tr>
@@ -79,6 +82,15 @@
 	  </tr>
 	<% end %>
 </table>
+<% else %>
+	<div class="info round" align="center">
+	  INSTRUCTOR IS NOT ASSIGNED TO COURSES 
+	  <% if !session[:semester_id].nil? %>
+	  	FOR <%=  Semester.find(session[:semester_id]).name.upcase  %>
+	  <% end %>	
+	</div>
+	<br>
+<% end %>
 
 <%= link_to "Return to My Faculty", '/wizard/faculty', :class => 'xbutton'%>
 
