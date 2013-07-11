@@ -177,7 +177,9 @@
 	
 	
 
-<%= javascript_tag do %>
+<%#= javascript_tag do %>
+<script type="text/javascript">
+//<![CDATA[
 $(document).ready(function(){
 	
 		$('#example').dataTable();
@@ -202,15 +204,12 @@ $(document).ready(function(){
 			  //reload
 			  //location.reload();
 
-			  setTimeout( function () { 
-        
-						location.reload(true);
-
-				       
-				    }, 100 // milliseconds delay
-				);
-	      });
-     
+			  //setTimeout( function () { document.location.reload(true); }, 0 ); });
+ 			   
+ 			   document.location.reload(true);
+     		
+     		});
       
 });
-<% end %>
+</script>
+<%# end %>
