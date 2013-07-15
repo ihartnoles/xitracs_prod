@@ -10,7 +10,7 @@ module ApplicationHelper
   end
   
   def logo
-    image_tag("fau.png", alt: "FAU", class: "round")
+    image_tag("fau.png", alt: "FAU", class: "logo")
   end
   
   def ncurses_bold

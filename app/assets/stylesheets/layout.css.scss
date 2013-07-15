@@ -72,6 +72,8 @@ nav {
         &:hover {
           text-decoration: underline;
         }
+
+
       }
     }
   }
@@ -97,9 +99,8 @@ a.begin_button {
 .round {
   -moz-border-radius:    10px;
   -webkit-border-radius: 10px;
-  border-radius:         10px;
+  border-radius:         10px; 
 }
-
 
 footer {
   text-align: center;

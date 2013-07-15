@@ -26,8 +26,16 @@ a {
     color: #666; }
   &:hover {
     color: #fff;
-    background-color: #000; } }
+    background-color: #000;} 
+ }
 
+.container{height: 100px;width:100%;}
+
+.logo {float:left;}
+
+.logo a:hover { background-color: transparent; text-decoration: none;}
+
+.menu {float:right;}
 
 div {
   &.field, &.actions {

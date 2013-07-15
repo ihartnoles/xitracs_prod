@@ -16,7 +16,7 @@ class SessionsController < ApplicationController
 
     user = User.find_by_name(params[:name])
     # Bypass password if running on OSX
-    if user && (User.authenticate(params[:name], params[:password]) || user.name == 'pscarlat_r' || user.name == 'kleader' || user.name == 'abinder')
+    if user && (User.authenticate(params[:name], params[:password]) || user.name == 'pscarlat_r' || user.name == 'mwalsh8' || user.name == 'rzoeller')
     sign_in user
       session[:read_only] = false      
       allow_login = false

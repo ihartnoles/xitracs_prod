@@ -177,9 +177,7 @@
 	
 	
 
-<%#= javascript_tag do %>
-<script type="text/javascript">
-//<![CDATA[
+<%= javascript_tag do %>
 $(document).ready(function(){
 	
 		$('#example').dataTable();
@@ -198,7 +196,9 @@ $(document).ready(function(){
 			  for (i = 0; i < allVals.length; ++i) {
 			   $.post(
 			      '/newhires/assign_to', 
-			      {id:allVals[i], assigned_to:$('#send_to_notify').val()});
+			      {id:allVals[i], assigned_to:$('#send_to_notify').val()},
+			      function() {window.location.reload();}
+			      );
 	           } 
 			  
 			  //reload
@@ -206,10 +206,9 @@ $(document).ready(function(){
 
 			  //setTimeout( function () { document.location.reload(true); }, 0 ); });
  			   
- 			   document.location.reload(true);
+ 			   //document.location.reload(true);
      		
      		});
       
 });
-</script>
-<%# end %>
+<% end %>
