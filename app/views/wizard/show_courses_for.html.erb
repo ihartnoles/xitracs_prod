@@ -92,8 +92,9 @@
 	<br>
 <% end %>
 
-<%= link_to "Return to My Faculty", '/wizard/faculty', :class => 'xbutton'%>
-
+<% if current_user.group.name != 'faculty' %>
+	<%= link_to "Return to My Faculty", '/wizard/faculty', :class => 'xbutton'%>
+<% end %>
 
 <%= javascript_tag do %>
 jQuery(document).ready(function(){

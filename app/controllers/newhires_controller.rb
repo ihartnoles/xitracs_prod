@@ -214,7 +214,30 @@ class NewhiresController < ApplicationController
       
        #@newhires_without_course = Newhire.where(:department_id => session[:department_id] , :semester_id => session[:semester_id] )
 
-       #ASSIGNED TO CHAIRS/AUTHORIZED USERS
+      if (params[:atm])
+      #ASSIGNED TO CHAIRS/AUTHORIZED USERS
+       @newhires = Newhire.find_by_sql(["SELECT
+                                                  nh.id
+                                                , nh.first_name
+                                                , nh.middle_name
+                                                , nh.last_name
+                                                , nh.department_id
+                                                , nh.school_id
+                                                , nh.created_at
+                                                , nh.updated_at
+                                                , nhc.assigned_to
+                                                , nhc.id as course_id
+                                                , nhc.name
+                                                , nhc.final_approval
+                                                FROM
+                                                    newhires nh
+                                                    INNER JOIN newhirecourses nhc
+                                                        ON (nh.id = nhc.newhire_id)
+                                                 WHERE nhc.assigned_to = :cid
+                                                 AND nh.school_id = :schoolid
+                                                 AND nhc.semester_id = :sem_id", {:cid => current_user.id , :schoolid => session[:school_id] , :sem_id => session[:semester_id] } ])
+      else
+        #ASSIGNED TO CHAIRS/AUTHORIZED USERS
        @newhires =  Newhire.find_by_sql(["SELECT
                                                   nh.id
                                                 , nh.first_name
@@ -235,7 +258,7 @@ class NewhiresController < ApplicationController
                                                  WHERE 
                                                      nh.school_id = :schoolid
                                                  AND nhc.semester_id = :sem_id", {:schoolid => session[:school_id] , :sem_id => session[:semester_id] } ])
-      
+      end
       #if newhire record count == 0 then query assignments from newhires only
 
     end
