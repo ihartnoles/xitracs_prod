@@ -68,7 +68,7 @@ class NewhirecoursesController < ApplicationController
             	@newhirecourse = Newhirecourse.new(:name => params[:course_name], 
                                                  :title => params[:course_title], 
                                                  :description => params[:course_description], 
-                                                 :semester_id => session[:semester_id],
+                                                 :semester_id => nil,
                                                  :newhire_id => params[:newhire_id],
                                                  :assigned_to => current_user.id)
     		

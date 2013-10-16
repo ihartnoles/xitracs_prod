@@ -1,3 +1,12 @@
+<div id="page">
+  <% if flash[:alert] %>
+    <p class="error"><%= flash[:alert] %></p>
+  <% end %>
+  <% if flash[:notice] %>
+    <p class="notice"><%= flash[:notice] %></p>
+  <% end %>
+</div>
+
 <fieldset class="round">
 
 <p>
@@ -32,9 +41,19 @@
 	  <%= select_tag 'section_id', options_from_collection_for_select(@sections, 'section_id', 'name')%><br>
 	  <%= hidden_field_tag 'course_id', params[:course_id] %>
 	  <%= hidden_field_tag 'znumber', params[:znumber] %>
-	  <%= f.file_field :filename %>
-	  <%= f.submit "Upload" %>
+	  <%= f.file_field :filename %>		  
+	  <%= f.submit "Upload" , :id => "upload_button" %>
 	<% end %>
 
 </p>	
 </fieldset>
+
+<script>
+	$("#upload_button").click(function (e){
+           
+            if ( $("#file_upload_filename").val() == "" ){
+            	 e.preventDefault();
+            	alert('Please choose a file to upload');
+            } 
+      });
+</script>

@@ -22,14 +22,15 @@
 											FROM sectionenrollments
 											  INNER JOIN sections
 											    ON sectionenrollments.section_id = sections.id
-											WHERE sectionenrollments.section_id IN (:section_ids) AND faculty_id = :fid", {:section_ids => t_section_ids_subset  , :fid => @faculty.id } ]) %>
+											WHERE sectionenrollments.section_id IN (:section_ids) AND faculty_id = :fid AND semester_id = :sid", {:section_ids => t_section_ids_subset  , :fid => @faculty.id, :sid => session[:semester_id] } ]) %>
 
   		
 
 	 
-	<%= form_for :file_upload, :url => coursedocuments_file_download_path ,  method: "get", :html => {:multipart => true} do |f| %>
+	<%= form_for :file_download, :url => coursedocuments_file_download_path ,  method: "get", :html => {:multipart => true} do |f| %>
 
-	  <%= select_tag 'section_id', options_from_collection_for_select(@sections, 'section_id', 'name')%><br>
+	  <%= select_tag 'section_id', options_from_collection_for_select(@sections, 'section_id', 'name')%>
+	  <%#= select_tag 'section_name', options_from_collection_for_select(@sections, 'name', 'name')%><br>
 	  <%= hidden_field_tag 'course_id', params[:course_id] %>
 	  <%= hidden_field_tag 'znumber', params[:znumber] %>
 	  <%= f.submit "Download Now" %>

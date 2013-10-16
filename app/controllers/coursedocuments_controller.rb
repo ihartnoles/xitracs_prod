@@ -87,16 +87,16 @@ class CoursedocumentsController < ApplicationController
   def file_download
      #download = Coursedocument.find(params[:doc_id])
      facultyid    = Faculty.find_by_znumber(params[:znumber]).id
-     download     = Coursedocument.where(:course_id => params[:course_id], :semester_id => session[:semester_id], :section_id =>params[:section_id], :faculty_id => facultyid).map { |row| row.location }.join(",")
+     download    = Coursedocument.where(:course_id => params[:course_id], :semester_id => session[:semester_id], :section_id =>params[:section_id], :faculty_id => facultyid).map { |row| row.location }.join(",")
+     #download.gsub!(/[^0-9A-Za-z.\-]/, '_')
+     
+    if download.blank?
+      flash[:notice] = "The file you are trying to download has not been uploaded or is not available"
+      redirect_to download_dialog_path
+    else
+      send_file("#{download}")
+    end
     
-
-     #send_file("#{Rails.root}/public/data/John_Jimmy_9/transcript/LoremIpsum.txt")
-
-     #send_file("#{Rails.root}/#{download.location}")
-     send_file("#{download}")
-     #send_file("/public/data/course_syllabi/course_60/section_22272/Locke_Stephen/Syllabus.txt")
-
-     #render :layout => false
   end
 
 end

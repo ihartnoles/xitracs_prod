@@ -1,7 +1,7 @@
 class Department < ActiveRecord::Base
 	attr_accessible :name
 	
-    validates :name, :uniqueness => { :case_sensitive => false } 
+  validates :name, :uniqueness => { :case_sensitive => false } 
 
 	belongs_to :school
 	has_many :faculties
@@ -13,7 +13,8 @@ class Department < ActiveRecord::Base
    "#{self.name} (#{self.school.name})"
   end
 
-  def count_by_dept(department_id, semester_id)
+  #def count_by_dept(department_id, semester_id)
+  def count_by_dept(department_id)
   	#newhires_by_dept_count = Newhire.where(:department_id => department_id, :semester_id => semester_id).count
     newhires_by_dept_count = Newhire.find_by_sql([' SELECT DISTINCT
                                 newhirecourses.id                            
@@ -23,7 +24,7 @@ class Department < ActiveRecord::Base
                                         ON (newhires.id = newhirecourses.newhire_id)
 
                                 WHERE newhires.department_id = :did 
-                                AND newhires.semester_id = :sem_id ;', {:did => department_id, :sem_id => semester_id }]).count
+                                AND 0=0;', {:did => department_id }]).count
 
 
   	if newhires_by_dept_count > 0
@@ -34,8 +35,8 @@ class Department < ActiveRecord::Base
   	end 
   end 
 
-  def not_completed(department_id, semester_id)
-    
+  #def not_completed(department_id, semester_id)
+    def not_completed(department_id)
       notcompleted = Newhirecourse.find_by_sql([' SELECT DISTINCT
                                 newhirecourses.id                            
                                 FROM
@@ -44,8 +45,8 @@ class Department < ActiveRecord::Base
                                         ON (newhires.id = newhirecourses.newhire_id)
 
                                 WHERE newhires.department_id = :did 
-                                AND newhires.semester_id = :sem_id
-                                AND newhirecourses.final_approval = 0 ;', {:did => department_id, :sem_id => semester_id }]).count
+                                AND 0=0
+                                AND newhirecourses.final_approval = 0 ;', {:did => department_id }]).count
 
       if notcompleted == 0
         message = "No courses to review"
@@ -64,8 +65,8 @@ class Department < ActiveRecord::Base
 
     end
 
-    def assigned_to_me(department_id, semester_id, current_user_id)
-         
+    #def assigned_to_me(department_id, semester_id, current_user_id)
+    def assigned_to_me(department_id, current_user_id)
         assigned_to_me = Newhirecourse.find_by_sql(['SELECT DISTINCT
                                                                 nh.id 
 
@@ -75,8 +76,8 @@ class Department < ActiveRecord::Base
                                                                 ON (nh.id = nhc.newhire_id)
                                                           
                                                       WHERE nh.department_id = :did 
-                                                        AND nh.semester_id = :sem_id
-                                                        AND nhc.assigned_to = :cu_id ;', {:did => department_id, :sem_id => semester_id, :cu_id => current_user_id }]).count
+                                                        AND 0=0
+                                                        AND nhc.assigned_to = :cu_id ;', {:did => department_id, :cu_id => current_user_id }]).count
 
         if assigned_to_me == 0
           message = "None assigned to me"

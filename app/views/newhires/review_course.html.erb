@@ -160,7 +160,7 @@
             <br>
              <h4 > 
 
-               <%if  @newhire_course_to_review.assigned_to == current_user.id %>
+               <%if  @newhire_course_to_review.assigned_to == current_user.id || current_user.name == 'ihartstein' || current_user.name == 'mwalsh8' %>
                     <% if !@review_team.include?(current_user.name) %>
                       <%= link_to image_tag('/assets/Add_16x16.png'), 
                                   {:controller => 'newhiredocuments', 

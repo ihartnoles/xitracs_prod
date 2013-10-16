@@ -1,2163 +1,2170 @@
-User.create :name => 'aalo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aabbate', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'babernat', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'yabraha', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aabraha7', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'iabrams1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gabrams', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fabt', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'abtahi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aabusha', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pacharya', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tacharya', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cachary1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jacton2', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ladamo', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'madams39', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'padams4', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'radams', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'radams22', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jadamsk1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kadda', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'radikara', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vadzic', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aagapova', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aagarwa2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'agganis', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 31, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jagonis', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sahson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'zalam', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'malbrit1', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'salex', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 27, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dalexa27', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'alhalabi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'saliapou', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aalkazi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'iallgood', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'galmeid3', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'malmont3', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ofurnica', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eambris', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mondesir', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bamendolace', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bferoz', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'amirault', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'panantha', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pande', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sjohn210', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bander44', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mander80', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ppearce', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eando', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jandrew', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 31, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aandre22', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gangervil2012', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'janstis1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'capter', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'maquino1', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'naraos', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'larboled', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jarcher7', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'archibal', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ckimbrel', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nariassu', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aarikan', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eariza', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'barnekle', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'marney', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'arockias', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'batkins5', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tatkins', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'latkins3', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'catkinso', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ratlas', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hatwell1', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eatzberg', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jauerba2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bauglier', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'augustyn', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'baugust6', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'caults', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'laverill', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'baxe', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'caydin', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aaylward', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kayyanat', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aazzarol', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'babbar', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fbabrove', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'obabun', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'abacala', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ahassan1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mbaez', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bagby', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mbakode', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jbaldet', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jbaldwin', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wballard', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jbamdas1', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'banchett', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 12, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kbanerje', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ebarenho', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jbargste', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'zbarney', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sbarnhar', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'abaronro', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dlowell', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'barrette', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bbarrios', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cbarry', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'abarsky', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jbarto12', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lbartram', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mehran', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dbattist', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jbattist', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dbauer9', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lbauman3', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dbaummer', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'baxley', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dbeaudry', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pbeaujea', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bebergal', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pbebko', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bthomp30', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bbedell1', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 39, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cbeetle', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rbehara', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rbelsito', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ebemmel', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'benzadok', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rbenasay', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ybeniluz', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bwarrick', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fbennard', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tbenne17', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 37, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ebennett', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bennetts', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cbennice', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bbenscot', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lbentley', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mberber', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nbergan1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aberger', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 9, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'abergma1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eberlats', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fbernar1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 52, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bernardi', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pbernet', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tbernhar', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tbernie1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cberry11', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'berry', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bertolin', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'berzok', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ybhagwan', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sbidmead', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jbilot', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'abinder', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jbirch5', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jbird4', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hbishara', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mbishop7', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cbtemple', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mbiswal', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 46, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dbjorklu', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bbjorklu', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dblack13', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kblack1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dblackbu', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fblackm1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sblakemo', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rblanco1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rhblanks', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dblasco1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gblattne', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kblock5', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fbloetsc', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gbreary', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mblue1', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cblum', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'boberw', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mbocco', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cboerum', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ibogotch', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lbolters', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nbonsant', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bbooton', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eberenb1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mborgen1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'borgiac', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'yboryshchak2012', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wbosshar', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rbotta', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kboundy', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sboxerma', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mboyd', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cboyle5', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rbozzetto2009', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'abradfo5', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lbradle6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kbrady9', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'branaman', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'branchm', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pbrannon', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kbrazend', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sbreman', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mbrennen', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'breslow', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tbresnah', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pbressle', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bressler', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ebrewer2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kbridwel', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mbright3', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gbrigman', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'broadfie', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 3, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'abroderi', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lbrogan1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cbrook20', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wbrooks', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'brooksc', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'brownl', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mbrown', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ctbrown', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 3, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sbrow118', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sbrow200', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sbrown75', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sbrown', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nbrown29', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'slbrown', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 3, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ebrown59', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vbrown22', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gbrown57', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hbrown1', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cbode1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lbruce5', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mbruckne', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mbrunin1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bryan', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pbucak', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ibuckley', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sbuckne2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'obuckton', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mbudd', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cbuddhal', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pbudhath', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kbuffing', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cbuhrman', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rbuitrag', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ebuksbau', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sbulfin', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dbulj', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lbullard', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jbullman', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'burgang', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dburgos2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kburke19', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jburnham', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bburns7', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aburruss', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wburton', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gbushong', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cbutler', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vbyaruha', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gbyng', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dcaban1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cabralr', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cabrerac', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcadette', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cafolla', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcahill9', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'caig', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ccalarge', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcaldie1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lcalhou1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dcamargo', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcameron', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 3, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'acamilie', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rcamire', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'campbell', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ccaneteq', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 40, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lcanning', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lcanteri', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kcao1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'qcao1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcao', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'scaplan4', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcaputi', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcaputi', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ccaputo2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pcarabel', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kcaravel', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'icardei', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcardei', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dcardena', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gcarlin1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'scarlino', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'scarlis3', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'carlsson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dcarls', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rcarlto3', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcarmign', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'carraher', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gcarreno', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcarson9', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcarson5', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'carter', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcarus11', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ghamzal', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ecarval3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dcaseyp', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcassagn', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 40, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rcastel5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'scastro', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'castrogi', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'scato1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tcatto', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pcava', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'acavaret', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rcelesti', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fcerabin', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cerveny', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cervenyj', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hchada', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kchadwel', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'achahars', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'achaintr', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'schakra1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dchamely', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cchandr1', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fchang1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'scharbo1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bcharl14', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dchauss', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 25, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tchavez', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ychavezcappellin', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dchen', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'qchen4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ycheng4', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pcheng', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'alee25', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tchesnes', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ehorton2', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cchiang1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'chiang', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lchiangh', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pchin', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'chinnp', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jchinn', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ichira', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jchoi3', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rchoy', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gchrista', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gchrist5', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mchris30', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kchung', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rciraldo', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rclemen2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rclemon2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sarah', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ncoady', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcoffma2', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcogualo', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pcohen', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lcohen25', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tcolema2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'acolic', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wcollins', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wcolli14', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ccolli32', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcolmena', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'xcomas', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fcone1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cconley8', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fconrod', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'conte', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cooke', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcooley2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cooperr', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dcoope26', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcoope49', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcoope54', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pcoope11', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kcopela4', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dcopher', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcorbet1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hcordoba', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pcornett', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rcorr', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pcosme1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tcostale', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rcoulson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gcowart', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcowden', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcox13', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kcox24', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcoy', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ncrane3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'crawley', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lcribbs1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcrider', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ncrilly', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcrimmi1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mgarc112', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lcross', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lcrowle', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cruzjanz', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cruz', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ecruz4', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cunningh', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rcunnin4', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcunning', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'acunningham', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ocuret', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wcurless', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ccurley1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcurran3', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'acurt', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcusick1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jcutrone', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pdanjou', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sdagbovi', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dahmus', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'adahnke', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'daled', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rdalleo', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'danesh', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 27, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aherold', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jdanois', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tdarden', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sdarlin4', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'darlingt', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'edasilv2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ldassa', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cdavenp3', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 3, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'david', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mdavid20', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jdavis3', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pdaviscu', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mdavi105', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wdaviso2', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jdawson7', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kdawsons', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'degroff', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fdelat1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ddelill', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'derosa', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bstcroix', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kdestef', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gdestopp', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mdetolli', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nwdean', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 52, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mdee1', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ddefalc1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ddefronz', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mdelolmo', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vdelsig', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ddelay', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'edeluca1', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mdengle1', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kdenmon', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bdeptula', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jderby1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lderigne', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sderisi', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rderoche', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kdetwile', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 3, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'adevesa', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ddevlin', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dhanak', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rdheer', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mdigrego', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kdilore1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tdial', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ddiamon1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cdiaz', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vdiaz13', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jdicicco', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mdicosol', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mdicowde', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sdiggs', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sdirghan', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pdisinge', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ddittman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'adobrin', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sdodel', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mdolfman', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vdollard', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'doney', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cdong2', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jdonohue', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rdooner', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bdoozan', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sdorchin', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cdorka', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ndorn1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vdragojl', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 52, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rdrouin', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ddrucke1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ddu', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mduffy', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cdukes', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'edumbaug', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rdunbar', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cdunlea', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ddunn10', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bdunne1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ldunphy', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ldupont', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'uwechue', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jdurr1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'adutton1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kchinand', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sdyess', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jearles', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eason', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'meaton7', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vebert', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eckardt', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sedge4', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tedwar20', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'teggenbe', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rehrlic1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cehrlich', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'meiland', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'teisenba', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'elishako', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lsmith84', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kellis15', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aelliso2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mellison', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'relwell', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cely', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'embree', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 12, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jengle7', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'engle', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jenyart', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mepstein2012', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bepstei3', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aergood', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'berkan', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mescaler', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aescuder', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nesiobu', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aesnard', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nestes', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gestrada', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eetherid', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aevans26', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'evansa', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cevans35', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mevans32', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bewan1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lewing1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ifadil', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mfadiman', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lfaerman', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rfaid', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tfairba2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sfaircl3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'afaivus', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jfalcon2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sfalcon7', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'faraci', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'afarazma', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cfarinel', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pfarnsw1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'afarokhn', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wfaulds', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 4, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'faulkner', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lfeidelm', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jfeigenheimer', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rfeinbe5', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bfeingol', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rfeinma1', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fejes', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'felipe', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cfeneck', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'afergus8', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rdfergus', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 52, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sferna23', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jferna56', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tfernand', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 37, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fernande', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kferran', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ferrante', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dferrer7', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'afetter1', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jfewkes', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fieldsg', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ofiguer3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mbang', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jfilina', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tfill', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tfinamor', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jfinch5', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cfinkel', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cfinkl', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sfishe16', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pfishma1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lfitzpat', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dfitzp11', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mflaks', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lfleck', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lfleisch', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pfleitas', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sfleming', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mflore15', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dfloyd', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sfolden', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jfoley12', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mfontai5', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ford', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lford9', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jford1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jforgan', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'afoste17', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pfox3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rfrabizi', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mfrain', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nfrance', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tfrank3', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mfranz2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'afranzon', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'afraser', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'efrazier', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'afrede11', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 40, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'efreedma', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jfreela3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rfreund1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lfriar', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 55, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'friedber', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kfriedm6', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bfries', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 27, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gfrisk', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fritzer', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'frizzell', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tfrost3', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'afuchs', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dfuente1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jfurner', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sfutej', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ggaffney', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgalin', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lgalipau', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dgallant', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hkarunar', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sgalup', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gamble', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ygamboa', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgammack', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bganson', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ngao', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wgao', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gaonkar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgarci43', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rgarci45', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 25, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'garciaa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 37, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lgarciaf', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rgarcianieves', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kgarland', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgarrid3', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mgauci', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dgawlik', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'agaze', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gazouria', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 37, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgebhar1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'equinn3', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ijgelb', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dgerdes', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gerdesm', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bgerrard', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kgersie', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'egerste1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bghebrem', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cghenai', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sghosh', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ughuman', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'giannett', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mgibert', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sgibso31', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lgibso15', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sgifford', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ggillard', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 52, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ggillenw', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'egilles1', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgimbel', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eginsbu2', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cgiribal', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgironda', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ggitlen', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pglass1', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sglazer', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sglegg', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mgleyzer2012', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'glynn', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 12, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'godensch', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mgodin', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ngodon', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ggoldbe6', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nluo', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgolde21', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'goldring', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sgoldste', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 52, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgolds22', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pgoldste', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rgoldwyn', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'egolinko', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tgollery', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgonz153', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'agonzale', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgoo', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgoodm32', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rgoodm10', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'goodrick', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ngoonen', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sgordo57', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgordo21', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ggorelik', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mgosseli', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gosser', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cgottipa', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rgould4', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 27, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cgould', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 12, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgraha22', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rgranata', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgranger', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cgrant17', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dgray26', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'egray17', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mgray16', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgrazios', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pgreen11', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'agreen12', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lgreen31', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'greenspa', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 4, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'egreenw1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rgreenw2', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cgregor5', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mgreif', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'agreine1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dgreist', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bgriff14', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mgrigeli', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sgrigori', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bgross5', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rgross1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jgrossm8', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vgrumme', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mguerre', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cguiller', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ggumus', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'guneratn', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gurses', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kgustely', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kguthrie', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'agutie32', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ggutting', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sguzman4', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jguzzone', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'chaberst', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ahaces', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mhackett', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'thagood', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lhahn', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dhain', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ehall', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ahall53', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dhall45', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 9, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mhall61', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ahallora', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lhamburg', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ehamlin', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dhammer2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'han', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jhand8', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jhandrin', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dhanisak', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ehanne', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lhansen5', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lhao1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jsader', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'whardma1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'phargra1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dhargro1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rharlin', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dharmon2', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mharrawo', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 40, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aharrin5', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dlharris', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lharri58', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jharri51', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hart', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mhart9', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rharthco', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ahartl', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jhartman', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mharve16', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'shashmi1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mhasler', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hhaupt1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'whawkins', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'shayden4', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dhayden', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ksmit141', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'headley', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 12, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eheckler', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nhedmark', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lheiser1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mhelbick', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ghelguer', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ghelo', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fhenao', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dharper9', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ahender8', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcarl', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'phenn', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'henrique', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 40, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lhenson2', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jhenson4', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'iherna15', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vherrer1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dherst', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ahertele', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dherzek', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dherzing', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jhess17', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 40, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'chess3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 27, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pheydet', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 31, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'chiatt', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'chickma2', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jhiggs', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mhinderl', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'thindle', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hinduja', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hinmanm', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'whinshaw', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'whnatysh', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ehobbie', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hockhs', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ehoff', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hoffman', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mhofmann', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mhogan14', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mhogan1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'thoim', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'khollow4', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mholman5', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'shong6', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'thonsber', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'chonsber', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'khooks', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'whoover1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 46, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ehopkin4', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hopwood', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vhormann', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'horstman', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ahotiu', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'phough2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hhousen', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lhowar20', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jhowar46', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hhsieh1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'xhuang', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 25, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'shihong', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dhuang', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'chuang5', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'thubbar4', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mhubertz', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'huchital', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bhudson5', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hughes', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'chughe', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dhummel', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rhurlbur', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'khurley', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mhurley6', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jhurtad2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hussainr', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bhutton', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'chutton2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mhyvarin', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eiaconis', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tievoli1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aiglesia', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jingles', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sippoli2', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'iragavar', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'airizar8', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cirving4', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cisgor', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kito', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aiudica', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mivey', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'giyer', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'piz', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jizagui2', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mjackovi', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ljackson', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lgil', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mjacomin', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kjakee', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rjakovich', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sjakubow', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jjakubow', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ajamiso5', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rjanes', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ljarvis4', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jjasin', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vjeanja', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'njeedima', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ajencik', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sjenki19', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jeromej', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kjesse', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kjett', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kjia', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'njimenez', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vjirsa', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bjoella', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'joella', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'johanson', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ljohns2', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mariajohnson', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rjohnson', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ajohn216', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ajohn164', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ijohnso9', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bjohns53', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jjohnson', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'johnsonv', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fourreau', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 52, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kjohns74', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kjolly', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ajonas', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'njones', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ijones', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vjones1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mjorda19', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jordanrg', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jjose107', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jurenas', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kaighoba', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cakain', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ckairys', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ekaisar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kajiura', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wkalies', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kalinich', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hkalva', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mkane10', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mkane', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dkania', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dkanter1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mkantoro', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'afkaplan', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jkapla22', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'akara', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mkarides', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dkasti', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hmille22', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vkathria', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'akats', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jkatz13', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jkaul', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kkayle', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kkeatin5', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'akeatin1', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pkeating', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'keaton', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ckeintz', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 27, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kkelleh1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kkeller', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wkelly13', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jkelso', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 46, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kennedyg', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wkenny1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'akersten', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bkhadka', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bkhajavi', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'akhalfao', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'skhalil6', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mkhan28', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'skhanal2', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dkhatiwa', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'khoshgof', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ekiley1', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mkilley', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dkim4', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cking14', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bking', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cking11', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'akintop1', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'akirchen', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 40, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mkirsch', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 3, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'okirshner', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kilpatri', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jkite2012', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'svkizlik', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aklemp2012', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rknight2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tknipp', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mkoch', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jkoerner', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ikofman', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mkohlbec', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ekolotog', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'korgaonk', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pkosinski', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lkosloff', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kossack', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rkoszali', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'akotlarc', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kkover1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dkraemer', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 12, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gkreymer', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jkrill', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'akryglowski', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jkrystel', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jkrzemie', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'skudumal', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'akulawik', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vkulic', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'skumar3', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nkumari', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bkundalk', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rkundalkar', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mkushne2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dkutal2012', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dkuykend', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rkvasnak', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'akyriaco', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'flacrone', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sladd3', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'slafleur', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nlaing2', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hlajoie', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lakofsky', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'llalwan1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jlambert', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ilamm', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'elandes1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jlandry7', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'klang10', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'blange', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'blangenb', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rlangloi', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lanning', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vlannon', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'blapoin1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'slapp', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'slaramo1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'elarge1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'larocque', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rlarson2', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'larsonj', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jlasala1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lasiter', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tlatour2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'alau', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'laursen', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rlavaria', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rlavend1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jlavetsk', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'llaviano', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlavigne', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlawles1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'alawlor', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlawrence', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wlawther', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kleader', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lleali', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lleavitt', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'slebowi1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dlee', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jlee106', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlee100', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'llee26', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlee52', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jleeds', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sleffle2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tleflour', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jleiner1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lleip', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tleistne', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jleit', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rleivers', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dlemeh', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 40, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlenagha', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lenartow', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aleon6', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rleon', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'slepore', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'llev', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'leventou', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dlevine', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'levow', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'elevy12', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'elevy3', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tlevy6', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'klewis18', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jlewis92', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 37, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lewkowic', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'slewkowi', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'blewter', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'slezeau', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gli', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'yli22', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'yli28', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'zli', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'slibrero', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 25, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'plicata1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jliddle1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlieberm', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pliehr', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lin', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'klindbec', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlinder2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jlindgre', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'slinley1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ilitvak', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'liug', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mliu5', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'yliu16', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hliu4', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hliu6', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mliu3', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 25, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlizotte', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 26, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'blloyd6', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'locsin', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mloehwin', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'blomer', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hlong', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rlong16', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlong22', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jlongo5', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'olopez8', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jlopez51', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'klopez26', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlopezto', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jlortie1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dlouda', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'blouda', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'alouise', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rloupus', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlovelac', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nlovell', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jlow', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bplowe', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jlowe', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jlozano1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 27, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'xlu1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ylu6', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlu3', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rlubarsk', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'elubonja', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nlucas7', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mlucrezi', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cludtke', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aluedke1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'olukacs', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'glukasik', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ndiaz10', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rluria', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 40, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'flyn1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'clynch13', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hlyons', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lkelley', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'emachado', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kmachluf', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cmack8', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wmacmanu', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pmadan', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmadani1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmadanog', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'maddoxk', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'maduraj', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'spyros', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smahade1', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dmaheady', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmaher8', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hmahfuz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mahgoubi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mbernal', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cmakowsk', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gmalcol1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smalinco', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cmalino1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'malmrose', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cmalone1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmammano', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'manage', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nmanasse', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nmancin1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cmancin5', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rmangan', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tmangle', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dmann4', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmansill', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tmaple', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'omarancy', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'marcelle', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 12, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bmarch1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmarcin2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kmareno', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmargol4', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mari', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmarian5', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'marinacc', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dmarion', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smarkwit', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rmarquar', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'omarques', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pmarrone', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmarshall', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'susanmartin', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tmartin', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'martinez', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pmarti32', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vmartine', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 3, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmarzell', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pmaslin', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmason32', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'masoryo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dmatth17', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'amay1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gmayer', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bmayi', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'imazar', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pmazzeo1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmcadams', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcafee', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rmccaffr', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmccarri', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pmccart5', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smcclai2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmcclel2', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smcclend', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmccoll2', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 25, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmcconn3', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cmccue', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcdaniel', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcdonoug', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcfarlan', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gmcgarri', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 3, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dmcgeough', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rmcgeoug', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dmcgetch', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmcgint2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wmcgove1', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'emcgreev', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 39, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cmcguirk', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dmchenry', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmcilroy', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmcint12', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rmcinto5', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cmcintyre', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rmckay3', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmclau17', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ewebb6', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kmcnair', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmcnama6', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcnultyj', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kmecom', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rmedina6', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'melissameek', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dmeeroff', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smehalli', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mehallis', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmejia8', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dmeldman', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rmelend3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmelita', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'meltzer', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tmena', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pmendels', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pmendon1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmendoza', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smenzel', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmenzie', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'merchant', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'messenge', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smessin1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'metcalf', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmetianu', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lmeyer1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'meyerowi', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmicha20', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmiche12', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'omidtbo', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmigdal', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmijares', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tmiksell', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'emillend', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'millers', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hmiller', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lmille62', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmill186', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmill196', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'emille27', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kmillike', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'milman', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smilton', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jminnerl', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'minney', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cmishra', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smitch21', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cmitch22', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dmitsova', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kmize1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mhipps1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmock2012', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bmoeller', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tmoeschl', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmoffa1', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smoffitt', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hmohamma', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nmohi1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmoise1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kmolinet', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmolzan', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmonestime', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dmonette', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'monsontc', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bmontal1', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sponte', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tmoore38', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmoore', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rmoore43', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kmoorhea', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smoosai', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lsalas2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jdmorris', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pmorriso', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmorton', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmoscate', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kgentry1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'moslemia', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gmount1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmountfo', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dmoura', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rmoyer3', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'muharema', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmulcah1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'amulder', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mullen', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bmulvane', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'amunchow', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smurient', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mmurph54', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cmurra30', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smurra21', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dmurtaug', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gmusgrov', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 31, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'musgrove', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rmusille', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jmuza', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tedwar12', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smysyk', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hnadeem', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jnadell', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ynails', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jnall2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jnambu', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rnarayan', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jnarkie1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cnash8', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vnaudot', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mnaumoff', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'neelakan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mneelak', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cneile', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 4, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cneuburg', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kneupane', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'anevin', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dnewma14', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lnewma10', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'newsome', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cnewstre', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'knewton5', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mnicho28', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cnicholas', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'znichola', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nicoll', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nliu', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'niederha', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'snieves3', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mniewcza', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 4, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'knitzky', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wnjambi', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'knobel', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'enoonbur', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'norman', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jnorton4', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mnourish', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bnowak', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 39, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nowak', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'knurtegi', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rcnyhan', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gocorryc', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wobrien', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 40, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mobrie29', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'koconnor', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eodonne5', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'joflanne', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'roshea', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'roddi', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sodland', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rdavis68', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dodwazny', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mokubo', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aoleinik', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'koliver', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'solson9', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aoner', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gopper', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'noquendo', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'orbach', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mordone3', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dortega4', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mcammarata', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nostrau', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 55, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tovathan', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dowen', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ooztan', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'npace', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ppacilli', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cpacini', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mpaderew', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gpalladino', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lpalma', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bpalmer7', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mpalomin', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cpan', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pandya', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'apappas6', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bparente', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bparham', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eparilla', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jpark14', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'parkanyi', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cparke19', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mparke31', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'parkerc', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'abassiel', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sparkin', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mparks9', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hparola', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mparra3', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gpate', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dpatel40', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eelio', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cpatient', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ppatter3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'patterso', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jpatton6', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gpaul7', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 52, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'revans17', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wpaull', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 26, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dpava', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mpavlovi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 37, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'spavlow', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'apaz1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kpeach1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gpederse', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lpeirce', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kpekala', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'spella', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jpeluso', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'penak', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mpendaku', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tpenholl', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pennathu', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ndorffp', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tpenneka', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dpenny', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vperiss', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bperlma4', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jperrau2', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'perrydg', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rpersin', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'epeters1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mpeter45', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mpeterso', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vpeterso', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rpetigrow', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dpetrela', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mpetresc', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kpetrich', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'petrie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 37, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'epettene', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'epetuch', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'carolelachs', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hpham9', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sphill19', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fpierr20', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jpierr68', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bpietrza', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ppina', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lpincus', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'apinkney', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rpinsker', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'npinson', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jpisapia', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jpiscite', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'epitting', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jpitzer', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'splace2', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'splacide', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eplatonas2012', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kplatt', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cplattne', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ploger', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kpolakit', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'npollack', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'apollich', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'spomponi', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dpoole3', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mpopejoy', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dpopova', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mporte26', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kposner', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rpotter', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'npoulson', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kpowel18', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jkizlik', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sprasad3', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'apremti', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hprentic', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kpresco2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fpresuel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jprice19', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eprier', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dpritcha', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pritchar', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'qpritcha', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dprochaska', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cproffit', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kprophe1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'prosperi', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mprovos2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cprusa', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'spuleo', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pullease', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cpumphre', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mpurnell', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ipyka', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lqian', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'qiu', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hqu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jquadroz', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'squatroc', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cquinn1', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mquinta1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nquintyn', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aquresh1', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 25, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rrabil', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'arader', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cradlaue', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rradtke4', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dradules', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aradulov', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'radulovi', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'praeburn', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sraffer1', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mraffo', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rrahill', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'crainyn', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'orakova', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rramasam', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mramir47', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dramlall', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'drampal', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aranck2012', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'arandal3', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rrandunu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mrappene', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ravivd', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dravo', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mray', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sray11', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rreardo5', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dreddy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fredman', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cereese', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'breidy', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'greifenb', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sreilly', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'areilly', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nreinfel', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'breinhar', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'areino', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aremp', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rrendon', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bresnic6', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'restrepo', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dreyes', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'erezler', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'grhineha', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'krhoads2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rhodd', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wrhodes', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'arhone', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'irice', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mrich5', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mrichar3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'brichey', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => '', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'richman', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'arichmo3', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mridge', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rriedel1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rrimming', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'srios1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nrita', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nritchie', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jritter2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rrivas1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wrivast', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lrobbin1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'crobe', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hrobert2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'krober16', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'probinso', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'arobin46', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'arobin65', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sroche2', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jrodr155', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mrodri50', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hrodri12', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'frodri16', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jrodrigu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mroger30', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nroger15', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'droger16', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lroger18', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mrojas10', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'drollins', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dromague', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dromais', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aroman11', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'romance', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 37, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'romeo', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nromero', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'srooney2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'uroopnarinesingh', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aroot', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'troot', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'erosas', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'grose', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mrose', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'msrose', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lrosen2012', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lrosent7', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bross18', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 4, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'drossow', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'srossow', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eroszkow', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rothz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mroth10', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'drottig', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'growland', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aroy9', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rrubin13', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'orudenko', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rruedad1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hruf', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aruiz9', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'oruiz2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eruiz4', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'drush1', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'crusse15', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jrussel4', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mrusse21', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mrusso10', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ruthenbe', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vruther1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rryan13', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eryan', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lshatara', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'esacks', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lsaffer', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'esafier', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sagher', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ssahay', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'msalaza5', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bsalgado', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'salivar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'salmon', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'msamaan', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vsamaras', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hboyer', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'asanch51', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'esanchez', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jsandel1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jsankara', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jsantan3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nsantane', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lsanti12', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rboba', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'asanty', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'msanua', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'asapat', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ssarkis2', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 26, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'msarseke', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sashic', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'saul', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 31, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'asawicki', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sscarle1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jscarpa1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bshaw1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cschaub', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dscheurl', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rschietz', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mschiff', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lschiff1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'amistrik', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dschimmel', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mschind2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dschlang', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mschmidm', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'schmidtk', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kschmit5', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'schmittt', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mschne22', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bschne14', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'schnidma', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sschoenh', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pschonan', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'schonbek', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tschoono', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dschoorm', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dschram', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wschreie', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rschulth', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mschwartz', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hschwart', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aschwa14', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jschwart', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'schwerin', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tsciclun', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cscodari', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'scott', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bscott21', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jscott', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mscroggi', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dsearcy', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'msedore', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bseeman', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rseiman', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dselch', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'psellers', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jselzer1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sementel', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tsempert', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 52, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ssenick', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tsennott', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ssense', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eser', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'iserra1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eserrao', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gseuling', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rshah15', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cshamon', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mshang1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'shankar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'msharma2', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mshaw', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'shaw', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cshaw12', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ashaw16', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fshaw3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hshaygan', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rshaykhu', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'csheen', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'msheffi3', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jsheffle', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eronan2', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cshelto2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wshen', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dshep', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'asher1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rsherm13', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rsherman', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dgreen', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'asherm10', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'yshibata', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sshier1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sshiflet', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jshilts', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'shimpeno', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kshockle', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'shorrock', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'oshukina', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'shuster1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 4, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cmoschel', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'siddiqui', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'csiemon', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gkenned5', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bsigler', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gsim', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bsimmo17', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 37, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'simonm', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 9, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gsinger', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'asingh6', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ssink', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'psipala', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vskinner', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mskolnik', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dslagle1', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mslavin2', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 39, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'slawekp', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aslusher', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'csmart2013', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smatraka', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'smiley', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aesmith', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 24, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'msmit303', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'msmith35', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nsmith54', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'esmith17', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ssmit318', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gsmith78', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tsmit158', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'esmith', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'snyder', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'asobczak', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 39, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ksobhan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'asolomo9', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'solomon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jsomers', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'abalroo1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jsorens8', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ksorge', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tsorgent', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lsoto7', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lsperry', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jsperry1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nspielma', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cspudeas', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rstackma', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mstamm', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'estanic', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tstanifo', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bstanle4', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'msteele7', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nstein', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 4, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jsteinf4', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rsteinwa', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gstepani', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wstephe5', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ssteph11', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'csterne', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'astevano', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'csteve23', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sstewa42', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'estewa10', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cstickle', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'stinchco', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bstinson', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'stockard', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dstone10', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sstorfer', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jstover', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cstrain', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pstraub', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mstraus1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tstrazis', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'astrosbe', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dstubbs2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'su', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'asuarezc', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'subrahma', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'csuhr1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gsui', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'csuits', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ssulli26', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tsun2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'asur', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'csurloff', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fsurvis', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dsutton', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mswans12', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lswanstr', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tswinder', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jsyersak', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'psymons', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'taal', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rtalasko', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jtalerico', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rtao', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rtappen', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ktarbet', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ctarkoe', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rtavakol', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vtayefeh', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'taylor', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jtaylo67', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jtaylo84', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ltaylor4', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rteegava', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dteetsel', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ttemkin', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'terentis', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jterneus', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'terry', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'terwilli', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kthapama', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ttheisen', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mtheveno', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mthitisa', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mthomp13', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tthomp59', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'merrar', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 52, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sthrush', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vthursto', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wolf', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ahanse10', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jtift', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ktiling', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mtillett', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'stiwari1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ktobias', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mtomei1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ltomlin5', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tondo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'swashin9', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ttoomer', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jtopinka', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ptorres7', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'etorrey', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'atoth2', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'stoth2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ttouhy', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kstansel', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jtowell2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ltownse3', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jftracy', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'trammell', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wtrapan1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mtrca', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ltreer', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ltrewick', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ttrittip', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'etrotter', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mtruitt', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tsaict', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ptsatsin', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'atsukuda', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mtsunoda', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'htuby', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jtuck', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wtucker4', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 39, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'trtucker', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jtufford', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 40, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'stuinhof', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'eturgeon', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jtylek', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'julin', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'munderhi', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ungvich', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'suo', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'iurbina', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'egabria1', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'snadler2', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'urquhart', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jvaldes7', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'valentin', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vallache', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'avanderiet', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kvanderiet', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cvander', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'svander1', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tvanepps', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vanhilst', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dvanpelt', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vantasse', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dvantreeck', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dvance', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'evandern', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kwiita', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jvanzwi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mvasque3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mvaugha3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'svaugha3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mvazquez', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 40, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hvelcy', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dvergara', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'evermiss', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lvernon', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 42, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rvertes', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 50, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'aviale', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dvienne', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'evillare', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'svince11', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jviola', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'visaggi', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'svishwas', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'avitale5', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jvivian', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nvolkov', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ellenrie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rspaldin', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jvos', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 58, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rvoss', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jvoss2', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kwagne15', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwahlbri', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jwaldro4', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'swaldro3', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bwalker', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwallese', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 6, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hwalsh1', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kwalsh14', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 13, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rwalte11', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fwalter1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'walters', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'awander', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwands', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'xwang11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'xwang14', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cwang10', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ywang', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'swang1', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'vwanza', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'warburto', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'bwarde', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gwardrop', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gwarren2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 22, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwarren4', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jwashin7', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwaterfi', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rwaters', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ewatling', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'twatson', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwayth', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cweave15', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwebb', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mwebel', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rweber', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwechter', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jwei', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kweigel', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dweinger', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'sweinsch', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 57, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'weinstei', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jweins13', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dweisber', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 11, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lweiss11', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jweiss21', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mwelding', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jwells23', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wwerneck', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mwest14', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwest', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwest15', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wetterer', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cwheeler', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'swherry', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wwhite', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mwhite70', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'awhite15', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'awhite43', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 2, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dwhite', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 40, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dwhite41', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 8, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'swhite44', :group_id => Group.find_by_name('faculty').id, :school_id => 4, :department_id => 41, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jwhite94', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 10, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'whitehur', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'awhitema', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'widemanh', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pwidener', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwiese', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jwiesner', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'swilder6', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rwildman', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwilhite', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'willel', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 49, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pwillems', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'swilley', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pwilli66', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 18, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dcwill', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'awill191', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dwilliam', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 27, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'swill115', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ewilliam', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwillis', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kwillis2', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rwills1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pwills2', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jwilneff', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wilson', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'pwilso24', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nwilson3', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dwilso92', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 56, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'clwilson', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hwinderm', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kwinkows', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'winbrown', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwinn', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 5, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'winningd', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jwirth5', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 28, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kwisdom1', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'fwitkows', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kwitte3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dwittenb', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ewojciki', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gwolfe6', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kwollard', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'swolstei', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lwood6', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'woods', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jwood40', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 16, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jwoods28', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'woodwort', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'twoon', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 53, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jworrel3', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 32, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dwright', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 30, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ywu5', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 25, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jwu', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kwurthma', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wyattj2012', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jwyneken', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'xie', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wxu', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 4, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'yxu3', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nyahya', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cyang1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 20, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'yyang8', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nyapici', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 23, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'xye2', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'myen', :group_id => Group.find_by_name('faculty').id, :school_id => 8, :department_id => 43, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ayessman', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'myinglin', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'yiu', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'ayokley', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 15, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'yongy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 35, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'gyoung', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'myoung51', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'syoung58', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'cyoung39', :group_id => Group.find_by_name('faculty').id, :school_id => 11, :department_id => 1, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'syoung15', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 17, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'qyoungbe', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 7, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'tyoustin', :group_id => Group.find_by_name('faculty').id, :school_id => 1, :department_id => 54, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'yuhn', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mzager', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 4, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'zainuddi', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 29, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'yzang1', :group_id => Group.find_by_name('faculty').id, :school_id => 13, :department_id => 19, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'jzarago1', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 34, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'kzbeeb', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 38, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'azea', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 59, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'dzephiri', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'xhzhang', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 44, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'xzhang', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'czhang3', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 47, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'wzhang6', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 48, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'nzhang', :group_id => Group.find_by_name('faculty').id, :school_id => 15, :department_id => 14, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'lzhang5', :group_id => Group.find_by_name('faculty').id, :school_id => 17, :department_id => 45, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'xzhu3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'zhuang', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id => 36, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'rzoeller', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'hzou', :group_id => Group.find_by_name('faculty').id, :school_id => 21, :department_id => 25, :permission_id => 1, :ro => true, :enabled => 1
-User.create :name => 'mzourdos', :group_id => Group.find_by_name('faculty').id, :school_id => 14, :department_id => 33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aabbate', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aabraha7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aabusha', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aagapova', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aagarwa2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aalo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aandre22', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aarikan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aazzarol', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'abalroo1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'abaronro', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'abarsky', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aberger', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>9, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'abergma1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'abinder', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'abradfo5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'abroderi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'abtahi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'acamilie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'acavaret', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'achahars', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'adahnke', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'adobrin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'adutton1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aelliso2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aescuder', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aesmith', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aesnard', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aevans26', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'afaivus', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'afarazma', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'afergus8', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'afetter1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'afkaplan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'afoste17', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'afranzon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'afuchs', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'agonzale', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'agreen12', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'agutie32', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ahaces', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ahallora', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aharrin5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ahassan1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aherold', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ahertele', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ahotiu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ajohn216', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ajonas', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'akara', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'akats', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'akeatin1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'akersten', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'akhalfao', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'akintop1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'akirchen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>40, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'akulawik', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'akyriaco', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'alau', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aleon6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'alhalabi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aluedke1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'amirault', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'amistrik', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'amulder', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'anevin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aoleinik', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aoner', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'apappas6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'apinkney', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'apollich', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'apremti', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'arader', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aradulov', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'arandal3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'archibal', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'areino', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aremp', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'arhone', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'arichmo3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'arobin46', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'arockias', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aroman11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aroot', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'asanch51', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'asanty', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'asapat', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aschwa14', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'asher1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'asherm10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'astevano', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'atsukuda', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'augustyn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aviale', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'avitale5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'awander', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'awhite15', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'awhitema', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'awill191', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ayokley', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'azea', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'babbar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bagby', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'banchett', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>12, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bander44', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'barnekle', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'barrette', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'batkins5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bauglier', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'baxe', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'baxley', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bbarrios', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bbenscot', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bbooton', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bburns7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bcharl14', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bdeptula', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bdoozan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bdunne1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'berkan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bernardi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'berry', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'berzok', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bewan1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bferoz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bfries', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>27, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bganson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bgerrard', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bghebrem', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bgriff14', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bgross5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bhudson5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bhutton', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bjoella', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bjohns53', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bkhadka', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bking', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bkundalk', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'blange', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'blapoin1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'blewter', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'blomer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'blouda', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bmarch1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bmontal1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bmulvane', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'boberw', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'borgiac', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bparente', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bperlma4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bpietrza', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bplowe', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'branaman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'breidy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'breinhar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'breslow', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bresnic6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bressler', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'broadfie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>3, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bryan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bschne14', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bseeman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bshaw1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bsigler', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bstanle4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bstcroix', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'burgang', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bwalker', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bwarde', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cachary1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cafolla', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'caig', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'capter', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'carlsson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'carraher', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'carter', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'castrogi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'caults', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cbarry', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cbeetle', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cbennice', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cblum', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cbode1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cboerum', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cboyle5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cbrook20', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cbuddhal', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cbutler', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ccalarge', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ccaneteq', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>40, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ccaputo2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cchandr1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cchiang1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ccolli32', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ccurley1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cdavenp3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>3, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cdiaz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cdong2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cdukes', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cdunlea', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cehrlich', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cely', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cereese', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cerveny', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cervenyj', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cevans35', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cfeneck', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cfinkl', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cghenai', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cgiribal', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cgottipa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cgould', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>12, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cgrant17', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cgregor5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cguiller', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'chess3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>27, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'chiang', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'chickma2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'chonsber', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'chuang5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'chughe', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'chutton2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cisgor', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ckeintz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>27, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ckimbrel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'clwilson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cmakowsk', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cmalino1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cmalone1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cmancin5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cmccue', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cmcguirk', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cmcintyre', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cmishra', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cmitch22', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cmoschel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cnash8', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cneile', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>4, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'conte', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cooperr', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cpacini', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cparke19', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cplattne', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cproffit', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cprusa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cpumphre', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'crainyn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'crawley', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'crobe', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'crusse15', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cruzjanz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cschaub', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cscodari', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'csheen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cshelto2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'csiemon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'csterne', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'csteve23', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cstickle', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cstrain', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'csuits', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'csurloff', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ctarkoe', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ctbrown', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>3, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cunningh', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cvander', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cwang10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cwheeler', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cyang1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'czhang3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dahmus', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'danesh', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>27, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'darlingt', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'david', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dbattist', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dbauer9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dbaummer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dbeaudry', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dbjorklu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dblasco1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dbulj', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dcaban1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dcamargo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dcardena', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dcarls', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dcaseyp', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dchamely', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dchen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dcoope26', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dcopher', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dcwill', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ddefronz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ddelay', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ddelill', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ddevlin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ddiamon1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ddittman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ddrucke1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ddu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'derosa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dfloyd', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dgallant', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dgawlik', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dgerdes', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dgray26', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dgreen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dgreist', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dhain', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dhammer2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dhanak', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dhanisak', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dhargro1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dharmon2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dharper9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dhayden', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dherst', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dherzek', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dherzing', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dhuang', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dhummel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dkania', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dkanter1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dkim4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dlee', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dlemeh', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>40, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dlevine', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dlharris', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dlouda', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dlowell', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dmaheady', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dmann4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dmarion', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dmatth17', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dmcgeough', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dmcgetch', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dmchenry', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dmeeroff', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dmeldman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dmitsova', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dmonette', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dmurtaug', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dnewma14', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dodwazny', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'doney', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dowen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dpatel40', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dpava', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dpenny', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dpetrela', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dpoole3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dpopova', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dradules', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dramlall', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dreddy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dreyes', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'drollins', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dromais', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'drossow', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dscheurl', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dschimmel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dschoorm', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dschram', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dselch', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dstubbs2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dvergara', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dvienne', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dweisber', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dwhite', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>40, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dwhite41', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dwilliam', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>27, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dwittenb', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dwright', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dzephiri', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eambris', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eando', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eariza', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eason', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eatzberg', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ebarenho', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ebemmel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ebennett', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eberenb1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eberlats', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ebrewer2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ebrown59', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ebuksbau', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'edumbaug', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eetherid', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'efrazier', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'efreedma', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'egabria1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'egolinko', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'egray17', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'egreenw1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ehamlin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ehanne', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eheckler', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ehobbie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ehoff', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ehopkin4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ehorton2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ekaisar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'elandes1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'elarge1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'elevy12', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'elevy3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'elishako', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ellenrie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'elubonja', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'emachado', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'embree', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>12, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'emillend', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'engle', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'enoonbur', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eodonne5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eparilla', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'epeters1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'epettene', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'epetuch', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eprier', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'equinn3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'erezler', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'erosas', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eroszkow', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eryan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'esanchez', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eser', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'esmith', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'estewa10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'etorrey', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'etrotter', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eturgeon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'evandern', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'evansa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'evermiss', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'evillare', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ewilliam', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ewojciki', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fabt', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'faraci', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'faulkner', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fbennard', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fbernar1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>52, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fbloetsc', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fcerabin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fconrod', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fdelat1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fejes', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'felipe', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fernande', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ferrante', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'flacrone', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'flyn1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ford', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fourreau', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>52, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fpresuel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fredman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'friedber', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fritzer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'frizzell', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fsurvis', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fwalter1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gabrams', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'galmeid3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gamble', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gaonkar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gblattne', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gbreary', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gbrigman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gbrown57', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gbushong', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gcarlin1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gcarreno', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gchrist5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gcowart', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gdestopp', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ggaffney', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ggillard', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>52, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ggitlen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ggorelik', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ggumus', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ggutting', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ghamzal', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ghelguer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ghelo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'giyer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gkreymer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gli', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'glukasik', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'glynn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>12, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gmalcol1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'godensch', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'goldring', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'goodrick', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gosser', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gpate', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gpaul7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>52, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gpederse', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'greenspa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>4, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'greifenb', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'grhineha', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'grose', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'growland', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gseuling', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gsim', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gsinger', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gsui', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'guneratn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gurses', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gwardrop', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gwarren2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gyoung', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'han', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hart', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hcordoba', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'headley', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>12, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'henrique', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>40, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hhaupt1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hhsieh1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hinduja', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hkalva', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hkarunar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hlajoie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hlong', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hlyons', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hmahfuz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hmiller', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hmohamma', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hockhs', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hoffman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hopwood', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hparola', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hprentic', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hruf', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hschwart', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'huchital', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hughes', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hwalsh1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hwinderm', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hzou', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>25, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'iabrams1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'iallgood', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ibogotch', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ibuckley', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'icardei', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ichira', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ijgelb', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ijohnso9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ikofman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ilamm', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ilitvak', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'imazar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ipyka', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'iragavar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'iserra1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'iurbina', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jarcher7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jauerba2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jbaldet', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jbaldwin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jbargste', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jbattist', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jbird4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jbullman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jburnham', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcadette', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcaldie1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcao', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcaputi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcarson9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcarus11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jchinn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jchoi3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcoffma2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcogualo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcooley2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcoope49', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcoope54', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcowden', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcox13', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcoy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcunning', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcurran3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcusick1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jdanois', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jdavis3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jderby1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jdicicco', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jdmorris', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jdonohue', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jdurr1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jearles', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jengle7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jenyart', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jfalcon2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jfewkes', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jfilina', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jfoley12', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jford1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jforgan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jfreela3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jftracy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgalin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgammack', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgarci43', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgimbel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgironda', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgolde21', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgolds22', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgonz153', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgoo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgoodm32', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgranger', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jguzzone', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jhartman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jhess17', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>40, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jhiggs', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jhowar46', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jingles', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jjakubow', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jjasin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jkatz13', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jkaul', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jkelso', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>46, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jkoerner', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jkrystel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jlambert', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jlavetsk', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jleeds', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jleit', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jlewis92', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>37, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jliddle1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jlindgre', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jlongo5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jlortie1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jlow', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jlowe', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmansill', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmason32', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmcadams', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmcclel2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmcconn3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmclau17', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmelita', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmicha20', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmijares', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmill196', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmoffa1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmoore', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmorton', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmulcah1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmuza', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jnadell', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jnambu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jnarkie1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jnorton4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'joella', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'johanson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jordanrg', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jpark14', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jpatton6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jperrau2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jpierr68', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jpisapia', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jpiscite', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jprice19', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jrussel4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jsandel1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jsankara', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jsantan3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jscarpa1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jscott', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jsomers', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jsorens8', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jsperry1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jsteinf4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jstover', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jtaylo67', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jtaylo84', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jterneus', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jtift', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jtopinka', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jtowell2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jtufford', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>40, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jtylek', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'julin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jurenas', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jvaldes7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jvanzwi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jviola', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jvivian', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jvos', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jvoss2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jwaldro4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jwei', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jweiss21', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jwells23', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jwhite94', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jwiesner', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jwilneff', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jwood40', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jworrel3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jwu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jwyneken', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kaighoba', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kajiura', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kalinich', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kayyanat', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kbanerje', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kblack1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kblock5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kboundy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kbrady9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kbridwel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kbuffing', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kcao1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kcaravel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kchinand', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kchung', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kcopela4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kdawsons', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kdenmon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kdestef', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kdetwile', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>3, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'keaton', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kellis15', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kferran', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kfriedm6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kgustely', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kguthrie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'khooks', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'khoshgof', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'khurley', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kilpatri', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kjakee', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kjett', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kjia', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kjohns74', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kjolly', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kkayle', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kkeatin5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kkeller', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kkover1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'klang10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kleader', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'klewis18', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'klindbec', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kmachluf', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kmcnair', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kmize1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kmoorhea', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kneupane', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'knitzky', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'knobel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'knurtegi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'koconnor', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'koliver', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'korgaonk', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kossack', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kpekala', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kpetrich', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kplatt', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kpolakit', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kposner', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kpowel18', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kpresco2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kprophe1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'krhoads2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kschmit5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ksmit141', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ksobhan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ksorge', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kstansel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ktarbet', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ktobias', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kwagne15', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kwalsh14', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kwiita', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kwinkows', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kwurthma', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kzbeeb', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lakofsky', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lanning', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'larocque', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'larsonj', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lasiter', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'laursen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'laverill', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lbauman3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lbullard', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lcalhou1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lchiangh', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lcribbs1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lcross', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ldassa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lderigne', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ldupont', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lenartow', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'leventou', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lewing1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lewkowic', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lfeidelm', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lfriar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>55, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lgalipau', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lgarciaf', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lgibso15', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lgreen31', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lhahn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lhansen5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lharri58', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lheiser1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lhowar20', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ljarvis4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lkelley', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lkosloff', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'llalwan1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'llaviano', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lleip', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lmeyer1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lmille62', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lnewma10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'locsin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lpalma', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lpeirce', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lqian', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lrobbin1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lrosent7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lsaffer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lsalas2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lsanti12', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lshatara', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lsmith84', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lsoto7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lsperry', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lswanstr', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ltownse3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ltreer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ltrewick', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lvernon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwahlbri', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwallese', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwands', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwarren4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwaterfi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwayth', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwebb', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lweiss11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwest', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwest15', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwiese', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwillis', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwinn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'maduraj', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mahgoubi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'malmont3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'malmrose', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'manage', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mander80', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'marcelle', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>12, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mari', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'marinacc', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mguerre', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'martinez', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'masoryo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mbaez', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mbakode', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mbang', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mberber', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mbernal', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mbishop7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mblue1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mbocco', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mboyd', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mbright3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mbudd', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcafee', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcameron', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>3, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcaputi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcardei', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcarl', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcassagn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>40, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcdaniel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcdonoug', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mchris30', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcnultyj', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcolmena', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'melissameek', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcrider', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mdavid20', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mdengle1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mdetolli', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mdicosol', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mdicowde', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mdolfman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mduffy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'meaton7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mehallis', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mehran', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mellison', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'meltzer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'merchant', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'merrar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>52, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mescaler', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'meyerowi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mfadiman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mflaks', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mflore15', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mfontai5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mfrain', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mfranz2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mgarc112', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mgauci', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mgodin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mgosseli', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mgray16', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mgreif', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhall61', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mharrawo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>40, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhart9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mharve16', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhasler', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhelbick', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhinderl', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhofmann', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhogan1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mholman5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhubertz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhyvarin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'milman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'minney', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mivey', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mjackovi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mjacomin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mkane', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mkantoro', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mkhan28', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mkirsch', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>3, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mkoch', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mkohlbec', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mkushne2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlenagha', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlieberm', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mloehwin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlong22', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlopezto', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlovelac', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlu3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlucrezi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmadani1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmadanog', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmaher8', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmarian5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmarzell', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmccoll2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>25, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmcgint2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmcilroy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmcnama6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmejia8', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmendoza', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmountfo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmurph54', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mnicho28', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mniewcza', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>4, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mnourish', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mokubo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mondesir', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'monsontc', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mordone3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'moslemia', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mpaderew', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mpalomin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mparra3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mpavlovi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>37, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mpendaku', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mpeterso', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mpetresc', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mpopejoy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mprovos2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mpurnell', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mquinta1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mraffo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mramir47', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mrappene', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mridge', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mroger30', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mrojas10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mrose', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mroth10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mrusso10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'msalaza5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'msanua', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'msarseke', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mschiff', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mschind2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mschmidm', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mschne22', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mscroggi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'msedore', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mshang1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mshaw', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'msheffi3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mskolnik', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'msmit303', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'msmith35', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'msrose', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mstamm', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mstraus1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mtheveno', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mthitisa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mtillett', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mtomei1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mtrca', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mullen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'musgrove', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mvasque3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mvazquez', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>40, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mwebel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mwhite70', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'myinglin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'myoung51', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mzager', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>4, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nbergan1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nbonsant', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nbrown29', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ncoady', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ndiaz10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ndorn1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'neelakan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nesiobu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nestes', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'newsome', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nfrance', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ngao', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ngodon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ngoonen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nicoll', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'niederha', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'njones', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nlovell', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nlucas7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nluo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nmanasse', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nmancin1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nmohi1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'norman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nowak', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'npace', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'npollack', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'npoulson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nquintyn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nreinfel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nroger15', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nromero', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nsantane', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nsmith54', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nspielma', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nstein', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>4, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nwilson3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nyahya', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nyapici', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nzhang', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'obabun', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'obuckton', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'olopez8', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'olukacs', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'omarancy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'omarques', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ooztan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'orakova', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'orbach', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'orudenko', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'oruiz2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pacharya', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'padams4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'panantha', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pande', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'parkanyi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'patterso', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pbeaujea', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pbebko', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pbernet', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pbrannon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pbressle', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pbucak', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pcarabel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pcheng', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pchin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pcohen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pcoope11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pcornett', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pcosme1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pdanjou', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pdaviscu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pennathu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'perrydg', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'petrie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>37, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pfarnsw1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pfleitas', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pglass1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pgoldste', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pgreen11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'phenn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pheydet', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>31, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'phough2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'piz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pkeating', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'plicata1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pliehr', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ploger', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pmarrone', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pmarti32', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pmaslin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pmazzeo1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pmccart5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pmendels', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ppearce', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ppina', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pritchar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'prosperi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ptorres7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pullease', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pwidener', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pwillems', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pwills2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'qchen4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'qiu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'qpritcha', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'qyoungbe', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'radams', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'radams22', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'radulovi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ratlas', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ravivd', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rbehara', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rbenasay', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rboba', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rbotta', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rcarlto3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rcastel5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rcelesti', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rchoy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rciraldo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rclemon2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rcnyhan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rcorr', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rcoulson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rdalleo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rderoche', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rdooner', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rdrouin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rdunbar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rehrlic1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'relwell', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'restrepo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'revans17', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rfaid', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rfeinbe5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rfrabizi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rgoldwyn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rgoodm10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rgreenw2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rgross1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rharthco', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rhodd', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rhurlbur', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'richman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rjanes', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rknight2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rkoszali', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rkundalkar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rkvasnak', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rlangloi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rlavend1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rlong16', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rloupus', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rlubarsk', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rluria', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>40, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rmangan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rmarquar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rmccaffr', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rmcgeoug', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rmcinto5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rmckay3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rmedina6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rmoore43', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rmoyer3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'roddi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'romeo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'roshea', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rothz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rpinsker', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rpotter', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rrabil', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rradtke4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rrahill', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rramasam', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rrandunu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rreardo5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rrendon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rrimming', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rrivas1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rrubin13', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rseiman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rshah15', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rshaykhu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rsherm13', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rsherman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rspaldin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rstackma', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rsteinwa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rtalasko', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rtao', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rtappen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rteegava', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ruthenbe', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rvertes', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rwalte11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rweber', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rwildman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rwills1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rzoeller', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sagher', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sahson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'salex', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>27, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'saliapou', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'salivar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'salmon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sashic', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'saul', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>31, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sbarnhar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sbidmead', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sblakemo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sbreman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sbrow118', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sbrow200', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sbrown75', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'scarlino', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'scastro', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'scato1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'schakra1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'scharbo1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'schmidtk', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'schnidma', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'schonbek', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'schwerin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'scott', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sdagbovi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sdarlin4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sderisi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sdiggs', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sdorchin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sdyess', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sementel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sfleming', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sgalup', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sghosh', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sgibso31', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sgifford', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sglazer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sglegg', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sgoldste', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>52, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sgordo57', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sgrigori', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'shankar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'shashmi1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'shaw', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'shihong', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'shimpeno', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'shong6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'shorrock', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'siddiqui', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sippoli2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sjakubow', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'skhalil6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'slafleur', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'slapp', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'slbrown', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>3, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'slebowi1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'slepore', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'slinley1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smarkwit', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smatraka', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smcclai2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smcclend', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smehalli', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smenzel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smiley', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smilton', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smitch21', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smoffitt', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smoosai', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smurient', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smurra21', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'snadler2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'snyder', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'solomon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sparkin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'spavlow', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'spella', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sphill19', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'splace2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'splacide', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'spomponi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sprasad3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'spuleo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'spyros', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'squatroc', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sraffer1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sray11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sreilly', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'srios1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sroche2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'srooney2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'srossow', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ssarkis2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>26, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sschoenh', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sshiflet', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ssmit318', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ssteph11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sstewa42', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sstorfer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ssulli26', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sthrush', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'stinchco', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'stiwari1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'stockard', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'stuinhof', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'su', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'subrahma', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'suo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'svince11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'svishwas', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'svkizlik', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sweinsch', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'swhite44', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'swilder6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'swill115', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'swilley', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'swolstei', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'syoung15', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'taal', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tacharya', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tatkins', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'taylor', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tbernhar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tcatto', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tchesnes', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tcolema2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tdarden', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tdial', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tedwar20', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'teggenbe', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'teisenba', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'terentis', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'terry', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'terwilli', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tfernand', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>37, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tfill', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tfinamor', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tfrost3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tgollery', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'thagood', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'thindle', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'thoim', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tknipp', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tleflour', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tleistne', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tlevy6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tmangle', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tmaple', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tmartin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tpenholl', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tpenneka', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'trammell', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'troot', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'trtucker', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tsaict', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tsempert', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>52, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tsmit158', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tsorgent', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tstanifo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tswinder', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ttheisen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ttouhy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'twatson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tyoustin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ughuman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'urquhart', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'uwechue', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vadzic', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'valentin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vallache', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vanhilst', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vantasse', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vbrown22', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vbyaruha', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vdiaz13', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vdragojl', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>52, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vgrumme', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vherrer1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vhormann', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'visaggi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vjirsa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vjones1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vkathria', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vkulic', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vmartine', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>3, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vnaudot', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vperiss', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vpeterso', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vruther1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vsamaras', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vskinner', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vtayefeh', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vwanza', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'walters', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'warburto', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wballard', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wbrooks', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wburton', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wcurless', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wetterer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wfaulds', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>4, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wgao', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'whardma1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'whawkins', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'whitehur', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'willel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wilson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'winbrown', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wkalies', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wkelly13', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wkenny1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wmacmanu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wmcgove1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wnjambi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wobrien', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>40, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wolf', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'woodwort', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wrhodes', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wrivast', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wshen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wtrapan1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wwhite', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wxu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>4, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'xcomas', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'xhuang', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>25, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'xhzhang', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'xie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'xlu1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'xwang11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'xwang14', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'xzhang', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'xzhu3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'yabraha', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ybeniluz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ybhagwan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ygamboa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'yiu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'yli22', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'yli28', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'yliu16', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'yongy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'yshibata', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'yuhn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ywang', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'yxu3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'yyang8', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'zainuddi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'zalam', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'zhuang', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'zli', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aalkazi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aaylward', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'achaintr', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'acurt', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'adevesa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'afrede11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>40, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ahall53', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aiglesia', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aiudica', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ajamiso5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ajencik', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ajohn164', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'akotlarc', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'alawlor', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'amunchow', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aquresh1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>25, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aroy9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aruiz9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'asobczak', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>39, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'asolomo9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'asur', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bbedell1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bbjorklu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bebergal', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bepstei3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'blangenb', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bmayi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bmoeller', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bnowak', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>39, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'brichey', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bross18', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>4, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bsalgado', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bscott21', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bsimmo17', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>37, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bthomp30', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cakain', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'caydin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cberry11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cbtemple', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cbuhrman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cconley8', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'csmart2013', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cking14', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'clynch13', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cmurra30', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cpan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'carolelachs', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cruz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cshaw12', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cspudeas', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cweave15', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cyoung39', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dalexa27', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'degroff', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dferrer7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dfuente1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dprochaska', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dkasti', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dkuykend', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dpritcha', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'drampal', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dravo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'droger16', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'drottig', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'drush1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dshep', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dstone10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dsutton', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dteetsel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dvance', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dweinger', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'edasilv2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'egerste1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eiaconis', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ekolotog', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eronan2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'esacks', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eserrao', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'esmith17', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'estanic', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ewatling', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fblackm1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fchang1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fcone1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fhenao', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gazouria', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>37, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ggillenw', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'giannett', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gkenned5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gmayer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gmcgarri', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>3, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gocorryc', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gopper', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gstepani', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gwolfe6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hatwell1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hhousen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hliu4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hliu6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hmille22', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'horstman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hrobert2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hrodri12', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hshaygan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'htuby', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ijones', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'janstis1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jbamdas1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcahill9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcutrone', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eckardt', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jferna56', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgebhar1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgordo21', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgraha22', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgrazios', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgrossm8', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jizagui2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jjohnson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jkapla22', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jkrill', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jlandry7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jlee106', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jleiner1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jlozano1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>27, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jnall2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jpeluso', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jpitzer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jrodrigu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>35, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jselzer1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jsheffle', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jtuck', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jwashin7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jweins13', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jwirth5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jzarago1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kadda', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kbrazend', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kburke19', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kmolinet', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kpeach1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kshockle', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kthapama', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kweigel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kwollard', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ladamo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'larboled', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lbartram', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lbentley', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lbolters', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lbrogan1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lbruce5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lcanteri', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'levow', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lfaerman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lgil', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lhamburg', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ltaylor4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ltomlin5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwilhite', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lzhang5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mbiswal', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>46, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcfarlan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mdavi105', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mdee1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'meiland', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'messenge', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'metcalf', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mevans32', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhackett', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhipps1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhurley6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mkarides', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlavigne', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlawles1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlee52', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlinder2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mliu3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>25, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlizotte', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>26, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmammano', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>58, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmarcin2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmargol4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmetianu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmigdal', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmoscate', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mneelak', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mobrie29', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mpeter45', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mrich5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mrichar3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mrusse21', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'msharma2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mslavin2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>39, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'msteele7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mswans12', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mthomp13', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mtruitt', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mtsunoda', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'muharema', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mvaugha3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mwelding', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mwest14', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ncrane3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ncrilly', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'njeedima', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nkumari', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'noquendo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nostrau', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>55, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'npinson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nritchie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nwdean', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>52, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pandya', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pbudhath', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pcava', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pdisinge', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pfishma1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'phargra1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pmadan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pmorriso', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ppacilli', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'praeburn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pschonan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pstraub', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'psymons', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'qcao1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rdfergus', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>52, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rdheer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rgarci45', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>25, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rgould4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>27, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rgranata', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rharlin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rjohnson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rlavaria', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rmelend3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rmusille', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'romance', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>37, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rriedel1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rruedad1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rryan13', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rschulth', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rvoss', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rwaters', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sarah', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sboxerma', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'scarlis3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sferna23', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sfishe16', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sfolden', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sguzman4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'shuster1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>4, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sladd3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sleffle2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'slezeau', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smahade1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smalinco', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'smessin1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'snieves3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sodland', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'solson9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sponte', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sscarle1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sshier1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'swaldro3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'swherry', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'syoung58', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tbenne17', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>37, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tchavez', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tcostale', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tfairba2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tfrank3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'thonsber', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tmena', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tmiksell', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tmoeschl', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tmoore38', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tondo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tovathan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tsciclun', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tsennott', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tthomp59', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ttoomer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ttrittip', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tvanepps', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vdollard', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vebert', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vjeanja', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vthursto', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wcolli14', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wdaviso2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'weinstei', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'whinshaw', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'whoover1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>46, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'widemanh', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wlawther', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wstephe5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wtucker4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>39, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wwerneck', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wzhang6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ycheng4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ylu6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ynails', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ywu5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>25, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'zbarney', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ndorffp', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dblackbu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dromague', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lcanning', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aburruss', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'acolic', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'acunningham', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'agaze', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'agreine1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ahanse10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ahender8', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'airizar8', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'akryglowski', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'alee25', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'alouise', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'amay1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'asawicki', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ashaw16', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'asuarezc', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'atoth2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'baugust6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'benzadok', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bpalmer7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bparham', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'branchm', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bstinson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cabrerac', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'campbell', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'catkinso', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cdorka', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cfinkel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'chiatt', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cirving4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ckairys', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cking11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cludtke', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cmack8', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cnicholas', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cooke', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cquinn1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cradlaue', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dchauss', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>25, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ddefalc1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ddunn10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dhall45', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>9, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dkhatiwa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dkutal2012', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dsearcy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ecruz4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'edeluca1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eelio', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'egilles1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'emcgreev', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>39, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'emille27', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eruiz4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'esafier', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ewebb6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fbabrove', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'frodri16', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fshaw3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fwitkows', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gestrada', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gfrisk', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ggoldbe6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gmount1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gpalladino', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gsmith78', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hbishara', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hboyer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hbrown1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hchada', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hinmanm', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hnadeem', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hussainr', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hvelcy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jacton2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jadamsk1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jagonis', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jbarto12', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jbirch5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcarmign', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jdawson7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jeromej', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jfeigenheimer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jfurner', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jhand8', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jharri51', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jhenson4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jkizlik', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jlasala1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmenzie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmonestime', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'joflanne', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'johnsonv', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jsader', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jschwart', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jshilts', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jsyersak', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jtalerico', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kcox24', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kdilore1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kgarland', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'khollow4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>8, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kito', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kjesse', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kkelleh1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'klopez26', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kmareno', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kmecom', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'krober16', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ktiling', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kvanderiet', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kwillis2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kwisdom1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kwitte3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'latkins3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lcrowle', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ldunphy', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lfleck', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lfleisch', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lford9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lhao1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lhenson2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'liug', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ljackson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ljohns2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lleali', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwechter', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lwood6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'malbrit1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'maquino1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mariajohnson', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mborgen1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mbrennen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mbrown', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mbruckne', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mbrunin1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcammarata', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mdigrego', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mepstein2012', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mgibert', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mgrigeli', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhogan14', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'millers', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mjorda19', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mkilley', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mliu5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmarshall', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmccarri', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmiche12', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmoise1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mnaumoff', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mparks9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mray', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mrodri50', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'msamaan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mschwartz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'myen', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mzourdos', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nariassu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nlaing2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ofiguer3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'oshukina', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'parkerc', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ppatter3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'probinso', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'psellers', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'psipala', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ptsatsin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pwilli66', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'radikara', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rbelsito', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rcunnin4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rfeinma1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rfreund1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rgarcianieves', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rlarson2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rleivers', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rnarayan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rbozzetto2009', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rschietz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rtavakol', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sbrown', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'schmittt', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sdodel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sedge4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sfaircl3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sfalcon7', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sfutej', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'shayden4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sjenki19', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'skhanal2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'skumar3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'slawekp', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ssahay', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ssenick', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ssink', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'susanmartin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'svaugha3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'swang1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>5, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'swashin9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tbernie1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>47, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tbresnah', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tedwar12', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>6, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tlatour2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tschoono', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tstrazis', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ttemkin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ungvich', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'uroopnarinesingh', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wbosshar', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wcollins', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'whnatysh', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'woods', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wpaull', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>26, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wschreie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'xye2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'yboryshchak2012', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ychavezcappellin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'afraser', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'apaz1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dschlang', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jminnerl', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmolzan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jritter2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lleavitt', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lpincus', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rleon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sdirghan', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'skudumal', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'arobin65', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cfarinel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fpierr20', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hpham9', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jjose107', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jrodr155', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nliu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>48, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'awhite43', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bfeingol', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cnewstre', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'csuhr1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dburgos2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ecarval3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gchrista', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'iherna15', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jquadroz', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kmillike', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'llev', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'marney', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mdelolmo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nhedmark', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pfox3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>32, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rbuitrag', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'winningd', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aslusher', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jlopez51', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'omidtbo', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sbuckne2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'astrosbe', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dwilso92', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlawrence', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>16, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tsun2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'abacala', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'areilly', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'babernat', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bennetts', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>41, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bkhajavi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bwarrick', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>22, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cneuburg', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cpatient', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ifadil', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jbilot', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lbradle6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lroger18', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmill186', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'njimenez', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nrita', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ocuret', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ofurnica', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>24, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'okirshner', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>13, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'penak', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pmendon1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rclemen2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rjakovich', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>54, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'slewkowi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vdelsig', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dkraemer', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>12, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eginsbu2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'garciaa', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>37, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gerdesm', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jhurtad2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>36, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'knewton5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'munderhi', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'simonm', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>9, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'slibrero', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>25, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'thubbar4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>11, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'abassiel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jkrzemie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>30, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lfitzpat', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rpetigrow', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'twoon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'afarokhn', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>49, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dfitzp11', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'fieldsg', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rhblanks', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kennedyg', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>18, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'avanderiet', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pkosinski', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>53, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rdavis68', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'agganis', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>31, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ahartl', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'asingh6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>29, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cshamon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dblack13', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dslagle1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'epitting', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eplatonas2012', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hqu', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>38, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcarson5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jhandrin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jkite2012', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kchadwel', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mlee100', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rblanco1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rcamire', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'blloyd6', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'llee26', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lrosen2012', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mcorbet1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'scaplan4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jmock2012', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ssense', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>10, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'stoth2', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'wyattj2012', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>15, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'znichola', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bamendolace', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'brooksc', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dvantreeck', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'svander1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'bertolin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lcohen25', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'lschiff1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ayessman', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'brownl', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>17, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'chaberst', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'chinnp', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jgarrid3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'nvolkov', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>20, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sbulfin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>43, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jcrimmi1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'naraos', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'tievoli1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aergood', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cabralr', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dmoura', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dvanpelt', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ehall', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>45, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jwoods28', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>23, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'maddoxk', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'daled', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gangervil2012', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>56, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kgentry1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jandrew', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>31, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mkane10', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>28, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'rpersin', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>34, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'slaramo1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aklemp2012', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>33, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gmusgrov', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>31, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mporte26', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>44, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'vlannon', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>50, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'yzang1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>19, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'aranck2012', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'dortega4', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'ekiley1', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'gbyng', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'irice', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jfinch5', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'kgersie', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'madams39', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>1, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mgleyzer2012', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mmcint12', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mparke31', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pwilso24', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'sjohn210', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'richmana', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>42, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'cmyser', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>59, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'crinne', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'eroos2012', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'hurleyf', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>2, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'jhendric', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>57, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'mhesse', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>7, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'msuare24', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1
+User.create :name =>'pclemen3', :group_id => Group.find_by_name('faculty').id, :school_id => 16, :department_id =>14, :permission_id => 1, :ro => true, :enabled => 1

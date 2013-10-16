@@ -9,7 +9,8 @@ class School < ActiveRecord::Base
 	end
 
     #Total
-	def count_by_school(school_id, semester_id)
+	#def count_by_school(school_id, semester_id)
+	def count_by_school(school_id)
   		#newhires_by_school_count = Newhire.where(:school_id => school_id, :semester_id => semester_id).count
   		newhires_by_school_count = Newhire.find_by_sql([' SELECT DISTINCT
 														      newhirecourses.id				    
@@ -19,8 +20,7 @@ class School < ActiveRecord::Base
 														     JOIN newhirecourses
 														        ON (newhires.id = newhirecourses.newhire_id)
 
-														WHERE newhires.school_id = :sid 
-														AND newhires.semester_id = :sem_id;', {:sid => school_id, :sem_id => semester_id }]).count
+														WHERE newhires.school_id = :sid;', {:sid => school_id}]).count
 
 
 	  	if newhires_by_school_count > 0
@@ -32,8 +32,8 @@ class School < ActiveRecord::Base
 	  end 
 
 	 
-	  def not_completed(school_id, semester_id)
-	  
+	  #def not_completed(school_id, semester_id)
+	  def not_completed(school_id)	  
 		   notcompleted = Newhirecourse.find_by_sql([' SELECT DISTINCT
 														      newhirecourses.id				    
 														    
@@ -43,8 +43,7 @@ class School < ActiveRecord::Base
 														        ON (newhires.id = newhirecourses.newhire_id)
 
 														WHERE newhires.school_id = :sid 
-														AND newhires.semester_id = :sem_id
-														AND newhirecourses.final_approval = 0 ;', {:sid => school_id, :sem_id => semester_id }]).count
+														AND newhirecourses.final_approval = 0;', {:sid => school_id }]).count
 
 		  if notcompleted == 0
 	        message = "No courses to review"
@@ -63,7 +62,8 @@ class School < ActiveRecord::Base
 
 	  end
 
-	  def assigned_to_me(school_id, semester_id, current_user_id)
+	  #def assigned_to_me(school_id, semester_id, current_user_id)
+	  def assigned_to_me(school_id, current_user_id)
 	    	 
 	    	assigned_to_me = Newhirecourse.find_by_sql([' SELECT DISTINCT
                                                                 nh.id 
@@ -73,9 +73,8 @@ class School < ActiveRecord::Base
                                                             INNER JOIN newhirecourses nhc
                                                                 ON (nh.id = nhc.newhire_id)
 														     
-														WHERE nh.school_id = :sid 
-														AND nh.semester_id = :sem_id
-														AND nhc.assigned_to = :cu_id ;', {:sid => school_id, :sem_id => semester_id, :cu_id => current_user_id }]).count
+														WHERE nh.school_id = :sid
+														AND nhc.assigned_to = :cu_id;', {:sid => school_id, :cu_id => current_user_id }]).count
 
 	  		if assigned_to_me == 0
 	  			message = "None assigned to me"

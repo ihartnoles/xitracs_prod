@@ -61,7 +61,7 @@ class NewhiresController < ApplicationController
                                                         ON (nh.id = nhc.newhire_id)
                                                  WHERE 
                                                      nh.department_id = :did
-                                                 AND nhc.semester_id = :sem_id", {:did => session[:department_id]  , :sem_id => session[:semester_id] } ])
+                                                 ", {:did => session[:department_id]  , :sem_id => session[:semester_id] } ])
        @newhire_count = @newhires.count
       
        ##@newhires_without_course = Newhire.where(:assigned_to => current_user.id, :semester_id => session[:semester_id] )
@@ -140,7 +140,7 @@ class NewhiresController < ApplicationController
                                               INNER JOIN newhirecourses nhc
                                                   ON (nh.id = nhc.newhire_id)
                                            WHERE nhc.assigned_to = :cid 
-                                           AND nhc.semester_id = :sem_id", {:cid => current_user.id , :sem_id => session[:semester_id] } ])
+                                           AND 0=0", {:cid => current_user.id , :sem_id => session[:semester_id] } ])
       else
         @newhires =  Newhire.find_by_sql(["SELECT
                                                 nh.id
@@ -159,7 +159,7 @@ class NewhiresController < ApplicationController
                                               newhires nh
                                               INNER JOIN newhirecourses nhc
                                                   ON (nh.id = nhc.newhire_id)
-                                           WHERE nhc.semester_id = :sem_id", {:sem_id => session[:semester_id] } ])
+                                           WHERE 0=0", {:sem_id => session[:semester_id] } ])
       end
 
     elsif current_user.group.name == "dean"
@@ -187,7 +187,7 @@ class NewhiresController < ApplicationController
                                                         ON (nh.id = nhc.newhire_id)
                                                  WHERE nhc.assigned_to = :cid
                                                  AND nh.school_id = :schoolid
-                                                 AND nhc.semester_id = :sem_id", {:cid => current_user.id , :schoolid => session[:school_id] , :sem_id => session[:semester_id] } ])
+                                                 AND 0=0", {:cid => current_user.id , :schoolid => session[:school_id] , :sem_id => session[:semester_id] } ])
        else
           @newhires = Newhire.find_by_sql(["SELECT
                                                   nh.id
@@ -208,7 +208,7 @@ class NewhiresController < ApplicationController
                                                         ON (nh.id = nhc.newhire_id)
                                                  WHERE 
                                                      nh.school_id = :schoolid
-                                                 AND nhc.semester_id = :sem_id", {:schoolid => session[:school_id] , :sem_id => session[:semester_id] } ])
+                                                 AND 0=0", {:schoolid => session[:school_id] , :sem_id => session[:semester_id] } ])
        end
     else
       
@@ -235,7 +235,7 @@ class NewhiresController < ApplicationController
                                                         ON (nh.id = nhc.newhire_id)
                                                  WHERE nhc.assigned_to = :cid
                                                  AND nh.school_id = :schoolid
-                                                 AND nhc.semester_id = :sem_id", {:cid => current_user.id , :schoolid => session[:school_id] , :sem_id => session[:semester_id] } ])
+                                                 AND 0=0", {:cid => current_user.id , :schoolid => session[:school_id] , :sem_id => session[:semester_id] } ])
       else
         #ASSIGNED TO CHAIRS/AUTHORIZED USERS
        @newhires =  Newhire.find_by_sql(["SELECT
@@ -257,7 +257,7 @@ class NewhiresController < ApplicationController
                                                         ON (nh.id = nhc.newhire_id)
                                                  WHERE 
                                                      nh.school_id = :schoolid
-                                                 AND nhc.semester_id = :sem_id", {:schoolid => session[:school_id] , :sem_id => session[:semester_id] } ])
+                                                 AND 0=0", {:schoolid => session[:school_id] , :sem_id => session[:semester_id] } ])
       end
       #if newhire record count == 0 then query assignments from newhires only
 
@@ -328,7 +328,6 @@ class NewhiresController < ApplicationController
           @newhire = Newhire.new(:first_name => params[:first_name], 
                                  :middle_name => params[:middle_name],
                                  :last_name =>params[:last_name], 
-                                 :semester_id => session[:semester_id],
                                  :school_id => school_id, 
                                  :department_id => department_id,
                                  :assigned_to => current_user.id,
@@ -425,8 +424,10 @@ class NewhiresController < ApplicationController
      
      @newhire = Newhire.find(Newhirecourse.find(params[:id]).newhire_id)
      @newhirename = Newhire.find(Newhirecourse.find(params[:id]).newhire_id).fullname
-     @semester = Semester.find(Newhirecourse.find(params[:id]).semester_id).name
-     @subject = "Credentialing Action Needed for #{@newhirename} - #{@semester}"
+     #@semester = Semester.find(Newhirecourse.find(params[:id]).semester_id).name
+     @course   = Newhirecourse.find(params[:id]).name
+     #@subject = "Credentialing Action Needed for #{@newhirename} - #{@course} - #{@semester}"
+     @subject = "Credentialing Action Needed for #{@newhirename} - #{@course}"
      sentto_id = params[:assigned_to]
      @sendto = User.find(sentto_id).name
      @body = "Credentials for  #{@newhirename} have been entered and are awaiting your signoff to proceed to the next stage of review.  Please log on to the wizard (sacs.eng.fau.edu), select 'First-time Adjunct & GTA Credentialing,' from the top menu bar and click on 'Listing' to see what is awaiting your action."
@@ -537,7 +538,7 @@ class NewhiresController < ApplicationController
 
         if current_user.permission_id == 1
           #you are an AUTHORIZED USER so find CHAIRS to NOTIFY
-          @send_to_notify=User.find_by_sql(['select id, concat(name,"@fau.edu") as displayname from users where department_id = :did and permission_id=2',{:did => Newhire.find(params[:newhire_id]).department_id }])       
+          @send_to_notify=User.find_by_sql(['select id, concat(name,"@fau.edu") as displayname from users where school_id = :sid and permission_id=2',{:sid => session[:school_id] }])       
         else
           #you are a CHAIR so find deans for the school
           @send_to_notify=User.find_by_sql(['select id, concat(name,"@fau.edu") as displayname from users where school_id = :sid and permission_id=4',{:sid => session[:school_id], :did => Newhire.find(params[:newhire_id]).department_id }])       
@@ -575,9 +576,10 @@ class NewhiresController < ApplicationController
 
      @newhirename = @newhire.fullname
 
-     @semester = Semester.find(@newhire.semester_id).name
+     #@semester = Semester.find(@newhire.semester_id).name
 
-     @subject = "Credentialing Review Status Updated for #{@newhirename} - #{@semester}"
+     #@subject = "Credentialing Review Status Updated for #{@newhirename} - #{@semester}"
+     @subject = "Credentialing Review Status Updated for #{@newhirename}"
 
      #set the msg argument     
      @msg = @message.review_comments
@@ -620,10 +622,12 @@ class NewhiresController < ApplicationController
 
             @newhire = Newhire.find(params[:newhire_id])
             @newhirename = Newhire.find(params[:newhire_id]).fullname
-            @semester = Semester.find(@newhire.semester_id).name
+            #@semester = Semester.find(@newhire.semester_id).name
+            @course   = Newhirecourse.find(params[:course_id]).name
 
              if (params[:final_approval])
-                  @subject = "Credentialing Completed for #{@newhirename} - #{@semester}"
+                  #@subject = "Credentialing Completed for #{@newhirename} - #{@course} - #{@semester}"
+                  @subject = "Credentialing Completed for #{@newhirename} - #{@course}"
                   #signoff.final_approval = params[:newhiresignoff][:final_approval]
                   
                   save_final_approval = Newhirecourse.find(params[:course_id]).update_attribute(:final_approval, params[:final_approval])
@@ -648,17 +652,17 @@ class NewhiresController < ApplicationController
                     }
                   end
                                
-                  @body = "Credential has been met for  #{@newhirename}. You may proceed to hire."                    
+                  @body = "Credential has been met for  #{@newhirename} . You may proceed to hire."                    
 
                   flash[:notice] = "Final Approval processed!"
              else
                 
 
                 if params[:newhiresignoff][:signed_off] == "1"
-                  @subject = "Credentialing Action Needed for #{@newhirename} - #{@semester}"
+                  @subject = "Credentialing Action Needed for #{@newhirename} - #{@course} - #{@semester}"
                   signoff.sentto_id = params[:send_to][:notify]
                 else
-                  @subject = "Credentialing Action Needed for #{@newhirename} - #{@semester}"
+                  @subject = "Credentialing Action Needed for #{@newhirename} - #{@course} - #{@semester}"
                   signoff.sentto_id = params[:send_to][:correct]
                 end
 

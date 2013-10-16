@@ -11,7 +11,8 @@
 	<tr>
 		<th>Name</th>
     	<th>Title</th>
-    	<th># Sections</th>
+    	<th>Sections</th>
+    	<th>Section #</th>
     	<th>Unique Section Title(s)</th>
     	<th>Department</th>
     	<th>Level</th>
@@ -30,6 +31,7 @@
 	  <% t_section_ids_subset = Sectionenrollment.where(:section_id => t_section_ids, :faculty_id => @faculty.id).map  {|row| row.section_id} %>
 	  <% t_section_enrollments_completed = Sectionenrollment.where(:section_id => t_section_ids, :faculty_id => @faculty.id).map  {|row| row.completed} %>
 	  <% t_section_titles = Section.where(:id => t_section_ids_subset).map  {|row| row.title} %>
+	  <% t_section_names = Section.where(:id => t_section_ids_subset).map  {|row| row.name} %>
 	  <% if session[:read_only] || session[:review] %>
 	  <!-- <tr onclick="window.location.href='<%= url_for :action => 'approve_course_for', :course_id => course.id, :faculty_id => session[:faculty_id]%>'">   --> 
 	   		<% actionval = 'approve_course_for'%>
@@ -44,6 +46,7 @@
 	    </td>
 	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><%= course.title %></td>
 	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><%= t_section_titles.count %></td>
+	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><%= t_section_names.map { |i| i.to_s }.join(", ")%></td>
 	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><%= (t_section_titles.uniq.map { |i| i.to_s }.join(";</br>")).html_safe %></td>
 	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><%= course.department.name %></td>
 	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'"><%= course.level_description %></td>

@@ -151,6 +151,46 @@ User.create :name => "shockley",  :group_id => Group.find_by_name('chair').id,
 User.create :name => "wener",  :group_id => Group.find_by_name('chair').id, 
             :school_id => School.find_by_name('ED').id, :department_id => Department.find_by_name('Communication Science & Disorders').id, :ro => false                         
 
+
+
+User.create :name => "ehyslopmargison",  :group_id => Group.find_by_name('chair').id, 
+            :school_id => School.find_by_name('ED').id, :department_id => Department.find_by_name('Curriculum, Culture & Educ Inquiry').id, :permission_id => 2,:enabled => true,:ro => false                         
+
+
+User.create :name => "proulx",  :group_id => Group.find_by_name('chair').id, 
+            :school_id => School.find_by_name('EG').id, :department_id => Department.find_by_name('Ocean & Mechanical Engineering').id, :permission_id => 1,:enabled => true,:ro => false                         
+
+
+User.create :name => "sprince2",  :group_id => Group.find_by_name('chair').id, 
+            :school_id => School.find_by_name('SC').id, :department_id => Department.find_by_name('Geosciences').id, :permission_id => 2,:enabled => true,:ro => false     
+
+User.create :name => "acalnick",  :group_id => Group.find_by_name('chair').id, 
+            :school_id => School.find_by_name('EG').id, :department_id => Department.find_by_name('Ocean & Mechanical Engineering').id, :permission_id => 1,:enabled => true,:ro => false     
+
+
+
+User.create :name => "cwilson",  :group_id => Group.find_by_name('chair').id, 
+            :school_id => School.find_by_name('UP').id, :department_id => Department.find_by_name('Anthropology').id, permission_id => 1, :enabled => true, :ro => false
+
+
+User.create :name => "anitab",  :group_id => Group.find_by_name('chair').id, 
+            :school_id => School.find_by_name('UP').id, :department_id => Department.find_by_name('Philosophy').id, permission_id => 1, :enabled => true, :ro => false
+
+
+User.create :name => "ralhatta",  :group_id => Group.find_by_name('chair').id, 
+            :school_id => School.find_by_name('UP').id, :department_id => Department.find_by_name('English').id, permission_id => 1, :enabled => true, :ro => false
+
+
+User.create :name => "sdziadzi",  :group_id => Group.find_by_name('chair').id, 
+            :school_id => School.find_by_name('BA').id, :department_id => Department.find_by_name('Accounting').id, :permission_id => 1, :enabled => true, :ro => false
+
+
+User.create :name => "rgoncal",  :group_id => Group.find_by_name('chair').id, 
+            :school_id => School.find_by_name('AL').id, :department_id => Department.find_by_name('Ctr for Women Gender & Sexuality Studies').id, :permission_id => 1, :enabled => true, :ro => false
+
+
+
+
 #    User.destroy_all
 
 

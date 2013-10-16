@@ -1,12 +1,15 @@
 Miscellaneous
 =============
 
+mysqldump xitracs_prod | gzip -9 > /backup/mysql/xitracs_prod.`date +'%Y-%m-%d.%H'`.sql.gz
+
+
 # Download latest prod db:
 rm -f ~/Downloads/*.sql
 scp sacs:/backup/mysql/`date +"xitracs_prod.%Y-%m-%d.%H"`.sql.gz ~/Downloads/
 gzip -d ~/Downloads/*.sql.gz
-echo "drop database xitracs; create database xitracs; " | mysql -u root -p
-mysql -u root -p xitracs < ~/Downloads/xitracs_prod.*.sql
+echo "drop database xitracs_dev; create database xitracs_dev; " | mysql -u root -p
+mysql -u root -p xitracs_dev < ~/Downloads/xitracs_prod.*.sql
 
 # Download Extracts
 cd ~/Downloads
@@ -27,9 +30,9 @@ xt
 rake db:migrate
 rake update_faculty[/home/ihartstein/Downloads/xitracs/XITRACS_FACULTY_MEMBERS.txt,update,debug] 
 rake update_facultycredentials[/home/ihartstein/Downloads/xitracs/XITRACS_FACULTY_CREDENTIALS.txt,update,debug] 
-rake update_courses[/home/ihartstein/Downloads/xitracs/XITRACS_COURSES.txt,ignore,update,nodebug]
-rake update_sections[/home/ihartstein/Downloads/xitracs/XITRACS_COURSE_SECTIONS.txt,update,nodebug] 
-rake update_sectionenrollments[/home/ihartstein/Downloads/xitracs/XITRACS_COURSE_SECTION_ENROLLMENTS.txt,update,nodebug]  
+rake update_courses[/home/ihartstein/Downloads/xitracs/XITRACS_COURSES.txt,ignore,update,debug]
+rake update_sections[/home/ihartstein/Downloads/xitracs/XITRACS_COURSE_SECTIONS.txt,update,debug] 
+rake update_sectionenrollments[/home/ihartstein/Downloads/xitracs/XITRACS_COURSE_SECTION_ENROLLMENTS.txt,update,debug]  
 
 # Update the Section Enrollments to "complete" any ones which were already completed before (i.e. another semester) 
 rake update_statuses[rebuild]

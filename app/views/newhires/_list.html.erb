@@ -178,6 +178,7 @@
 	
 
 <%= javascript_tag do %>
+
 $(document).ready(function(){
 	
 		$('#example').dataTable();
@@ -196,19 +197,22 @@ $(document).ready(function(){
 			  for (i = 0; i < allVals.length; ++i) {
 			   $.post(
 			      '/newhires/assign_to', 
-			      {id:allVals[i], assigned_to:$('#send_to_notify').val()},
-			      function() {window.location.reload();}
-			      );
+			      {id:allVals[i], assigned_to:$('#send_to_notify').val()});
 	           } 
 			  
 			  //reload
 			  //location.reload();
 
-			  //setTimeout( function () { document.location.reload(true); }, 0 ); });
- 			   
- 			   //document.location.reload(true);
-     		
-     		});
+			   
+        setTimeout( function () { 
+        
+            location.reload(true);
+
+               
+            }, 1000
+        );
+       });
       
 });
+
 <% end %>

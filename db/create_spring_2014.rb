@@ -1,0 +1,1 @@
+Semester.create :name => "Spring 2014",:prefix => '201401', :semester_status => 0
