@@ -33,6 +33,7 @@
       <% end %>
     </div>
 
+<!--
     <div class="span9">
       <!--Body content-->
       <form id="docs">
@@ -143,7 +144,8 @@
                                 </div>
                               </td>
                             </tr>
-                           
+                           select * from newhires where last_name in ('Dipiola','Warsi','Sverdlik','Eker','Schiller','Ross');
+
                         <% else %>
                           
                               <div class="alert alert-error">
@@ -160,7 +162,7 @@
             <br>
              <h4 > 
 
-               <%if  @newhire_course_to_review.assigned_to == current_user.id || current_user.name == 'ihartstein' || current_user.name == 'mwalsh8' %>
+               <%if  @newhire_course_to_review.assigned_to == current_user.id || current_user.name == 'ihartstein' || current_user.name == 'mwalsh8' || current_user.name == 'aheim' || current_user.name == 'fcory' || current_user.name == 'mwilliam' || current_user.name == 'hmiller' || current_user.name == 'ejaffe' %>
                     <% if !@review_team.include?(current_user.name) %>
                       <%= link_to image_tag('/assets/Add_16x16.png'), 
                                   {:controller => 'newhiredocuments', 
@@ -324,7 +326,7 @@
     </div> 
   </div>
 </div>
-
+-->
 
 <script type="text/javascript">
 jQuery(document).ready(function(){

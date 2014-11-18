@@ -1,3 +1,4 @@
+
 class NewhiresController < ApplicationController
   protect_from_forgery :except => :assign_to
 
@@ -113,8 +114,11 @@ class NewhiresController < ApplicationController
   def list_pending
     
     #To Do: determine list type to display
-
-    @send_to_notify=User.find_by_sql(["select id, concat(name,'@fau.edu') as displayname from users where name IN ('afradkin','jdiaka','pscarlat','koku','mwalsh8')"])
+    if current_user.name == "ihartstein" 
+     @send_to_notify=User.find_by_sql(["select id, concat(name,'@fau.edu') as displayname from users order by name"])
+    else
+      @send_to_notify=User.find_by_sql(["select id, concat(name,'@fau.edu') as displayname from users where name IN ('afradkin','jdiaka','pscarlat','koku','mwalsh8')"])
+    end
 
     if current_user.group.name == "admin" 
       

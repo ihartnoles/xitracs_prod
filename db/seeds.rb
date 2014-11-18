@@ -189,6 +189,10 @@ User.create :name => "rgoncal",  :group_id => Group.find_by_name('chair').id,
             :school_id => School.find_by_name('AL').id, :department_id => Department.find_by_name('Ctr for Women Gender & Sexuality Studies').id, :permission_id => 1, :enabled => true, :ro => false
 
 
+User.create :name => "ylu5",  :group_id => Group.find_by_name('chair').id, 
+            :school_id => 17, :department_id => 44, :permission_id => 1, :enabled => true, :ro => false
+
+User.create :name => "mhammer2", :group_id => Group.find_by_name('chair').id, :school_id => School.find_by_name('BA').id, :department_id => 1, :ro => false, :enabled => 1
 
 
 #    User.destroy_all

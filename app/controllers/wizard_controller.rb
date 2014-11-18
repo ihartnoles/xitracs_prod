@@ -243,7 +243,7 @@ class WizardController < ApplicationController
     else
       @faculty = Faculty.find(params[:faculty_id])
       @course = Course.find(params[:course_id])
-      @reason = Reason.where(:faculty_id => @faculty.id, :course_id => @course.id).first
+      @reason = !Reason.where(:faculty_id => @faculty.id, :course_id => @course.id).first.nil? ? Reason.where(:faculty_id => @faculty.id, :course_id => @course.id).first : Reason.new
       if (@reason != nil)
         @reviewreason_ids = @reason.reviewreason_ids      
         @credits = Credit.where(:faculty_id => @faculty.id)        

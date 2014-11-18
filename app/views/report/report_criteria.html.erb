@@ -20,20 +20,14 @@
 			<%= radio_button_tag 'search_by', 'department', false, {:onclick => "update_select();"} %> Search by Department
 			<%= select_tag "department_id", options_from_collection_for_select(Department.order(:name), "id", "name"), :prompt => "Select Department"	%>
 		</fieldset>
-	<% elsif @ask_group && session[:group_name] == "dean"%>	
+	<% elsif @ask_group%>	
 		<fieldset>
-			<%= radio_button_tag 'search_by', 'all', true, {:onclick => "update_select();"} %> Search Entire College
+			<%= radio_button_tag 'search_by', 'school', false , {:onclick => "update_select();"} %> Search by College
+			<%= select_tag "school_id", options_from_collection_for_select(School.where(:enabled => true).order(:name), "id", "name_and_description"), :prompt => "Select College"	%>
 			<br/>
 			<%= radio_button_tag 'search_by', 'department', false, {:onclick => "update_select();"} %> Search by Department
 			<%= select_tag "department_id", options_from_collection_for_select(Department.where(:school_id => session[:school_id]), "id", "name"), :prompt => "Select Department"%>
-		</fieldset>
-	<% elsif @ask_group %>
-		<fieldset>
-			Find faculty in: <%= Department.find(session[:department_id]).name %>
-			<%= hidden_field_tag 'search_by', 'chair'%>
-			<%= hidden_field_tag 'search_id', session[:department_id]%>
-			<br/>
-		</fieldset>
+		</fieldset>	
 	<% end %>
 
 	<% if @ask_review_reasons %>

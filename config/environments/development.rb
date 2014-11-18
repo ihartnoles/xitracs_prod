@@ -31,8 +31,8 @@ XitracsRoster::Application.configure do
   config.logger = Logger.new(config.paths.log.first, 1, 5.megabytes)
   # Expands the lines which load the assets
   #config.assets.debug = true
-  config.middleware.use ExceptionNotifier,
-  :email_prefix => "[Error Report] ",
-  :sender_address => %{"Pre-Credentialing Error Report" <ihartstein@fau.com>},
-  :exception_recipients => %w{ihartstein@fau.edu}
+  #config.middleware.use ExceptionNotifier,
+  #:email_prefix => "[Error Report] ",
+  #:sender_address => %{"Pre-Credentialing Error Report" <ihartstein@fau.com>},
+  #:exception_recipients => %w{ihartstein@fau.edu}
 end

@@ -4,6 +4,9 @@
 
 <br/>
 
+ read_only:<%= session[:read_only] %>
+ review: <%= session[:review] %>
+
 
 <% if @courses.count > 0 %>
 <%= paginate @courses %>
@@ -41,6 +44,8 @@
 	   		<% actionval = 'justify_course_for'%>
 	    <tr> 
 	  <% end %>
+	    <% actionval = 'justify_course_for'%>
+	    <tr> 
 	    <td  onclick="window.location.href='<%= url_for :action => actionval, :course_id => course.id, :faculty_id => session[:faculty_id]%>'">
 	    		<%= course.name %>
 	    </td>

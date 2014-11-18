@@ -8,7 +8,7 @@ class WizardMailer < ActionMailer::Base
   
   def login_failed_email(username)
     @username = username
-    mail(:from => "#{@username}@fau.edu", :to => 'ihartstein@fau.edu', :subject => "Failed Login: #{@username}")
+    mail(:from => "#{@username}@fau.edu", :to => 'ihartstein@fau.edu', :subject => "SACS - Failed Login: #{@username}")
   end
 
   def send_msg(newhire,subject,msg,sendto,body,sentby,final_approval)

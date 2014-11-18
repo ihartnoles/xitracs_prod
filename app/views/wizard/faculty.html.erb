@@ -1,3 +1,7 @@
+search_mode:<%= session[:search_mode] %><br>
+session[:department_id]: <%= session[:department_id] %><br>
+session[:semester_id] : <%= session[:semester_id] %><br>
+
 <% provide(:title, 'My Faculties') %>
 
 <%= paginate @faculties, :params => {:dont_override => "yes"}  %>

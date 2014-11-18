@@ -5,7 +5,7 @@ class NewhirecreditsController < ApplicationController
   def index
 	  @newhire = Newhire.find(params[:newhire_id])
       @newhirecredits = Newhirecredit.new
-      @newhireinstitutions = Newhireinstitution.all
+      @newhireinstitutions = Newhireinstitution.order('name')
       @newhire_credits_added  = Newhirecredit.where(:newhire_id => params[:newhire_id], :course_id => params[:course_id])
       
       

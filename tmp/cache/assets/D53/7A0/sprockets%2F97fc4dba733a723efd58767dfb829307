@@ -1,0 +1,28 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1386868133.6305726:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%6da0c5c0bffc69e29c114063a63b7c77I"logical_path;
+FI"ckeditor/basepath.js;
+TI"pathname;
+FI"y/home/ihartstein/.rvm/gems/ruby-1.9.3-p448/gems/ckeditor_rails-4.0.2/lib/assets/javascripts/ckeditor/basepath.js.erb;
+TI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2013-12-12T12:08:19-05:00;
+FI"	body;
+FI"3
+var CKEDITOR_BASEPATH = '/assets/ckeditor/';
+;
+FI"asset_paths;
+F[I"y/home/ihartstein/.rvm/gems/ruby-1.9.3-p448/gems/ckeditor_rails-4.0.2/lib/assets/javascripts/ckeditor/basepath.js.erb;
+TI"dependency_paths;
+F[{I"	path;
+FI"y/home/ihartstein/.rvm/gems/ruby-1.9.3-p448/gems/ckeditor_rails-4.0.2/lib/assets/javascripts/ckeditor/basepath.js.erb;
+TI"
+mtime;
+FIu:	Time‘m€‡X<!
+:@_zoneI"EST;
+T:nano_numiÝ:nano_deni:submicro"":offsetiþ°¹I"hexdigest;
+F"%9906cc64b8111ec82c7c7abac7209e04I"_version;
+F"%0868aba5d4b750d3a9421721ea3d9b9c

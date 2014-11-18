@@ -3,6 +3,8 @@ XitracsRoster::Application.routes.draw do
 
 
   
+  resources :systemusers
+
   resources :newhirecredentials
 
   resources :donesemesters

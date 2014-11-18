@@ -1,0 +1,62 @@
+  <% if current_user.group.name == 'admin'%>
+    <%= form_for(@systemuser) do |f| %>
+      <% if @systemuser.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@systemuser.errors.count, "error") %> prohibited this systemuser from being saved:</h2>
+
+          <ul>
+          <% @systemuser.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <div class="field">
+        <%= f.label :name %><br />
+        <%= f.text_field :name %>
+      </div>
+       <div class="field">
+        <%= f.label :department_id %><br />
+        <%#= f.text_field :department_id %>
+        <%#= select('send_to', 'notify',
+                              options_for_select(@send_to_notify.collect{ |u| [u.displayname, u.id]}), {:include_blank => 'None'})%>
+
+         <%= f.collection_select :department_id, Department.all, :id, :name %>
+      </div>
+       <div class="field">
+        <%= f.label :school_id %><br />
+        <%#= f.text_field :school_id %>
+        <%= f.collection_select :school_id, School.all, :id, :description %>
+      </div>
+      <div class="field">
+        <%= f.label :permission_id %><br />
+        <%#= f.text_field :permission_id %>
+       <% if params.has_key?(:id) %>
+            
+             <%= f.select :permission_id, options_for_select([["authorized user","1" ], ["chair","2"], ["dean","4"], ["reviewer","8"], ["admin","16"]], User.find(params[:id]).permission_id), {:prompt => "--select permission--"} %>
+            
+
+        <% else %>       
+
+            <%= f.select :permission_id, options_for_select([["authorized user","1" ], ["chair","2"], ["dean","4"], ["reviewer","8"], ["admin","16"]]), {:prompt => "--select permission--"} %>
+
+        <% end %>
+
+      </div>
+      <div class="field">
+        <%= f.label :group_id %><br />
+        <%#= f.text_field :group_id %>
+        <% if params.has_key?(:id) %>
+            <%= f.select :group_id, options_for_select([["admin","1" ], ["dean","2"], ["chair","3"], ["faculty","4"]], User.find(params[:id]).group_id), {:prompt => "--select group--"} %>
+        <% else %>       
+            <%= f.select :group_id, options_for_select([["admin","1" ], ["dean","2"], ["chair","3"], ["faculty","4"]]), {:prompt => "--select group--"} %>
+        <% end %>
+      </div>
+      <div class="actions">
+        <%= f.submit %>
+      </div>
+    <% end %>
+  <% else %>
+    <h1>Unauthorized</h1>
+  <% end %>

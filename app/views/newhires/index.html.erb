@@ -7,8 +7,6 @@
 						<h4>New Hire Name:</h4>
 							
 									<%= form_for @newhire, :url => "/newhires/savename" do |f| %>
-									
-									
 
 									<div class="control-group">
 										<label><font color="red">*</font> First:</label>
@@ -16,14 +14,11 @@
 										 <div class="help-block"></div>
 									</div>
 
-
-
 									<div class="control-group">
 										<label>Middle:</label>
 										 <%= text_field_tag 'middle_name' %>
 										 <div class="help-block"></div>
 									</div>
-
 
 									<div class="control-group">
 										<label><font color="red">*</font> Last:</label>
@@ -48,7 +43,6 @@
 
 									<% end %>
 
-								
 									<br>
 									<%= f.submit "Save & Continue" , :class => 'btn btn-small btn-primary' %>
 								<% end %>

@@ -1,13 +1,25 @@
 Miscellaneous
 =============
 
-mysqldump xitracs_prod | gzip -9 > /backup/mysql/xitracs_prod.`date +'%Y-%m-%d.%H'`.sql.gz
+#on production box
+mysqldump --opt xitracs_prod | gzip -9 > /backup/mysql/xitracs_prod.`date +'%Y-%m-%d.%H'`.sql.gz
+
+
+#create the backup on SACS via CRON 
+/backup/scripts/BackupMySQL.sh 
+
+
+
+# on local machine (DEV)
+# Remove local references to .sql dump 
+rm -f ~/Downloads/*.sql
 
 
 # Download latest prod db:
-rm -f ~/Downloads/*.sql
 scp sacs:/backup/mysql/`date +"xitracs_prod.%Y-%m-%d.%H"`.sql.gz ~/Downloads/
 gzip -d ~/Downloads/*.sql.gz
+
+# DO NOT DROP DATABASE IN PRODUCTION!!! We run this in DEV ONLY!!!
 echo "drop database xitracs_dev; create database xitracs_dev; " | mysql -u root -p
 mysql -u root -p xitracs_dev < ~/Downloads/xitracs_prod.*.sql
 
@@ -18,16 +30,17 @@ mkdir `date +"xitracs-%m-%d-%Y"`
 rm xitracs ; ln -s `date +"xitracs-%m-%d-%Y"` xitracs ;  cd xitracs
 mkdir notused
 mv -f ../XITRACS_PERCENT_RESPONSIBLE.txt ../XITRACS_COURSE_SECTION_CREDENTIALS.txt notused
-mv -f ../XITRACS_DEPARTMENTS.txt ../XITRACS_SCHOOLS.txt  notused
-mv -f ../XITRACS_QUALIFICATIONS_AWARD.txt ../XITRACS_QUALIFICATIONS_TYPE.txt notused
+# mv -f ../XITRACS_DEPARTMENTS.txt ../XITRACS_SCHOOLS.txt  notused
+# mv -f ../XITRACS_QUALIFICATIONS_AWARD.txt ../XITRACS_QUALIFICATIONS_TYPE.txt notused
 mv ../XITRACS_* .
 ls XITRACS_* | wc -l
 
 
 # Daily Update
-# Run these from the xitracs rails root directory
-xt
-rake db:migrate
+# Run these from the xitracs rails root directory (i.e. - cd ror/xitracs_prod)
+# rake db:migrate
+
+# IN PRODUCTION WE START HERE!  WE ONLY RUN THE RAKES!
 rake update_faculty[/home/ihartstein/Downloads/xitracs/XITRACS_FACULTY_MEMBERS.txt,update,debug] 
 rake update_facultycredentials[/home/ihartstein/Downloads/xitracs/XITRACS_FACULTY_CREDENTIALS.txt,update,debug] 
 rake update_courses[/home/ihartstein/Downloads/xitracs/XITRACS_COURSES.txt,ignore,update,debug]
@@ -44,15 +57,18 @@ rake update_semesters
 rake sanity_check
 
 # Rebuild Diagrams:
-rake diagram:all
+# rake diagram:all
 
 
 # Upload to SACS Production
-DIR=`basename ~/Downloads/xitracs*2013`
+DIR=`basename ~/Downloads/xitracs*2014`
 ssh sacs "mv ~/Downloads/xitracs-* ~/Downloads/old ; mkdir ~/Downloads/$DIR ; rm ~/Downloads/xitracs ; ln -s ~/Downloads/$DIR ~/Downloads/xitracs"
 
 cd ~/Downloads/$DIR
 scp -r * sacs:~/Downloads/$DIR
+
+
+##################################################################################################
 
 # Dump/Reload To Debug:
 # mysqldump -u root xitracs > /tmp/x.sql
