@@ -114,7 +114,7 @@ class NewhiresController < ApplicationController
   def list_pending
     
     #To Do: determine list type to display
-    if current_user.name == "ihartstein" 
+    if current_user.name == "ihartstein" || current_user.name == "mwalsh8"
      @send_to_notify=User.find_by_sql(["select id, concat(name,'@fau.edu') as displayname from users order by name"])
     else
       @send_to_notify=User.find_by_sql(["select id, concat(name,'@fau.edu') as displayname from users where name IN ('afradkin','jdiaka','pscarlat','koku','mwalsh8')"])

@@ -302,7 +302,9 @@ class ReportController < ApplicationController
       data = CSV.generate do |csv|
         csv << ["Last Name", "First Name", "Znumber", "Department(College)", "Course Name", "Course Title"] 
         @results.each do |r|
-          csv << [ r.faculty.last_name,r.faculty.first_name,r.faculty.znumber,r.faculty.department.name_and_school,r.course.name,r.course.title]       
+          if r.course.present?
+            csv << [ r.faculty.last_name,r.faculty.first_name,r.faculty.znumber,r.faculty.department.name_and_school,r.course.name,r.course.title]       
+          end
         end
       end
       send_data data,  :type => 'text/csv; charset=iso-8859-1; header=present',

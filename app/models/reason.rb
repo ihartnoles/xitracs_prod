@@ -1,5 +1,5 @@
 class Reason < ActiveRecord::Base
-  belongs_to :faculty
+  belongs_to :faculty 
   belongs_to :course
   belongs_to :facultycredential
   belongs_to :qualificationreason
@@ -84,4 +84,10 @@ class Reason < ActiveRecord::Base
     reason = Reason.where(:faculty_id => faculty.id, :course_id => course.id).first
     return reason.nil? ? icons.first : icons[reason.review_state]  
   end
+
+  def getcoursename(course_id)
+    name = Course.find(course_id).name
+    return name
+  end
+
 end

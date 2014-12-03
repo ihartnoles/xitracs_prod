@@ -22,12 +22,12 @@
         <%#= select('send_to', 'notify',
                               options_for_select(@send_to_notify.collect{ |u| [u.displayname, u.id]}), {:include_blank => 'None'})%>
 
-         <%= f.collection_select :department_id, Department.all, :id, :name %>
+         <%= f.collection_select :department_id, Department.order(:name), :id, :name %>
       </div>
        <div class="field">
         <%= f.label :school_id %><br />
         <%#= f.text_field :school_id %>
-        <%= f.collection_select :school_id, School.all, :id, :description %>
+        <%= f.collection_select :school_id, School.where(:enabled => 1).order(:description), :id, :description %>
       </div>
       <div class="field">
         <%= f.label :permission_id %><br />

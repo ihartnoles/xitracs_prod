@@ -1,14 +1,15 @@
 class Course < ActiveRecord::Base
+  attr_accessible :name, :title
+
   validates :name, :uniqueness => { :case_sensitive => false } 
   
   belongs_to :department
   has_many :sections
   has_many :reasons
-
-
+ 
   def details
    "#{self.name} - #{self.title} - #{self.department.name_and_school}"
-  end
+  end  
   
   def is_taught_by(faculty_id, semester_id)
     section_ids = Section.where(:course_id => self.id, :semester_id => semester_id).map {|row| row.id}

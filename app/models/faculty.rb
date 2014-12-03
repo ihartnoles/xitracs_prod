@@ -8,7 +8,7 @@ class Faculty < ActiveRecord::Base
   has_many :reasons
   has_many :credits
   has_many :donesemesters
-  
+
   belongs_to :department
   belongs_to :rank
   belongs_to :employmentstatus

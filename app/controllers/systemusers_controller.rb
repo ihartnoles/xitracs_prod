@@ -43,7 +43,13 @@ class SystemusersController < ApplicationController
   def create
     @systemuser = Systemuser.new(params[:systemuser])
     @systemuser.name = params[:systemuser][:name]
-    @systemuser.ro = 0
+    
+    if params[:systemuser][:group_id] == 4
+      @systemuser.ro = 1
+    else
+      @systemuser.ro = 0
+    end
+    
     @systemuser.enabled = 1
 
     respond_to do |format|
@@ -61,6 +67,12 @@ class SystemusersController < ApplicationController
   # PUT /systemusers/1.json
   def update
     @systemuser = Systemuser.find(params[:id])
+
+    if params[:systemuser][:group_id] == 4
+      @systemuser.ro = 1
+    else
+      @systemuser.ro = 0
+    end
 
     respond_to do |format|
       if @systemuser.update_attributes(params[:systemuser])
