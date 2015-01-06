@@ -1,13 +1,22 @@
 class Newhiresignoff < ActiveRecord::Base
 	
 	def signed_off_by(user_id)
-		user = User.find(user_id)
-		username = user.name.humanize
+		#user = User.find(user_id)
+		#username = user.name.humanize
 
 		#usertype = Group.find(user.group_id).name.humanize
 
-		#return "#{username} - <i>#{usertype}</i>".html_safe
-		return "#{username}"
+		##return "#{username} - <i>#{usertype}</i>".html_safe
+		#return "#{username}"
+
+    username = User.find_by_id(user_id)
+
+    if !username.nil?
+      return username.name
+    else
+      return "n/a - signoff"
+    end
+
 	end
 
 	def status(signoff,user_type,final_approval)

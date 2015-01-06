@@ -1,8 +1,12 @@
 class Newhirecomment < ActiveRecord::Base
 
 	def signed_off_by(user_id)
-		username = User.find(user_id).name
+		username = User.find_by_id(user_id)
 
-		return username
+		if !username.nil?
+			return username.name
+		else
+			return "n/a - comment"
+		end
 	end
 end

@@ -144,7 +144,7 @@
                                 </div>
                               </td>
                             </tr>
-                           select * from newhires where last_name in ('Dipiola','Warsi','Sverdlik','Eker','Schiller','Ross');
+                           
 
                         <% else %>
                           
@@ -295,7 +295,7 @@
                         <% @newhire_comments_added.each do |cm| %>
                           <tr>
                             <td><%= cm.comment.html_safe %></td>    
-                            <td><%= cm.signed_off_by(cm.user_id)%></td>
+                            <td><%#= cm.signed_off_by(cm.user_id)%></td>
                             <td><%= cm.created_at.strftime('%m/%d/%Y %l:%M %P') %></td>     
                             <td width="10%">
                               <% if !@review_team.include?(current_user.name) %>
@@ -326,7 +326,6 @@
     </div> 
   </div>
 </div>
--->
 
 <script type="text/javascript">
 jQuery(document).ready(function(){

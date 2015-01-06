@@ -18,19 +18,14 @@
              </div>
              <% end %>
 		  <% end %>
-	
     </div>
 
-		<% if @newhires.nil? || @newhires.count == 0 %>
+    <% if @newhires.nil? || @newhires.count == 0 %>
 			<div class="alert">
 		  			<center>No New Hires Assigned to Me!</center>
 		  	</div>
-
-		
-
-		<% else %>
-				<!-- <table class="table table-condensed table-hover" id="example"> -->
-				<table cellpadding="0" cellspacing="0" border="0" class="table table-condensed bordered-table zebra-striped table-hover" id="example">
+    <% else %>
+    	<table cellpadding="0" cellspacing="0" border="0" class="table table-condensed bordered-table zebra-striped table-hover" id="example">
 				  <thead> 
 					  <tr>
 					  <% if current_user.name == "mwalsh8" || current_user.name == "ihartstein" ||  current_user.name == "jcramer" %>
@@ -58,7 +53,7 @@
 				    </tr>
 				  </thead>
 				  <tbody>
-				    <% @newhires.each do |newhire| %>
+						<% @newhires.each do |newhire| %>
 						  <tr  
 						  	<% if newhire.assigned_to == current_user.id %> 
 						    	class="success"
@@ -79,10 +74,16 @@
 						    <td><%= newhire.created_at.strftime('%m/%d/%Y') %></td>
 						    <td>
 						    	<% if newhire.assigned_to != 0 &&  newhire.assigned_to.to_s.length > 0 %>
-						    		<%= User.find(newhire.assigned_to).name%>
-						    	<% else %>
-						    		n/a
+						    		<% username = User.find_by_id(newhire.assigned_to) %>
+						    		<% if username.nil? %>
+						    		    n/a
+						    		<% else %>						    			
+						    			<%= User.find_by_id(newhire.assigned_to).name %>
+						    		<% end %>
+						    	
 						    	<% end %>
+
+						    	
 						    	
 						    </td>
 						    <td>
@@ -158,32 +159,11 @@
 
 					  </tbody> 
 				</table>  
+
+
+	<% end %>
 		
-		<!--
-		  <% if @newhires.count > 0 %>	
-			<div id="pager" class="pager .text-center" align="center">
-				<form>
-					<img src="/assets/first.png" class="first"/>
-					<img src="/assets/prev.png" class="prev"/>
-					<input type="text" class="pagedisplay"/>
-					<img src="/assets/next.png" class="next"/>
-					<img src="/assets/last.png" class="last"/>
-					<select class="pagesize">
-						<option  value="<%=@newhires.count%>"  >All</option>
-						<option selected="selected"  value="10">10</option>
-						<option value="20">20</option>
-						<option value="30">30</option>
-						<option  value="40">40</option>
-					</select>
-				</form>
-			</div>
-		  <% end %>
-		-->
-			
-		<% end %>
 </fieldset>
-	
-	
 
 <%= javascript_tag do %>
 
@@ -222,5 +202,4 @@ $(document).ready(function(){
        });
       
 });
-
 <% end %>

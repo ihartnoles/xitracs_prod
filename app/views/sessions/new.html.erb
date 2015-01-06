@@ -12,16 +12,17 @@
 	</div>
 	<div class="field">
 		<%= label_tag 'Semester:' %> <%= select_tag :semester_id, options_from_collection_for_select(Semester.find_by_sql(["select * from semesters where id <> 1 order by case  
-								when name = 'Fall 2014' then 1
-								when name = 'Summer 2014' then 2
-								when name = 'Spring 2014' then 3
-								when name = 'Fall 2013' then 4
-								when name = 'Summer 2013' then 5
-								when name = 'Spring 2013' then 6
-								when name = 'Summer 2012' then 7
-							    when name = 'Fall 2012' then 8
-						        when name = 'Spring 2012' then 9
-								else 10 end, name;"]), "id", "name", Semester.find_by_name("Fall 2014").id.to_i) %>
+								when name = 'Spring 2015' then 1
+								when name = 'Fall 2014' then 2
+								when name = 'Summer 2014' then 3
+								when name = 'Spring 2014' then 4
+								when name = 'Fall 2013' then 5
+								when name = 'Summer 2013' then 6
+								when name = 'Spring 2013' then 7
+								when name = 'Summer 2012' then 8
+							    when name = 'Fall 2012' then 9
+						        when name = 'Spring 2012' then 10
+								else 11 end, name;"]), "id", "name", Semester.find_by_name("Spring 2015").id.to_i) %>
 	</div>
 
 	<div class="field">

@@ -1,0 +1,226 @@
+
+
+<fieldset class="round" >
+	<div class="row">
+	
+		  <% if @newhires.count > 0 %>
+			<div class="span4" align="left">
+				<h4><%= @newhire_count %> New Hire<% if @newhires.count > 1 %>s<% end %></h4>
+			</div>
+				<%#= button_to "Assign", '', :id => 'test',:class => "btn btn-mini btn-primary" ,:method => :post, :title => 'Start Pre-Credentialing ', :rel => 'tooltip' %>
+
+			
+			 <% if current_user.name == "mwalsh8" || current_user.name == "ihartstein" ||  current_user.name == "jcramer" %>
+			  <div align="right">
+				Assign to:
+				 <%= select('send_to', 'notify',
+                          options_for_select(@send_to_notify.collect{ |u| [u.displayname, u.id]}), {:include_blank => 'None'})%>
+             </div>
+             <% end %>
+		  <% end %>
+	
+    </div>
+
+		<% if @newhires.nil? || @newhires.count == 0 %>
+			<div class="alert">
+		  			<center>No New Hires Assigned to Me!</center>
+		  	</div>
+
+		
+
+		<% else %>
+				<!-- <table class="table table-condensed table-hover" id="example"> -->
+				<table cellpadding="0" cellspacing="0" border="0" class="table table-condensed bordered-table zebra-striped table-hover" id="example">
+				  <thead> 
+					  <tr>
+					  <% if current_user.name == "mwalsh8" || current_user.name == "ihartstein" ||  current_user.name == "jcramer" %>
+						<th>Assign</th>
+					  <% end %>
+
+					  <th>Last</th>
+					  <th>First</th>
+					  <th>Course</th>
+					  <th>School</th>
+					  <th>Department</th>
+					  <th>Added on</th>
+					  <th nowrap>Assigned to</th>
+					  <th nowrap>Review Status</th>
+					  <% if current_user.name == "mwalsh8" || current_user.name == "ihartstein" ||  current_user.name == "jcramer" %>
+						<th>Approval</th>
+					  <% end %>
+
+				   <%# if current_user.name == "mwalsh8" || current_user.name == "ihartstein" ||  current_user.name == "jcramer" %>
+				  	<th align="center">Actions</th>
+				  	<th>&nbsp;</th>
+				   <%# else %>
+				   	<!-- <th colspan="2" >Actions</th> -->
+				  <%# end %>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <% @newhires.each do |newhire| %>
+						  <tr  
+						  	<% if newhire.assigned_to == current_user.id %> 
+						    	class="success"
+						   	<% end %> 					  
+						  	> 
+
+						  	<% if current_user.name == "mwalsh8" || current_user.name == "ihartstein" ||  current_user.name == "jcramer" %>
+						  		<td>
+							  		<%= check_box_tag 'newhire_ids', newhire.course_id, false,:class => 'assign' %>
+							  	</td>
+							<%end %>
+
+						  	<td><%= newhire.last_name %></td>
+						  	<td><%= newhire.first_name %></td>
+						  	<td nowrap><strong><%= newhire.name %></strong></td>
+						  	<td ><%= newhire.school_name %></td>
+						  	<td ><%= newhire.dept_name %></td>
+						    <td><%= newhire.created_at.strftime('%m/%d/%Y') %></td>
+						    <td>
+						    	<% if newhire.assigned_to != 0 &&  newhire.assigned_to.to_s.length > 0 %>
+						    		<%= User.find(newhire.assigned_to).name%>
+						    	<% else %>
+						    		n/a
+						    	<% end %>
+						    	
+						    </td>
+						    <td>
+						    	<% @review_count = Newhirereviewreason.find_by_sql(['select distinct t1.reviewer_id
+                                                          from newhirereviewreasons t1, newhirereviewreasons t2
+                                                          where t1.course_id = t2.course_id
+                                                          and t1.course_id = :cid;' ,{:cid => newhire.course_id}]).count %>
+
+                                 <% @success_count = Newhirereviewreason.find_by_sql(['select distinct t1.reviewer_id
+                                                          from newhirereviewreasons t1, newhirereviewreasons t2
+                                                          where t1.course_id = t2.course_id
+                                                          and t1.course_id = :cid 
+                                                          and t1.review_state = 1;' ,{:cid => newhire.course_id}]).count %>
+
+                                 <% if @review_count == 1 %>
+							 		1 of 2 reviewed
+							 	<% elsif @review_count >= 2 && @success_count <= 1 %>
+		 							2 reviews completed
+		 						<% elsif @review_count >= 2 && @success_count >=2  %>
+		 							<%= image_tag('/assets/Check_16x16.png')  %>		 						
+		 						<% else %>
+		 							<%= image_tag('/assets/Cancel_16x16.png') %>
+		 						<% end %>
+
+						   	</td>
+						   	 <% if current_user.name == "mwalsh8" || current_user.name == "ihartstein" ||  current_user.name == "jcramer" %>
+							   	<td>
+							   		<% if newhire.final_approval == 1 %>
+							   			<%= image_tag('/assets/Check_16x16.png')  %>
+							   		<% else %>
+							   			<%= image_tag('/assets/Cancel_16x16.png')  %>
+							   		<% end %>
+							   </td>
+							  <% end %>
+						  	<td>
+						  		
+
+						  		<%  if newhire.assigned_to == current_user.id %>
+							  		<%= link_to image_tag('/assets/Edit_16x16.png'), edit_newhire_path(:id => newhire, :dept_id => newhire.department_id),:title => 'Edit new hire', :rel => 'tooltip'
+	                                    %>
+
+	                                 <%  newhirecourses = Newhirecourse.where(:newhire_id => newhire) %>
+
+	                                <% if newhirecourses.count > 1 %>
+	                                	<%= link_to image_tag('/assets/Delete_16x16.png'), newhirecourse_path(newhire.course_id , :newhire_id => newhire.id), :method => :delete, :class => "destroy", :confirm => "Are you sure you want to delete this course?", :title => 'Delete course ', :rel => 'tooltip' %>	
+	                                <% end %>	
+	                            <% end %>   
+
+	                           
+
+						   </td>
+
+						   <td>						   		 
+						   	<% if newhire.assigned_to == current_user.id && @review_count < 2 && @success_count < 2 %>
+						   	
+						   		 <%= button_to "Start", newhireshowcourses_path(:id => newhire, :dept_id => newhire.department_id), :class => "btn btn-mini btn-primary" ,:method => :post, :title => 'Start Pre-Credentialing ', :rel => 'tooltip' %>
+
+						   	<% else %>
+
+						   		
+						   		<%= button_to "View", newhire_review_course_path(:id => newhire.course_id , :newhire_id => newhire.id) , :class => "btn btn-mini btn-warning" , :title => 'See course details ', :rel => 'tooltip' %>	 	
+
+						   	<%end %>
+
+						   	 <% if current_user.name == "mwalsh8" || current_user.name == "ihartstein" %>
+						  		
+							  		<%= button_to "Delete", newhires_delete_newhire_path(:id => newhire.id), :class => "btn btn-mini btn-danger", :confirm => "Are you sure you want to delete this individual?", :title => 'Delete new hire ', :rel => 'tooltip' %>	
+							  	
+							<%end %>
+						   </td>
+						  </tr>
+					  <% end %>
+
+					  </tbody> 
+				</table>  
+		
+		<!--
+		  <% if @newhires.count > 0 %>	
+			<div id="pager" class="pager .text-center" align="center">
+				<form>
+					<img src="/assets/first.png" class="first"/>
+					<img src="/assets/prev.png" class="prev"/>
+					<input type="text" class="pagedisplay"/>
+					<img src="/assets/next.png" class="next"/>
+					<img src="/assets/last.png" class="last"/>
+					<select class="pagesize">
+						<option  value="<%=@newhires.count%>"  >All</option>
+						<option selected="selected"  value="10">10</option>
+						<option value="20">20</option>
+						<option value="30">30</option>
+						<option  value="40">40</option>
+					</select>
+				</form>
+			</div>
+		  <% end %>
+		-->
+			
+		<% end %>
+</fieldset>
+	
+	
+
+<%= javascript_tag do %>
+
+$(document).ready(function(){
+	
+		$('#example').dataTable();
+
+
+ 		$('#send_to_notify').change(function(){
+	          var allVals = [];
+	          
+	          $('.assign:checked').each(function() {
+			       allVals.push(jQuery(this).val());		      
+			   });
+
+	          //alert(allVals);
+	       
+	          var i;
+			  for (i = 0; i < allVals.length; ++i) {
+			   $.post(
+			      '/newhires/assign_to', 
+			      {id:allVals[i], assigned_to:$('#send_to_notify').val()});
+	           } 
+			  
+			  //reload
+			  //location.reload();
+
+			   
+        setTimeout( function () { 
+        
+            location.reload(true);
+
+               
+            }, 1000
+        );
+       });
+      
+});
+
+<% end %>

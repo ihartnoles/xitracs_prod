@@ -35,7 +35,11 @@
                                         N/A
                                       <% end %>
                                   </td>           
-                                  <td><%= nhr.reviewer_name(nhr.reviewer_id) %></td>
+                                  <td>
+                                    <% if !nhr.reviewer_id.blank? || nhr.reviewer_id.nil? %>
+                                      <%= nhr.reviewer_name(nhr.reviewer_id) %>
+                                    <% end %>
+                                  </td>
 
                                   <td>
                                     <% if nhr.created_at %>
