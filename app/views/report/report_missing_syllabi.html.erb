@@ -1,0 +1,34 @@
+<% provide(:title, 'Search Criteria') %>
+
+<%= form_tag("/report/report_missing_syllabi", :method => "get") do %>
+	
+	
+		Semester :	
+		<%= select_tag "semester_id", options_from_collection_for_select(Semester.find(:all), "id", "name", @semester_id) %>
+		<br/>
+		<br/>
+	
+	<br/>
+  	<%= submit_tag "Search" %>
+<% end %>
+
+<br/>
+
+<% if !@results.nil? && @results.count > 0 %>
+	<table class="info round no-zebra">
+		<th>Course Name</th><th>Course Title</th><th>Dept.</th><th>Section</th><th>znumber</th><th>firstname</th><th>lastname</th>
+		<% @results.each do |row|%>
+			<tr>
+				<td><%= row['course_name'] %></td>
+				<td><%= row['course_title'] %></td>
+				<td><%= row['dept_name'] %></td>
+				<td><%= row['section_name'] %></td>
+				<td><%= row['znumber'] %></td>
+				<td><%= row['first_name'] %></td>
+				<td><%= row['last_name'] %></td>
+			</tr>
+		<% end %>
+	</table>
+	<a href=<%=url_for :action => 'report_missing_syllabi', :controller => 'report', :csv => 'yes' , :semester_id => @semester_id %>>Download CSV File</a>
+<% end %>
+<%= "<br/>No Records Found<br/>".html_safe if !@results.nil? && @results.count == 0 %>

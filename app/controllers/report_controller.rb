@@ -311,4 +311,91 @@ class ReportController < ApplicationController
                       :disposition => "attachment; filename='results_faculty_course.csv'"          
     end        
   end
+
+  def report_missing_syllabi
+    #session[:semester_id] = params[:semester_id]
+
+     if session[:semester_id] 
+        @semester_id = session[:semester_id]         
+     end
+
+     if params[:semester_id]
+        @semester_id = params[:semester_id]
+     end
+
+        
+      current_semester = params[:semester_id]
+
+      if current_semester ==  18 
+          prev_semester = 17
+        elsif 17
+          prev_semester = 15
+        else
+          prev_semester = current_semester - 1
+      end
+      
+      @results = Semester.find_by_sql(["Select Distinct
+                courses.name As course_name,
+                courses.title As course_title,
+                
+                departments.name As dept_name,
+               
+                sections.name As section_name,
+                sections.title As section_title,
+               
+                faculties.znumber,  
+                faculties.first_name,
+                faculties.last_name
+              From
+                courses left Join
+                coursedocuments On courses.id = coursedocuments.course_id  left Join
+                departments On courses.department_id = departments.id  inner Join
+                sections On sections.course_id = courses.id  inner Join
+                sectionenrollments On sections.id = sectionenrollments.section_id  inner Join
+                faculties On sectionenrollments.faculty_id = faculties.id
+              Where 0=0
+                and sections.semester_id = :current_semester
+                and (coursedocuments.semester_id is null or coursedocuments.semester_id >= :prev_semester)
+                and (sections.semester_id <> coursedocuments.semester_id or coursedocuments.semester_id is null)         
+
+                 and sections.name NOT in ( 
+                            select sections.name 
+                            From                  courses left Join
+                                coursedocuments On courses.id = coursedocuments.course_id  left Join
+                                departments On courses.department_id = departments.id  inner Join
+                                sections On sections.course_id = courses.id  inner Join
+                                sectionenrollments On sections.id = sectionenrollments.section_id
+                              
+                             where sections.semester_id = coursedocuments.semester_id               
+                          )
+
+              Order By
+                departments.name ,  
+                faculties.last_name,
+                faculties.znumber,  
+                course_name,
+                course_title", {:current_semester => current_semester, :prev_semester => prev_semester } ])  
+
+
+        if (params[:csv])
+             
+            data = CSV.generate do |csv|
+        
+              csv << [  "Course Name", "Course Title", "Department", "Section", "Znumber", "First name", "Last name"] 
+              @results.each do |r|
+                 if r.course_name.present?
+                    csv << [  r.course_name,r.course_title,r.dept_name,r.section_name,  r.znumber,r.first_name,r.last_name]
+                 else
+                     csv << [  "bob", "lob", "law", "robert", "lob", "law", "derp"] 
+                 end
+              end
+            end
+            send_data data,  :type => 'text/csv; charset=iso-8859-1; header=present',
+                            :disposition => "attachment; filename=results_missing_syllabi.csv"  
+          end
+  
+         
+        
+    end #end of method
+
 end

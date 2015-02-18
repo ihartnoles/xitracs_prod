@@ -61,7 +61,7 @@ rake sanity_check
 
 
 # Upload to SACS Production
-DIR=`basename ~/Downloads/xitracs*2014`
+DIR=`basename ~/Downloads/xitracs*2015`
 ssh sacs "mv ~/Downloads/xitracs-* ~/Downloads/old ; mkdir ~/Downloads/$DIR ; rm ~/Downloads/xitracs ; ln -s ~/Downloads/$DIR ~/Downloads/xitracs"
 
 cd ~/Downloads/$DIR

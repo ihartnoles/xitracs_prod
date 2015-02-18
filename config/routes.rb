@@ -92,6 +92,8 @@ XitracsRoster::Application.routes.draw do
   get "/report/report_reviewstate"
   get "/report/course_and_faculty_summary"
   get "/report/report_faculty_course"
+  get "/report/report_missing_syllabi"
+
 
   get "wizard/course"
   get "wizard/faculty"
